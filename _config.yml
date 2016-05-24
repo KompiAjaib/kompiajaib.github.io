@@ -1,15 +1,14 @@
 # Site settings
-title: Clean Blog
+title: Adhy Suryadi Blog
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
+email: kompiajaib@gmail.com
+copyright_name: Adhy Suryadi Blog
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
-email_username:  your-email@yourdomain.com
+url: "http://kompiajaib.github.io"
+twitter_username: KompiAjaib
+github_username:  KompiAjaib
+facebook_username:  adhy.suryadii
+email_username:  kompiajaib@gmail.com
 
 # Build settings
 markdown: kramdown
