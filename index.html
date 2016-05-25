@@ -15,6 +15,7 @@ description: "Coretan kisah sebuah kehidupan."
         {% endif %}
     </a>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    {{ post.excerpt }}
 </div>
 <hr>
 {% endfor %}
