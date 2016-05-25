@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      "The dreams of yesterday are the hopes of today and the reality of tomorrow."
-date:       2014-07-01 12:00:00
-author:     "Start Bootstrap"
+date:       2016-05-25 12:00:00
+author:     "Adhy Suryadi"
 header-img: "img/post-bg-02.jpg"
 ---
 
