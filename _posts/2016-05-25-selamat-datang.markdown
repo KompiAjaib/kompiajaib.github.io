@@ -4,7 +4,6 @@ title: "Selamat Datang Di Adhy Suryadi Blog"
 subtitle: "Mencoba membuat blog baru di Github Pages"
 date: 2016-05-25
 author: "Adhy Suryadi"
-category: curhat
 header-img: "img/github-blog-25-05-2016.jpg"
 ---
 
