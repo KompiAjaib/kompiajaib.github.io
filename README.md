@@ -1,4 +1,4 @@
-#Adhy Suryadi Blog by Start Bootstrap - Jekyll Version
+#[Adhy Suryadi Blog](http://kompiajaib.github.io/) by Start Bootstrap - Jekyll Version
 
 The official Jekyll version of the Adhy Suryadi Blog theme by [Start Bootstrap - Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/).
 
