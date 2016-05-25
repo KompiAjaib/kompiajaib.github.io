@@ -8,6 +8,20 @@
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" property="og:title"/>
+    <meta content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" property="og:url"/>
+    <meta content="{{ site.title }}" property="og:site_name"/>
+    <meta content="website" property="og:type"/>
+    <meta content="{{ site.description }}" property="og:description"/>
+    <meta content="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')" property="og:image"/>
+    <meta content="100006644464463" property="fb:admins"/>
+    <meta content="480072895444481" property="fb:profile_id"/>
+    <meta content="Adhy Suryadi" name="Author"/>
+    <meta content="https://www.facebook.com/adhy.suryadii" property="article:author"/>
+    <meta expr:content="data:blog.title" name="twitter:site"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+    <meta content="@KompiAjaib" name="twitter:creator"/>
+
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
