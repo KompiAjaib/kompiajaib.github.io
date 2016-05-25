@@ -9,7 +9,7 @@ body {
   font-size: 20px;
   color: #404040;
 }
-#disqus_thread {
+.disqus-thread {
   font-family: 'Lora', 'Times New Roman', serif;
 }
 p {
