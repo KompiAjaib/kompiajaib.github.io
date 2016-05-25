@@ -78,7 +78,10 @@ layout: default
     <div class="container disqus-thread">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<div id="disqus_thread"></div>
+  {% if site.disqus and site.disqus != "" %}
+    <p class="comment-begin"><a href="#" id="showComments"><i class="fa fa-comment-o"></i>Comments</a></p>
+    <div id="disqus_thread"></div>
+  {% endif %}
             </div>
         </div>
     </div>
