@@ -2,10 +2,12 @@
 layout: post
 title: "Selamat Datang Di Adhy Suryadi Blog"
 subtitle: "Mencoba membuat blog baru di Github Pages"
+description: "Setelah Blogger dan Wordpress, kini giliran Github Page yang saya coba dan pelajari untuk membuat blog."
 date: 2016-05-25
 author: "Adhy Suryadi"
 tags: [ GithubPages ]
 header-img: "img/github-blog-25-05-2016.jpg"
+image: "img/github-blog-25-05-2016.jpg"
 ---
 
 ## Selamat datang di Adhy Suryadi Blog
