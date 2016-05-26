@@ -18,6 +18,9 @@ blockquote ol:first-child, blockquote p:first-child, blockquote ul:first-child {
 blockquote {
   font-size:24px;
 }
+#cfs_top_div {
+  display:none!important;visibility:hidden!important;
+}
 p {
   line-height: 1.5;
   margin: 30px 0;
