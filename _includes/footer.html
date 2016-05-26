@@ -84,22 +84,17 @@
               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
           })();
   }
-            function enableScrolling(e) {
-      scrolling = true;
-  }
-
   window.addEventListener('scroll', enableScrolling);
 
   var interval = setInterval(function() {
       if(!scrolling) {
           return false;
       }
-      if(isElementInViewport()) {
+      function() {
           loadDisqus();
           clearInterval(interval);
           window.removeEventListener('scroll', enableScrolling);
       }
   }, 400);
-  {% endif %}
-          
+ 
 </script>
