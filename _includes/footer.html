@@ -76,25 +76,11 @@
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
   })();
   
-  function loadDisqus() {
           disqus_shortname = '{{ site.disqus }}';
           (function() {
               var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
               dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
               (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
           })();
-  }
-  window.addEventListener('scroll', enableScrolling);
 
-  var interval = setInterval(function() {
-      if(!scrolling) {
-          return false;
-      }
-      function() {
-          loadDisqus();
-          clearInterval(interval);
-          window.removeEventListener('scroll', enableScrolling);
-      }
-  }, 400);
- 
 </script>
