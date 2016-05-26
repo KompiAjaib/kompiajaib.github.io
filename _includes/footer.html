@@ -68,19 +68,3 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
 
-<script type="text/javascript"> 
-  (function() {
-    var dr = document.createElement('script');
-    dr.type = 'text/javascript'; dr.async = true;
-    dr.src = '//share.donreach.com/buttons.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
-  })();
-  
-          disqus_shortname = '{{ site.disqus }}';
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-          })();
-
-</script>
