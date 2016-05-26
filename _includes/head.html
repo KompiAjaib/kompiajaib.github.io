@@ -18,7 +18,7 @@
     <meta content="480072895444481" property="fb:profile_id">
     <meta content="Adhy Suryadi" name="Author">
     <meta content="https://www.facebook.com/adhy.suryadii" property="article:author">
-    <meta expr:content="data:blog.title" name="twitter:site">
+    <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" name="twitter:site">
     <meta content="summary_large_image" name="twitter:card">
     <meta content="@KompiAjaib" name="twitter:creator">
 
