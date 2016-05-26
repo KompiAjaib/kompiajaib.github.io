@@ -1,7 +1,9 @@
 ---
 layout: page
 ---
-<h2>Posts marked with: {{ page.tag }}</h2>
+<h3>Posts marked with: {{ page.tag }}</h3>
+
+<hr>
 
 {% unless page.content == '' %}
   <p>{{ page.content }}</p>
@@ -14,9 +16,9 @@ layout: page
 {% for post in site.tags[page.tag] %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h3 class="post-subtitle">            
+        <h2 class="post-subtitle">            
             {{ post.title }}
-        </h3>
+        </h2>
     </a>
     <p class="post-meta">
       Posted by 
