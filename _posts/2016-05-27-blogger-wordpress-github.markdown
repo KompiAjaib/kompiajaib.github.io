@@ -12,7 +12,7 @@ image: "img/blogging.jpg"
 
 Kegiatan blogging tidak hanya tulis-menulis artikel, namun juga harus mengerti koding baik CSS, HTML, Javascript, maupun PHP agar setidaknya tidak kesulitan ketika memasangkan kode iklan atau merubah tampilan blog.
 
-##Blogger, Wordpress, atau Github Pages?
+## Blogger, Wordpress, atau Github Pages?
 
 **Blogger** adalah sebuah platform yang menurut saya cocok untuk yang baru mengenal blog karena mudah dalam mempelajari kode-kodenya karena semua kode disimpan di dalam satu editor HTML. Dashboard yang user-friendly memudahkan pengguna untuk menelusuri setiap bagiannya.
 
@@ -22,7 +22,7 @@ Kegiatan blogging tidak hanya tulis-menulis artikel, namun juga harus mengerti k
 
 Jadi, silahkan pilih platform yang cocok dengan Anda untuk kegiatan blogging Anda.
 
-##Bonus
+## Bonus
 
 Silahkan nikmati video musik dari NOAh di bawah ini.
 
