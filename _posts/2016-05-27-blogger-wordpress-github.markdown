@@ -18,7 +18,7 @@ image: "img/blogging.jpg"
 
 **WordPress** merupakan platform blogging dengan CMS (Content Management System) untuk meningkatkan kemampuan blogging Anda. Situs CMS biasanya dinamis, yang berarti tidak ada pembatasan untuk seberapa sering kita mengubah konten Anda, yang berarti bahwa Anda dapat mengubah secara harfiah segala sesuatu dari gambar dan seluruh teks. Namun Wordpress memerlukan perhatian penuh full time karena ini memerlukan update software baik engine maupun plugin untuk menghindari serangan hacker.
 
-**Github Pages** adalah platform blogging dengan website statis HTML yang tidak memerlukan update software maupun plugin. Selain cepat, Github Pages sangat simple namun ini memerlukan pengetahuan yang lebih tentang HTML.
+**Github Pages** adalah platform blogging dengan website statis HTML yang tidak memerlukan update software maupun plugin seperti halnya Wordpress, namun konsepnya sama yaitu kode web terpisah-pisah tidak seperti blogger di dalam satu editor HTML. Selain cepat, Github Pages sangat simple namun ini memerlukan pengetahuan yang lebih tentang HTML.
 
 Jadi, silahkan pilih platform yang cocok dengan Anda untuk kegiatan blogging Anda.
 
