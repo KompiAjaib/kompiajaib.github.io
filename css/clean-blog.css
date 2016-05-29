@@ -430,6 +430,8 @@ body {
 .navbar-form {
   margin-right: 0!important;
   margin-left: 0!important;
+  margin-top:15px!important;
+  margin-bottom:15px!important;
   width:100%!important;
 }
 .navbar-form .form-group {
@@ -445,7 +447,7 @@ body {
   box-sizing: border-box;
 }
 .navbar-form button {
-  width: 20%!important;
+  width: 18%!important;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
