@@ -425,3 +425,10 @@ body {
   height: 52px;
   width:70%;
 }
+.modal {
+  padding-right:0!important;
+}
+.navbar-form {
+  margin-right: 0!important;
+  margin-left: 0!important;
+}
