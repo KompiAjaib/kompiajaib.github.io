@@ -423,7 +423,6 @@ body {
   border-radius: 0;
   padding: 15px 25px;
   height: 52px;
-  width:70%!important;
 }
 .modal {
   padding-right:0!important;
@@ -432,4 +431,7 @@ body {
   margin-right: 0!important;
   margin-left: 0!important;
   width:100%!important;
+}
+.navbar-form .form-control {
+  width:70%!important;
 }
