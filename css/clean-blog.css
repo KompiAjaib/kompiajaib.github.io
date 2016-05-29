@@ -431,9 +431,6 @@ body {
   margin-right: 0!important;
   margin-left: 0!important;
   width:100%!important;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
 }
 .navbar-form .form-group {
   width:80%!important;
