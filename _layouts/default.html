@@ -11,13 +11,19 @@
 
     {% include footer.html %}
     
-        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myLargeModalLabel">Search on this blog</h4>
+                </div>
+                <div class="modal-body">
                     {% include google_custom_search.html %}
-             </div>
-  </div>
-</div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     {% include google_analytics.html %}
 <!--</body>--></body>
