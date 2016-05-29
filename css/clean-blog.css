@@ -434,6 +434,9 @@ body {
 }
 .navbar-form .form-group {
   width:80%!important;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .navbar-form .form-control {
   width:100%!important;
@@ -442,7 +445,7 @@ body {
   box-sizing: border-box;
 }
 .navbar-form button {
-  width: 15%!important;
+  width: 18%!important;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
