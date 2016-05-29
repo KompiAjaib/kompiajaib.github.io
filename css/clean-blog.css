@@ -416,39 +416,3 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
-
-/* Search Box */
-.form-control {
-  letter-spacing: 1px;
-  border-radius: 0;
-  padding: 15px 25px;
-  height: 52px;
-}
-.modal {
-  padding-right:0!important;
-}
-.navbar-form {
-  margin-right: 0!important;
-  margin-left: 0!important;
-  margin-top:15px!important;
-  margin-bottom:15px!important;
-  width:100%!important;
-}
-.navbar-form .form-group {
-  width:80%!important;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.navbar-form .form-control {
-  width:100%!important;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.navbar-form button {
-  width: 19%!important;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
