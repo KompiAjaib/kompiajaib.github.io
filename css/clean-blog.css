@@ -433,11 +433,14 @@ body {
   width:100%!important;
 }
 .navbar-form .form-group {
-  width:70%!important;
+  width:80%!important;
 }
 .navbar-form .form-control {
   width:100%!important;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+.navbar-form button {
+  width: 20%!important;
 }
