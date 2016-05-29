@@ -8,6 +8,11 @@
             <button type="submit" class="btn btn-default">Search</button>
           </form>
 
+<div id="gcsengine"></div>
+<script>
+   var gcseDiv = document.getElementById('gcsengine');
+   gcseDiv.innerHTML = '<gcse:searchresults-only></gcse:searchresults-only>'
+</script>
 <script>
   (function() {
     var cx = '006106396690849460662:8g5cvyu7r7u';
@@ -19,4 +24,3 @@
     s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-<gcse:searchresults-only></gcse:searchresults-only>
