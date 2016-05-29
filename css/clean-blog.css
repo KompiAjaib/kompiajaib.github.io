@@ -416,3 +416,10 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+/* Search Box */
+.form-control {
+  letter-spacing: 1px;
+  border-radius: 0;
+  padding: 15px 25px;
+}
