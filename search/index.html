@@ -17,7 +17,7 @@ header-img: "img/github-blog-25-05-2016.jpg"
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search.json',
-        searchResultTemplate: '<li class="list-group-item"><a href="{url}" data-toggle="tooltip" data-placement="top" title="{title}">{title}</a></li>',
+        searchResultTemplate: '<li class="list-group-item"><a href="{url}" title="{title}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 10,
         fuzzy: true,
