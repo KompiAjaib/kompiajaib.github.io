@@ -417,6 +417,7 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 /* Highlight.js */
+pre,
 .hljs {
     display: block;
     overflow-x: auto;
