@@ -29,7 +29,7 @@ p {
 }
 p a {
   text-decoration: none;
-  color: #02728a;
+  color: #0085a1;
 }
 h1,
 h2,
@@ -46,7 +46,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #015a6d;
   text-decoration: none;
 }
 a img:hover,
