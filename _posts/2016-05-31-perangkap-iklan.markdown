@@ -3,7 +3,7 @@ layout: post
 title: "Perangkap Iklan Pihak Ketiga"
 subtitle: "Tanpa diketahui ternyata provider meng-inject iklan."
 description: "Ternyata tanpa kita ketahui, provider yang kita gunakan meng-inject iklan. Untuk itu kita buat perangkap iklannya."
-date: 2016-05-31
+date: 2016-05-31 07:00:00
 author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/ads-on-internet.jpg"
