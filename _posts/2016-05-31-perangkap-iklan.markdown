@@ -22,7 +22,7 @@ Iklan tersebut akan muncul di atas atau di bawah halaman web dengan mendorong ha
 
 Dan ini source code iklan tersebut (jika Anda menggunakan provider Indihome atau mungkin layanan Telkom lainnya) yang akan muncul di atas kode `</body` dari web yang kita kunjungi.
 
-![Script Iklan Telkom]({{ site.baseurl }}/img/iklan-telkom-2.jpg "Script Iklan Telkom")
+![Script Iklan Telkom]({{ site.baseurl }}/img/iklan-telkom-2.jpg "Script Iklan Telkom"){: width="750px" height="326px"}
 
 ## Membuat Perangkap Iklan Pihak Ketiga
 
@@ -32,7 +32,7 @@ Caranya cukup mudah, silahkan ganti kode `</body>` dengan kode `<!--</body>--></
 
 Dengan begitu maka script iklan pihak ketiga akan terperangkap dalam komentar `<!-- -->` yang otomatis tidak akan berfungsi seperti gambar di bawah ini.
 
-![Script Iklan Telkom]({{ site.baseurl }}/img/iklan-telkom-3.jpg "Script Iklan Telkom")
+![Script Iklan Telkom]({{ site.baseurl }}/img/iklan-telkom-3.jpg "Script Iklan Telkom"){: width="750px" height="137px"}
 
 Silahkan cek kode HTML blog Anda, jika sudah menggunakan kode di atas berarti loading blog Anda tidak akan terganggu loading iklan Telkom ini jika pengunjung blog menggunakan jaringan layanan Telkom.
 
