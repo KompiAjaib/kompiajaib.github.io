@@ -28,7 +28,12 @@ Dan ini source code iklan tersebut (jika Anda menggunakan provider Indihome atau
 
 Nah, karena kemunculan iklan ini cukup menggangu loading halaman web ketika pengunjung yang datang menggunakan jaringan Indihome Telkom, maka kita perlu membuat perangkap script yang di-inject oleh pihak ketiga sepert iklan Telkom tersebut agar tidak mengganggu pengunjung baik loading maupun iklannya.
 
-Caranya cukup mudah, silahkan ganti kode `</body>` dengan kode `<!--</body>--></body>` dan untuk Blogger menggunakan kode `&lt;!--</body>--&gt;&lt;/body&gt;`.
+Caranya cukup mudah, silahkan ganti kode `</body>` dengan kode 
+```<!--</body>--></body>
+```
+Dan untuk Blogger menggunakan kode 
+```&lt;!--</body>--&gt;&lt;/body&gt;
+```
 
 Dengan begitu maka script iklan pihak ketiga akan terperangkap dalam komentar `<!-- -->` yang otomatis tidak akan berfungsi seperti gambar di bawah ini.
 
