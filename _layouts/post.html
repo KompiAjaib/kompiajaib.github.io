@@ -44,7 +44,7 @@ layout: default
                 <ul>
                 {% endif %}
                 <li class="relatedPost">
-                    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+                    <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}
                     {% if post.series %}
                         (Series: {{ post.series }})
                     {% endif %}
