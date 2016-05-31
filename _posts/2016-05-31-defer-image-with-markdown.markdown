@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Memasangkan Dimension Tags Dan Defer Image Post Di Github Pages"
-subtitle: "Cara menampilkan image dengan dimention tag dan defer pada markdown Github Pages."
+subtitle: "Cara menampilkan image dengan dimension tag dan defer pada markdown Github Pages."
 description: "Cara menampilkan image dengan dimension tag dan defer pada markdown untuk optimasi blog di Github Pages."
 date: 2016-05-31
 author: "Adhy Suryadi"
