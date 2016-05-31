@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Memasangkan Dimention Tags Dan Defer Image Post Di Github Pages"
+title: "Memasangkan Dimension Tags Dan Defer Image Post Di Github Pages"
 subtitle: "Cara menampilkan image dengan dimention tag dan defer pada markdown Github Pages."
-description: "Cara menampilkan image dengan dimention tag dan defer pada markdown untuk optimasi blog di Github Pages."
+description: "Cara menampilkan image dengan dimension tag dan defer pada markdown untuk optimasi blog di Github Pages."
 date: 2016-05-31
 author: "Adhy Suryadi"
 tags: [ GithubPages ]
@@ -10,7 +10,7 @@ header-img: "img/image-on-markdown.jpg"
 image: "img/image-on-markdown.jpg"
 ---
 
-Dimensi pada gambar postingan (width dan height tag) merupakan salah satu unsur untuk optimasi gambar postingan selain alt tag. Begitu pun untuk gambar postingan blog di Github Pages yang menggunakan markdown dalam menulis postingannya. Sementara defer image erfungsi untuk optimasi loading blog.
+Dimensi pada gambar postingan (width dan height tag) merupakan salah satu unsur untuk optimasi gambar postingan selain alt tag. Begitu pun untuk gambar postingan blog di Github Pages yang menggunakan markdown dalam menulis postingannya. Sementara defer image berfungsi untuk optimasi loading blog.
 
 Berbeda dengan penulisan markup html image (yang sebenarnya bisa juga digunakan pada markdown) yang seperti biasa menggunakan tag `<img alt="alt text" src="url image">`, penulisan atau cara menampilkan image dengan markdown berbeda dengan markup html biasa seperti di bawah ini.
 
