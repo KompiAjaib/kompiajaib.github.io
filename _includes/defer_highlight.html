@@ -1,5 +1,12 @@
 <script>
-//<![CDATA[
-function downloadJSAtOnload(){var e=document.createElement("script");e.src="{{ "/js/highlight.js " | prepend: site.baseurl }}",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
-//]]>
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "{{ "/js/highlight.js " | prepend: site.baseurl }}";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
 </script>
