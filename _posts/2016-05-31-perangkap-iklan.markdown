@@ -5,7 +5,7 @@ subtitle: "Tanpa diketahui ternyata provider meng-inject iklan."
 description: "Ternyata tanpa kita ketahui, provider yang kita gunakan meng-inject iklan. Untuk itu kita buat perangkap iklannya."
 date: 2016-05-31
 author: "Adhy Suryadi"
-tags: [ Blogging , Github Pages]
+tags: [ Blogging ]
 header-img: "img/ads-on-internet.jpg"
 image: "img/ads-on-internet.jpg"
 ---
