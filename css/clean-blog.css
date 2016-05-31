@@ -426,6 +426,7 @@ pre,
     color: #fff;
     border: none;
     border-radius: 0;
+    font-size: 14px;
 }
 .hljs-name,
 .hljs-strong {
