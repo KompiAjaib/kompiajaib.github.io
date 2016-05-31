@@ -26,4 +26,4 @@ Jadi, silahkan pilih platform yang cocok dengan Anda untuk kegiatan blogging And
 
 Silahkan nikmati video musik dari NOAh di bawah ini.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hlxF0LefCtE" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" data-src="https://www.youtube.com/embed/hlxF0LefCtE" frameborder="0" allowfullscreen></iframe>
