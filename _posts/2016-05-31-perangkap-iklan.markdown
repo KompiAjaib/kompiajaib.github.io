@@ -18,7 +18,7 @@ Sudah beberapa bulan belakangan ini saya menggunakan jaringan Indiehome dari Tel
 
 Iklan tersebut akan muncul di atas atau di bawah halaman web dengan mendorong halaman web ke atas atau ke bawah seperti gambar di bawah ini.
 
-![Iklan Telkom]({{ site.baseurl }}/img/iklan-telkom.jpg "Iklan Telkom"){750x439}
+![Iklan Telkom]({{ site.baseurl }}/img/iklan-telkom.jpg "Iklan Telkom"){: width="750px" height="439px"}
 
 Dan ini source code iklan tersebut (jika Anda menggunakan provider Indihome atau mungkin layanan Telkom lainnya) yang akan muncul di atas kode `</body` dari web yang kita kunjungi.
 
