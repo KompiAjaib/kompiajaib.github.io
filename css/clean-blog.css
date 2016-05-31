@@ -423,7 +423,9 @@ pre,
     overflow-x: auto;
     padding: .5em;
     background: #333;
-    color: #fff
+    color: #fff;
+    border: none;
+    border-radius: 0;
 }
 .hljs-name,
 .hljs-strong {
