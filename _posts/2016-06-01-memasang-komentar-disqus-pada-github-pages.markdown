@@ -41,7 +41,7 @@ Kemudian bukan **_includes** >> **footer.html** lalu simpan kode di bawah ini di
 
 Silahkan ganti kode `username` dengan username disqus blog Anda.
 
-Kemudian buka *_layouts* >> *post.html* lalu silahkan copy kode `include disqus_comments.html` dengan pembuka `{%` dan penutupnya `%}` dan silahkan simpan di bawah kode `content` dengan pembuka `{{` dan penutupnya `}}`
+Kemudian buka *_layouts* >> *post.html* lalu silahkan copy kode `include disqus_comments.html` dan silahkan simpan di bawah kode `content`.
 
 Selesai, silahkan coba buka salah satu postingan blog Anda untuk melihat penampakan komentar Disqus.
 
