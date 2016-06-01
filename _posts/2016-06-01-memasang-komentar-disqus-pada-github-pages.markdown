@@ -51,3 +51,5 @@ Dan silahkan simpan di bawah kode
 ```
 
 Selesai, silahkan coba buka salah satu postingan blog Anda untuk melihat penampakan komentar Disqus.
+
+Selamat mencoba...
