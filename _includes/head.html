@@ -5,6 +5,11 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link href="{{site.url}}{{ site.baseurl }}/img/favicon/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="{{site.url}}{{ site.baseurl }}/img/favicon/favicon-32x32.png" rel="icon" sizes="32x32">
+    <link href="{{site.url}}{{ site.baseurl }}/img/favicon/android-icon-192x192.png" rel="icon" sizes="192x192">
+    <link href="{{site.url}}{{ site.baseurl }}/img/favicon/apple-icon-180x180.png" rel="apple-touch-icon-precomposed">
+    <meta content="{{site.url}}{{ site.baseurl }}/img/favicon/ms-icon-144x144.png" name="msapplication-TileImage">
     <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" property="og:title">
     <meta content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" property="og:url">
     <meta content="{{ site.title }}" property="og:site_name">
@@ -20,7 +25,6 @@
     <meta content="@{{ site.twitter_username }}" name="twitter:creator">
     <meta name="google-site-verification" content="cFIQe1H-NPXIQtHKpGNzSFvpLhmnIt0cD7QlKmSP4DY" />
     <meta name='yandex-verification' content='5fa51321ea89900f' />
-    {% include favicon.html %}
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
     <!-- Custom CSS -->
