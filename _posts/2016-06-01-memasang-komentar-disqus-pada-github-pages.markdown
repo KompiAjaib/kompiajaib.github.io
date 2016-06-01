@@ -40,9 +40,14 @@ Silahkan ganti kode `username` dengan username disqus blog Anda.
 
 Kemudian buka *_layouts* >> *post.html* lalu silahkan copy kode di bawah ini.
 
-`include disqus_comments.html`
+```
+{% include disqus_comments.html %}
+```
 
-Dan silahkan simpan di bawah kode `content`
+Dan silahkan simpan di bawah kode 
+```
+{{ content }}
+```
 
 Selesai, silahkan coba buka salah satu postingan blog Anda untuk melihat penampakan komentar Disqus.
 
