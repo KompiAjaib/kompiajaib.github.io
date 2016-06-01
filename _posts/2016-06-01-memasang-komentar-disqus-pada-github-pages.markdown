@@ -2,8 +2,8 @@
 layout: post
 title: "Memasang Komentar Disqus Pada Github Pages"
 subtitle: "Cara memasang sistem komentar Disqus pada Jekyll blog di Github Pages."
-description: "Ternyata tanpa kita ketahui, provider yang kita gunakan meng-inject iklan. Untuk itu kita buat perangkap iklannya."
-date: 2016-06-01 09:15:00
+description: "Sebagai web statis, blog di Github Pages memerlukan sistem komentar dari pihak ketiga seperti Disqus."
+date: 2016-06-01
 author: "Adhy Suryadi"
 tags: [ GithubPages ]
 header-img: "img/disqus.jpg"
