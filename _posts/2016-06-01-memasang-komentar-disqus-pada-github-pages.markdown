@@ -20,13 +20,15 @@ Silahkan buat dulu akun disqus untuk blog Anda di sini *https://disqus.com/admin
 
 Kemudian silahkan buka repository blog Anda dan buat file `disqus_comments.html` pada bagian **_includes** kemudian copy kode di bawah ini lalu paste di editor markdown.
 
-`<div id="disqus_thread"></div>
-<script>
+```
+&lt;div id=&quot;disqus_thread&quot;&gt;&lt;/div&gt;
+&lt;script&gt;
     var disqus_config = function () {
-this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"; // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = "{{ page.url | prepend: site.baseurl }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = &quot;{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}&quot;; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = &quot;{{ page.url | prepend: site.baseurl }}&quot;; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
-</script>`
+&lt;/script&gt;
+```
 
 Kemudian bukan **_includes** >> **footer.html** lalu simpan kode di bawah ini di bagian paling bawah atau bisa disatukan dengan js theme blog Anda.
 
@@ -38,11 +40,9 @@ Silahkan ganti kode `username` dengan username disqus blog Anda.
 
 Kemudian buka *_layouts* >> *post.html* lalu silahkan copy kode di bawah ini.
 
-`{% include disqus_comments.html %}`
+`include disqus_comments.html`
 
-Dan silahkan simpan di bawah kode
-
-`{{ content }}`
+Dan silahkan simpan di bawah kode `content``
 
 Selesai, silahkan coba buka salah satu postingan blog Anda untuk melihat penampakan komentar Disqus.
 
