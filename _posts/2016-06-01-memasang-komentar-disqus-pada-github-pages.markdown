@@ -50,4 +50,4 @@ Selesai, silahkan coba buka salah satu postingan blog Anda untuk melihat penampa
 
 Bila ada yang kurang dimengerti silahkan tanyakan di komentar.
 
-Selamat mencoba...
+Selamat mencoba... :smile:
