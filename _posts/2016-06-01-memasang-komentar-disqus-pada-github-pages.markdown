@@ -46,8 +46,7 @@ Kemudian buka *_layouts* >> *post.html* lalu silahkan copy kode di bawah ini.
 
 Dan silahkan simpan di bawah kode
 
-```
-{{ content }}
+```{{ content }}
 ```
 
 Selesai, silahkan coba buka salah satu postingan blog Anda untuk melihat penampakan komentar Disqus.
