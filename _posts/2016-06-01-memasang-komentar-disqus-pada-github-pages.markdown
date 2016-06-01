@@ -22,7 +22,7 @@ Silahkan buat dulu akun disqus untuk blog Anda di sini *https://disqus.com/admin
 
 Kemudian silahkan buka repository blog Anda dan buat file `disqus_comments.html` pada bagian **_includes** kemudian copy kode di bawah ini lalu paste di editor markdown.
 
-```
+```markdown
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
