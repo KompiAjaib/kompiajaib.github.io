@@ -45,4 +45,6 @@ Kemudian buka *_layouts* >> *post.html* lalu silahkan copy kode `include disqus_
 
 Selesai, silahkan coba buka salah satu postingan blog Anda untuk melihat penampakan komentar Disqus.
 
-Bila ada yang kurang dimengerti silahkan tanyakan di komentar. Selamat mencoba...
+Bila ada yang kurang dimengerti silahkan tanyakan di komentar.
+
+Selamat mencoba...
