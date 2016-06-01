@@ -29,9 +29,9 @@ this.page.identifier = "PAGE_IDENTIFIER"; // Replace PAGE_IDENTIFIER with your p
 };
 </script>
 ```
-Ganti `PAGE_URL` dengan `page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url` dengan tag `{{ }}`.
+Ganti `PAGE_URL` dengan `page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url` dengan tag `{{` dan `}}`.
 
-Ganti `PAGE_IDENTIFIER` dengan `page.url | prepend: site.baseurl` dengan tag `{{ }}`.
+Ganti `PAGE_IDENTIFIER` dengan `page.url | prepend: site.baseurl` dengan tag `{{` dan `}}`.
 
 Kemudian bukan **_includes** >> **footer.html** lalu simpan kode di bawah ini di bagian paling bawah atau bisa disatukan dengan js theme blog Anda.
 
