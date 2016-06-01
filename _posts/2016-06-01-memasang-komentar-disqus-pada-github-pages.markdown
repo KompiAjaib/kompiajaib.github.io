@@ -14,7 +14,7 @@ Sebagai web statis, blog berbasis Jekyll di Github Pages tidak memiliki sistem k
 
 ## Memasang Komentar Disqus
 
-Di beberapa theme kadang pembuat theme sudah melengkapinya dengan komentar disqus tinggal menyesuaikan username-nya :+1: namun kadang juga tidak :unamused: .
+Di beberapa theme kadang pembuat theme sudah melengkapinya dengan komentar disqus tinggal menyesuaikan username-nya :+1: namun kadang juga tidak :unamused:.
 
 Nah untuk theme yang belum dilengkapi dengan komentar Disqus, kini kita akan memasang sistem komentar Disqus pada Jekyll blog di Github Pages. Silahkan ikuti langkah-langkahnya di bawah ini:
 
@@ -46,7 +46,7 @@ Silahkan ganti kode `username` dengan username disqus blog Anda.
 
 Kemudian buka *_layouts* >> *post.html* lalu silahkan copy kode `include disqus_comments.html` dengan penutup dan silahkan simpan di bawah kode `content`.
 
-Selesai :clap: , silahkan coba buka salah satu postingan blog Anda untuk melihat penampakan komentar Disqus.
+Selesai :clap:, silahkan coba buka salah satu postingan blog Anda untuk melihat penampakan komentar Disqus.
 
 Bila ada yang kurang dimengerti silahkan tanyakan di komentar.
 
