@@ -28,16 +28,130 @@ function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement(
 loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");loadCSS("//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800");
 //]]>
 </script>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+$color1: white;
+$color2: #342643;
+$color3: #1FA9D6;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    background: url(http://i.imgur.com/CZdBKjO.gif) no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    background-color: $color2; 
+    height: 100%;
+}
+
+.text-wrapper {
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.title {
+    font-size: 9em;
+    font-weight: 700;
+    color: $color1;
+    position:relative;
+}
+
+.subtitle {
+    font-size: 40px;
+    font-weight: 700;
+    color: $color1;
+    position:relative;
+}
+
+.buttons {
+    margin: 30px;
+    
+    a.button {
+        background-color: $color2;
+        font-weight: 700;
+        border: 2px solid $color1;
+        text-decoration: none;
+        padding: 15px;
+        text-transform: uppercase;
+        color: $color1;
+        border-radius: 26px;
+        transition: all 0.2s ease-in-out;
+        
+        &:hover {
+            background-color: lighten($color2, 10%);
+            color: white;
+            transition: all 0.2s ease-in-out;
+        }
+    }
+
+    
+}
+
+
+// Glitch animation from http://codepen.io/lbebber/pen/ypgql
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(200)+px,9999px,random(200)+px,0);
+    }
+  }
+}
+.subtitle:after, .title:after{
+  content:attr(data-content);
+  position:absolute;
+  left:2px;
+  text-shadow:-1px 0 red;
+  top:0;
+  color:$color1;
+  overflow:hidden;
+  clip:rect(0,900px,0,0); 
+  animation:noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(200)+px,9999px,random(200)+px,0);
+    }
+  }
+}
+.subtitle:before, .title:before{
+  content:attr(data-content);
+  position:absolute;
+  left:-2px;
+  text-shadow:1px 0 blue; 
+  top:0;
+  color:$color1;
+  overflow:hidden;
+  clip:rect(0,900px,0,0); 
+  animation:noise-anim-2 3s infinite linear alternate-reverse;
+}
+</style>
 </head>
 <body>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
-                       <h1>Error 404. Page not found !</h1>
-                       <p>You can search what you were looking for <a href="http://kompiajaib.github.io/search/">here</a>.<br>
-                       Or you can go to <a href="http://kompiajaib.github.io/">Homepage</a></p>
-                </div>
-  </div>
+<div class="text-wrapper">
+    <div class="title" data-content="404">
+        404
+    </div>
+
+    <div class="subtitle" data-content="Oops, the page you're looking for doesn't exist">
+        Oops, the page you're looking for doesn't exist.
+    </div>
+
+    <div class="buttons">
+    	<p>You can search what you were looking for <a class="button" href="http://kompiajaib.github.io/search/">here</a>.<br>
+                       Or you can go to <a class="button" href="http://kompiajaib.github.io/">Homepage</a></p>
+    </div>
 </div>
 <!--</body>--></body>
 </html>
