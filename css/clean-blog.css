@@ -501,3 +501,97 @@ pre,
     color: inherit;
     text-decoration: underline
 }
+
+/* Author Sidebar */
+.sosmed-author,
+a.authorname,
+h2.author-title,
+a.authorname-url {
+    display: block;
+    text-align: center
+}
+.authorbox {
+    width: 300px;
+    background: url(https://lh3.googleusercontent.com/lUQcK29uPNQzy9gVVKuCuVIso6amDmTXH1rsbIXukGeBp0BOJIYtwCE8BbNTVv_UArIBFg=s300-fcrop64=1,00001ad4fffff235) top center no-repeat #fff;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 16px 0 0;
+    margin: 0 auto;
+}
+h2.author-title {
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto 10px;
+    font-size: 22px;
+    color: #fff!important
+}
+.authorbox img {
+    margin: 55px auto 0;
+    border-radius: 100%;
+    display: block
+}
+a.authorname {
+    margin: 10px auto;
+    font-weight: 400;
+    font-size: 20px!important;
+    text-decoration: none;
+}
+a.authorname-url {
+    margin: 0 auto 10px;
+    font-weight: 400;
+    font-size: 16px!important;
+    text-decoration: none;
+}
+.sosmed-author li,
+.sosmed-author ul {
+    list-style: none
+}
+.sosmed-author ul {
+    margin: 0!important;
+    padding: 0!important
+}
+.sosmed-author {
+    margin: 0 auto!important;
+    padding: 10px 0;
+    background: #dfdfdf;
+    border-top: 1px solid #dedede
+}
+.sosmed-author li {
+    display: inline-block;
+    margin-right: 10px
+}
+.sosmed-author li:last-child {
+    margin-right: 0
+}
+.sosmed-author li a,
+a.authorname,
+a.authorname-url {
+    color: #555!important;
+    transition: all .4s ease-out
+}
+.sosmed-author li a:hover,
+a.authorname:hover,
+a.authorname-url:hover {
+    color: #111!important
+}
+a.button-author {
+    display: block;
+    background: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff!important;
+    font-weight: bold;
+    font-size: 16px!important;
+    margin: 10px 10px 0;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+    transition: all .4s ease-out;
+    text-decoration: none
+}
+a.button-author:hover {
+    background: #357ae8;
+    border: 1px solid #2f5bb7
+}
