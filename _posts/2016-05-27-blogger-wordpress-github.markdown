@@ -6,7 +6,7 @@ description: "Pilih mana, Blogger, Wordpress, atau Github Pages untuk platform b
 date: 2016-05-27
 author: "Adhy Suryadi"
 tags: [ Blogging ]
-header-img: "img/blogging.jpg"
+header-img: "img/post/blogging.jpg"
 image: "img/post/blogging.jpg"
 ---
 
