@@ -522,7 +522,7 @@ a.authorname-url {
     margin: 0 auto;
 }
 h2.author-title {
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     margin: 0 auto 10px;
     font-size: 22px;
@@ -582,7 +582,7 @@ a.button-author {
     background: #4d90fe;
     border: 1px solid #3079ed;
     color: #fff!important;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px!important;
     margin: 10px 10px 0;
     padding: 5px;
