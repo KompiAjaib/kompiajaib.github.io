@@ -6,8 +6,8 @@ description: "Sebagai web statis, blog di Github Pages memerlukan sistem komenta
 date: 2016-06-01
 author: "Adhy Suryadi"
 tags: [ GithubPages ]
-header-img: "img/disqus.jpg"
-image: "img/disqus.jpg"
+header-img: "img/post/disqus.jpg"
+image: "img/post/disqus.jpg"
 ---
 
 Sebagai web statis, blog berbasis Jekyll di Github Pages tidak memiliki sistem komentar sendiri. Untuk itu dibutuhkan sistem komentar pihak ketiga seperti Disqus, Facebook, dan lainnya.
