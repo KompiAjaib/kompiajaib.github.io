@@ -7,7 +7,7 @@ date: 2016-05-27
 author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/blogging.jpg"
-image: "img/blogging.jpg"
+image: "img/post/blogging.jpg"
 ---
 
 > Kegiatan blogging tidak hanya tulis-menulis artikel, namun juga harus mengerti koding baik CSS, HTML, Javascript, maupun PHP agar setidaknya tidak kesulitan ketika memasangkan kode iklan atau merubah tampilan blog.
