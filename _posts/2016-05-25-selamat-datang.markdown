@@ -7,7 +7,7 @@ date: 2016-05-25
 author: "Adhy Suryadi"
 tags: [ GithubPages ]
 header-img: "img/github-blog-25-05-2016.jpg"
-image: "img/github-blog-25-05-2016.jpg"
+image: "img/post/github-blog-25-05-2016.jpg"
 ---
 
 ## Selamat datang di Adhy Suryadi Blog
