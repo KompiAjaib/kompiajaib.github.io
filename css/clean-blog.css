@@ -577,9 +577,6 @@ a.authorname:hover,
 a.authorname-url:hover {
     color: #111!important
 }
-.sosmed-author li a .fa {
-  font: normal normal normal 20px/1 FontAwesome;
-}
 a.button-author {
     display: block;
     background: #4d90fe;
