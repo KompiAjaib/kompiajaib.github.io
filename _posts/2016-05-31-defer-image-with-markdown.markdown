@@ -6,7 +6,7 @@ description: "Cara menampilkan image dengan dimension tag dan defer pada markdow
 date: 2016-05-31
 author: "Adhy Suryadi"
 tags: [ GithubPages ]
-header-img: "img/image-on-markdown.jpg"
+header-img: "img/post/image-on-markdown.jpg"
 image: "img/post/image-on-markdown.jpg"
 ---
 
