@@ -25,16 +25,10 @@
 <script>
 //<![CDATA[
 function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
-loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");loadCSS("//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800");
+loadCSS("http://fonts.googleapis.com/css?family=Raleway:300");
 //]]>
 </script>
 <style>
-@import url(http://fonts.googleapis.com/css?family=Raleway:300);
-
-$color1: white;
-$color2: #342643;
-$color3: #1FA9D6;
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -45,7 +39,7 @@ body {
     background: url(http://i.imgur.com/CZdBKjO.gif) no-repeat center center fixed; 
     background-size: cover;
     font-family: 'Raleway', sans-serif;
-    background-color: $color2; 
+    background-color: #342643; 
     height: 100%;
 }
 
@@ -60,14 +54,14 @@ body {
 .title {
     font-size: 9em;
     font-weight: 700;
-    color: $color1;
+    color: white;
     position:relative;
 }
 
 .subtitle {
     font-size: 40px;
     font-weight: 700;
-    color: $color1;
+    color: white;
     position:relative;
 }
 
@@ -75,18 +69,18 @@ body {
     margin: 30px;
     
     a.button {
-        background-color: $color2;
+        background-color: #342643;
         font-weight: 700;
-        border: 2px solid $color1;
+        border: 2px solid white;
         text-decoration: none;
         padding: 15px;
         text-transform: uppercase;
-        color: $color1;
+        color: white;
         border-radius: 26px;
         transition: all 0.2s ease-in-out;
         
         &:hover {
-            background-color: lighten($color2, 10%);
+            background-color: lighten(#342643, 10%);
             color: white;
             transition: all 0.2s ease-in-out;
         }
@@ -111,7 +105,7 @@ body {
   left:2px;
   text-shadow:-1px 0 red;
   top:0;
-  color:$color1;
+  color:white;
   overflow:hidden;
   clip:rect(0,900px,0,0); 
   animation:noise-anim 2s infinite linear alternate-reverse;
@@ -131,7 +125,7 @@ body {
   left:-2px;
   text-shadow:1px 0 blue; 
   top:0;
-  color:$color1;
+  color:white;
   overflow:hidden;
   clip:rect(0,900px,0,0); 
   animation:noise-anim-2 3s infinite linear alternate-reverse;
@@ -149,8 +143,8 @@ body {
     </div>
 
     <div class="buttons">
-    	<p>You can search what you were looking for <a class="button" href="http://kompiajaib.github.io/search/">here</a>.<br>
-                       Or you can go to <a class="button" href="http://kompiajaib.github.io/">Homepage</a></p>
+    	You can search what you were looking for <a class="button" href="http://kompiajaib.github.io/search/">here</a>.<br>
+                       Or you can go to <a class="button" href="http://kompiajaib.github.io/">Homepage</a>
     </div>
 </div>
 <!--</body>--></body>
