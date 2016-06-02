@@ -7,7 +7,7 @@ date: 2016-05-31
 author: "Adhy Suryadi"
 tags: [ GithubPages ]
 header-img: "img/image-on-markdown.jpg"
-image: "img/image-on-markdown.jpg"
+image: "img/post/image-on-markdown.jpg"
 ---
 
 Dimensi pada gambar postingan (width dan height tag) merupakan salah satu unsur untuk optimasi gambar postingan selain alt tag. Begitu pun untuk gambar postingan blog di Github Pages yang menggunakan markdown dalam menulis postingannya. Sementara defer image berfungsi untuk optimasi loading blog.
