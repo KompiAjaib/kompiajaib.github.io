@@ -603,5 +603,7 @@ a.button-author:hover {
 .makesticking {
     position: fixed!important;
     top: 80px;
-    z-index: 9999
+    z-index: 9999;
+    left: 50%;
+    margin-left: -150px;
 }
