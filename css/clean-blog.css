@@ -511,7 +511,7 @@ a.authorname-url {
     text-align: center
 }
 .authorbox {
-    width: 300px;
+    width: 262px;
     background: url(https://lh3.googleusercontent.com/lUQcK29uPNQzy9gVVKuCuVIso6amDmTXH1rsbIXukGeBp0BOJIYtwCE8BbNTVv_UArIBFg=s300-fcrop64=1,00001ad4fffff235) top center no-repeat #fff;
     border: 1px solid #dedede;
     border-radius: 3px;
@@ -561,7 +561,7 @@ a.authorname-url {
 }
 .sosmed-author li {
     display: inline-block;
-    margin-right: 10px
+    margin-right: 5px
 }
 .sosmed-author li:last-child {
     margin-right: 0
@@ -604,5 +604,4 @@ a.button-author:hover {
     position: fixed!important;
     top: 80px;
     z-index: 9999;
-    margin-left: 30px;
 }
