@@ -601,7 +601,6 @@ a.button-author:hover {
 
 /* Sticky Sidebar */
 .makesticking {
-    background: 0 0!important;
     position: fixed!important;
     top: 80px;
     z-index: 9999
