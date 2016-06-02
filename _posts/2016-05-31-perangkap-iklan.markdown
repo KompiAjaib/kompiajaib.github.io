@@ -7,7 +7,7 @@ date: 2016-05-31 07:00:00
 author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/ads-on-internet.jpg"
-image: "img/ads-on-internet.jpg"
+image: "img/post/ads-on-internet.jpg"
 ---
 
 > Selama ini saya tidak menyadari bahwa iklan yang sering saya lihat dan cukup mengganggu ternyata iklan dari provider yang saya gunakan.
@@ -18,11 +18,11 @@ Sudah beberapa bulan belakangan ini saya menggunakan jaringan Indiehome dari Tel
 
 Iklan tersebut akan muncul di atas atau di bawah halaman web dengan mendorong halaman web ke atas atau ke bawah seperti gambar di bawah ini.
 
-![Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Iklan Telkom"){: data-src="{{ site.baseurl }}/img/iklan-telkom.jpg" width="750" height="439"}
+![Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Iklan Telkom"){: data-src="{{ site.baseurl }}/img/post/iklan-telkom.jpg" width="750" height="439"}
 
 Dan ini source code iklan tersebut (jika Anda menggunakan provider Indihome atau mungkin layanan Telkom lainnya) yang akan muncul di atas kode `</body` dari web yang kita kunjungi.
 
-![Script Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Script Iklan Telkom"){: data-src="{{ site.baseurl }}/img/iklan-telkom-2.jpg" width="750" height="326"}
+![Script Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Script Iklan Telkom"){: data-src="{{ site.baseurl }}/img/post/iklan-telkom-2.jpg" width="750" height="326"}
 
 ## Membuat Perangkap Iklan Pihak Ketiga
 
@@ -41,7 +41,7 @@ Dan untuk Blogger menggunakan kode seperti di bawah ini:
 
 Dengan begitu maka script iklan pihak ketiga akan terperangkap dalam komentar `<!-- -->` yang otomatis tidak akan berfungsi seperti gambar di bawah ini.
 
-![Script Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Script Iklan Telkom"){: data-src="{{ site.baseurl }}/img/iklan-telkom-3.jpg" width="750" height="137"}
+![Script Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Script Iklan Telkom"){: data-src="{{ site.baseurl }}/img/post/iklan-telkom-3.jpg" width="750" height="137"}
 
 Silahkan cek kode HTML blog Anda, jika sudah menggunakan kode di atas berarti loading blog Anda tidak akan terganggu loading iklan Telkom ini jika pengunjung blog menggunakan jaringan layanan Telkom.
 
