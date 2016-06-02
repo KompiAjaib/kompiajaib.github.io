@@ -6,7 +6,7 @@ description: "Ternyata tanpa kita ketahui, provider yang kita gunakan meng-injec
 date: 2016-05-31 07:00:00
 author: "Adhy Suryadi"
 tags: [ Blogging ]
-header-img: "img/ads-on-internet.jpg"
+header-img: "img/post/ads-on-internet.jpg"
 image: "img/post/ads-on-internet.jpg"
 ---
 
