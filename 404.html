@@ -64,11 +64,13 @@ body {
     color: white;
     position:relative;
 }
-
-.buttons {
-    margin: 30px;
-    
-    a.button {
+.button {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    position:relative;
+}
+a.button {
         background-color: #342643;
         font-weight: 700;
         border: 2px solid white;
@@ -78,17 +80,12 @@ body {
         color: white;
         border-radius: 26px;
         transition: all 0.2s ease-in-out;
-        
-        &:hover {
+}
+a.button:hover {
             background-color: lighten(#342643, 10%);
             color: white;
             transition: all 0.2s ease-in-out;
         }
-    }
-
-    
-}
-
 
 // Glitch animation from http://codepen.io/lbebber/pen/ypgql
 @keyframes noise-anim{
