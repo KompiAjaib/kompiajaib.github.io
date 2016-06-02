@@ -20,10 +20,10 @@ layout: default
 </header>
 
 <!-- Post Content -->
-<article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="col-md-8">
+            	<article>
 
 				{{ content }}
 
@@ -75,17 +75,15 @@ layout: default
                     {% endif %}
                 </ul>
                 
+                </article>
+                
                 <hr>
+                
+                {% include disqus_comments.html %}
 
             </div>
-        </div>
-    </div>
-</article>
-
-    <div class="container disqus-thread">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    {% include disqus_comments.html %}
+            <div class="col-md-4">
+                    
             </div>
         </div>
     </div>
