@@ -1,4 +1,8 @@
 <head>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +22,7 @@
 <script>
 //<![CDATA[
 function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
-loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");loadCSS("//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800");loadCSS("{{ "/css/clean-blog.css" | prepend: site.baseurl }}");loadCSS("{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}");
+loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");loadCSS("//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800");
 //]]>
 </script>
 </head>
