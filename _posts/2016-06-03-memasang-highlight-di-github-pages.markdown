@@ -16,9 +16,9 @@ Nah untuk mempercantik tampilan kode dengan tag pre, maka salah satu syntax high
 
 Jika Anda tertarik untuk mencobanya juga, silahkan ikuti langkah-langkahnya di bawah ini.
 
-Silahkan buat file baru `highlight.js` di repo blog Anda di folder **js** dan silahkan copy kode dari **[sini](https://github.com/KompiAjaib/public/blob/master/highlight.js "Kode js highlight.js")(: target="_blank")**.
+Silahkan buat file baru `highlight.js` di repo blog Anda di folder **js** dan silahkan copy kode dari **[sini](https://github.com/KompiAjaib/public/blob/master/highlight.js "Kode js highlight.js"){: target="_blank"}**.
 
-Kemudian silahkan tambahkan CSS highlight.js pada CSS blog Anda di folder **css** dan silahkan copy kode dari **[sini](https://github.com/KompiAjaib/public/blob/master/highlight.css "Kode css highlight.js")(: target="_blank")** atau untuk menggunakan style lainnya silahkan pilih css style dari **[sini](https://highlightjs.org/static/demo/ "Kode css highlight.js")(: target="_blank")**.
+Kemudian silahkan tambahkan CSS highlight.js pada CSS blog Anda di folder **css** dan silahkan copy kode dari **[sini](https://github.com/KompiAjaib/public/blob/master/highlight.css "Kode css highlight.js"){: target="_blank"}** atau untuk menggunakan style lainnya silahkan pilih css style dari **[sini](https://highlightjs.org/static/demo/ "Kode css highlight.js"){: target="_blank"}**.
 
 Sekarang yang terakhir silahkan buka **_includes** >> **footer.html** dan simpan kode di bawah ini di bagian paling bawah.
 
