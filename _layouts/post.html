@@ -25,8 +25,7 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 				{{ content }}
                 <hr>
-                		### Share This Post
-                                {% include share_count.html %}
+                		{% include share_count.html %}
 <hr>
                                 {% assign hasSimilar = '' %}
 {% for post in site.related_posts %}
