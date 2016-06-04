@@ -5,7 +5,7 @@ subtitle: "Cara menampilkan image dengan dimension tag dan defer pada markdown G
 description: "Cara menampilkan image dengan dimension tag dan defer pada markdown untuk optimasi blog di Github Pages."
 date: 2016-05-31
 author: "Adhy Suryadi"
-tags: [ GithubPages ]
+tags: [ Markdown ]
 header-img: "img/post/image-on-markdown.jpg"
 image: "img/post/image-on-markdown.jpg"
 ---
