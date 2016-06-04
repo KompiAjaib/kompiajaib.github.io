@@ -30,7 +30,7 @@ Penulisan tautan dengan title tag pada markdown seperti di bawah ini.
 [Tautan](#URL "Title")
 ```
 
-Setidaknya itu yang tertulis di panduan penulisan pada markdown seperti **[di sini](http://www.markdowntutorial.com/lesson/3/ "Tutorial Markdown"){: target="_blank" rel="nofollow"}**.
+Setidaknya itu yang tertulis di panduan penulisan pada markdown seperti **[di sini](http://www.markdowntutorial.com/lesson/3/ "Tutorial Penulisan Markdown"){: target="_blank" rel="nofollow"}**.
 
 Nah untuk penulisan tautan dengan title, target, dan rel tag, Anda bisa lakukan seperti di bawah ini.
 
