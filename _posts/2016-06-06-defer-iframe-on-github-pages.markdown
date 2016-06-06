@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Defer Iframe Video Youtube Pada Blog Github Pages"
-subtitle: "Dengan defer iframe pada blog agar loading blog menjadi ringan."
+subtitle: "Dengan defer iframe pada blog maka loading blog menjadi ringan."
 description: "Dengan defer iframe video Youtube dimaksudkan agar loading iframe tidak mengganggu loading blog."
 date: 2016-06-06
 author: "Adhy Suryadi"
