@@ -12,7 +12,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <h3 class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }} in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"> {{ tag }}</a> {% endfor %}</h3>
+                    <h3 class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }} in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"><i class="fa fa-tag" aria-hidden="true"></i> {{ tag }}</a> {% endfor %}</h3>
                 </div>
             </div>
         </div>
