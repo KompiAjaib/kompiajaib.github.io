@@ -40,7 +40,7 @@ Kemudian untuk menampilkan video di dalam postingan, silahkan tambahkan `data` p
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zBASI-CQxw4" frameborder="0" allowfullscreen></iframe>
 ```
 
-Menjadi seperti di bawah ini **Kode embed ntuk defer iframe**
+Menjadi seperti di bawah ini **Kode embed untuk defer iframe**
 
 ```
 <iframe width="560" height="315" data-src="https://www.youtube.com/embed/zBASI-CQxw4" frameborder="0" allowfullscreen></iframe>
@@ -48,6 +48,6 @@ Menjadi seperti di bawah ini **Kode embed ntuk defer iframe**
 
 **Live Demo**
 
-Video di bawah ini sudah menggunakan *defer iframe* seperti di atas.
+Video di bawah ini sudah menggunakan *defer iframe* dengan kode embed/iframe di atas.
 
 <iframe width="560" height="315" data-src="https://www.youtube.com/embed/zBASI-CQxw4" frameborder="0" allowfullscreen></iframe>
