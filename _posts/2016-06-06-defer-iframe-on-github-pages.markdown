@@ -34,6 +34,14 @@ window.onload = init;
 
 Kemudian untuk menampilkan video di dalam postingan, silahkan tambahkan `data` pada `src` embed video Youtube menjadi `data-src` seperti di bawah ini:
 
+**Kode embed awal**
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zBASI-CQxw4" frameborder="0" allowfullscreen></iframe>
+```
+
+Menjadi seperti di bawah ini **Kode embed ntuk defer iframe**
+
 ```
 <iframe width="560" height="315" data-src="https://www.youtube.com/embed/zBASI-CQxw4" frameborder="0" allowfullscreen></iframe>
 ```
