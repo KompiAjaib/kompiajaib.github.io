@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cara Embed Font Awesome Di Blog Berubah"
-subtitle: "Semakin mudah dalam menggunakan Font Awesome semakin mudah."
+subtitle: "Semakin mudah dalam menggunakan Font Awesome dengan kode embed terbaru."
 description: "Kini semakin mudah dalam menggunakan Font Awesome di blog, bahkan kini kita bisa me-manage font awesome."
 date: 2016-06-07
 author: "Adhy Suryadi"
