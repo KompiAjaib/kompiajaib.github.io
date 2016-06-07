@@ -42,4 +42,14 @@ Atau seperti ini
 <script async="async" defer="defer" src="https://use.fontawesome.com/xxxxxxxxx.js"></script>
 ```
 
+Atau menggunakan javascript dinamis asyncronous seperti Google+ JS.
+
+```
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://use.fontawesome.com/xxxxxxxxx.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+```
+
 Silahkan dicoba cara embed Font Awesome terbaru ini **[DI SINI](http://fontawesome.io/get-started/ "Get Started Font Awesome"){: target="_blank" rel="nofollow"}**
