@@ -10,7 +10,7 @@ header-img: "img/post/font-awesome.jpg"
 image: "img/post/font-awesome.jpg"
 ---
 
-Baru hari ini saya menyadari bahwa kini cara embed Font Awesome telah berubah. Yang sangat mencolok dari perubahan ini adalah cara mendapatkan kode embed-nya, kini tidak ada lagi link CDN Font Awesome pada halaman **Get Started** Font Awesome. Namun yang ada adalah kolom input email ntuk mendapatkan kode embed Font Awesome.
+Baru hari ini saya menyadari bahwa kini cara embed Font Awesome telah berubah. Yang sangat mencolok dari perubahan ini adalah cara mendapatkan kode embed-nya, kini tidak ada lagi link CDN Font Awesome pada halaman **Get Started** Font Awesome. Namun yang ada adalah kolom input email untuk mendapatkan kode embed Font Awesome.
 
 > We create new embed codes for each website so you can quickly upgrade and change your preferences all without ever pushing code. To do this, we need an email address so we know which embed codes are yours and so you can come back and manage them.
 
@@ -42,4 +42,4 @@ Atau seperti ini
 <script async="async" defer="defer" src="https://use.fontawesome.com/e749edc6be.js"></script>
 ```
 
-Silahkan dicoba cara embed Font Awesome terbaru ini [DI SINI](http://fontawesome.io/get-started/ "Get Started Font Awesome"){: target="_blank" rel="nofollow"}
+Silahkan dicoba cara embed Font Awesome terbaru ini **[DI SINI](http://fontawesome.io/get-started/ "Get Started Font Awesome"){: target="_blank" rel="nofollow"}**
