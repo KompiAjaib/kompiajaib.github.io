@@ -27,19 +27,19 @@ Silahkan dicoba dengan memasukan email Anda pada input email di halaman **Get St
 Untuk pemasangan kode JS Font Awesome bisa juga dengan asynchronous untuk menghindari *blocking render js* seperti di bawah ini.
 
 ```
-<script async src="https://use.fontawesome.com/e749edc6be.js"></script>
+<script async src="https://use.fontawesome.com/xxxxxxxxx.js"></script>
 ```
 
 Atau seperti ini
 
 ```
-<script async="async" src="https://use.fontawesome.com/e749edc6be.js"></script>
+<script async="async" src="https://use.fontawesome.com/xxxxxxxxx.js"></script>
 ```
 
 Atau seperti ini
 
 ```
-<script async="async" defer="defer" src="https://use.fontawesome.com/e749edc6be.js"></script>
+<script async="async" defer="defer" src="https://use.fontawesome.com/xxxxxxxxx.js"></script>
 ```
 
 Silahkan dicoba cara embed Font Awesome terbaru ini **[DI SINI](http://fontawesome.io/get-started/ "Get Started Font Awesome"){: target="_blank" rel="nofollow"}**
