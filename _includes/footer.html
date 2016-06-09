@@ -61,18 +61,7 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 <!-- Custom Theme JavaScript -->
-<script>
-function downloadJSAtOnload() {
-var element = document.createElement("script");
-element.src = "{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}";
-document.body.appendChild(element);
-}
-if (window.addEventListener)
-window.addEventListener("load", downloadJSAtOnload, false);
-else if (window.attachEvent)
-window.attachEvent("onload", downloadJSAtOnload);
-else window.onload = downloadJSAtOnload;
-</script>
+<script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
 {% include defer_highlight.html %}
 {% include google_analytics.html %}
 {% include cookies-notification.html %}
