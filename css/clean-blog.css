@@ -505,3 +505,8 @@ pre,
     color: inherit;
     text-decoration: underline
 }
+ /* Share Button */
+.don-share .don-share-total{position:relative!important}
+.don-share .don-share-total:after{bottom:0!important}
+.don-share .don-share-expand:before{line-height:20px!important}
+.don-share{margin: 5px -10px 0 0!important;}
