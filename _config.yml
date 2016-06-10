@@ -25,7 +25,7 @@ gems: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
 # html minify
 compress_html:
   clippings: all
-  comments: all
+  comments: ["<!-- ", " -->"]
   endings: []
   profile: false
   ignore:
