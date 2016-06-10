@@ -43,7 +43,7 @@ compress_html:
   profile: false
 ```
 
-Jika Anda menggunakan kode **[perangkap iklan](http://kompiajaib.github.io/perangkap-iklan/ "perangkap iklan"){: target="_blank"} silahkan tambahkan kode di bawah ini
+Jika Anda menggunakan kode **[perangkap iklan](http://kompiajaib.github.io/perangkap-iklan/ "perangkap iklan"){: target="_blank"}** silahkan tambahkan kode di bawah ini
 
 ```
   ignore:
