@@ -28,3 +28,5 @@ compress_html:
   comments: all
   endings: []
   profile: false
+  ignore:
+  comments: ["<!--</body>-->"]
