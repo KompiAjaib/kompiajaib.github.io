@@ -513,8 +513,8 @@ pre,
 
 /* Shortener */
 .shorten-box {
-  font-size: 100%;
-  font-weight: bold;
+  font-size: 80%;
+  font-weight: 400;
   color: #666!important;
   margin: 10px 0
 }
