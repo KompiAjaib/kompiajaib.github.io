@@ -510,3 +510,47 @@ pre,
 .don-share .don-share-total:after{bottom:0!important}
 .don-share .don-share-expand:before{line-height:20px!important}
 .don-share{margin: 5px -10px 0 0!important;}
+
+/* Shortener */
+.shorten-box {
+  font-size: 100%;
+  font-weight: bold;
+  color: #666!important;
+  margin: 10px 0
+}
+
+.shorten-box #output {
+  display: inline-block;
+}
+
+.shorten-box .shorten-text {
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid transparent;
+  line-height: 1;
+  padding: 5px 0;
+}
+
+.shorten-box .output {
+  display: inline-block;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  white-space: initial;
+  word-spacing: normal;
+  word-break: normal;
+  hyphens: none;
+  color: #000;
+  cursor: pointer;
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  line-height: 1;
+  padding: 5px 8px;
+  margin: 0;
+  box-shadow: inset 0px 0px 1px rgba(0, 0, 0, .08);
+}
+
+.shorten-box .output:focus,
+.shorten-box .output:active {
+  outline: none
+}
+
