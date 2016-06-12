@@ -529,6 +529,9 @@ pre,
   border: 1px solid transparent;
   line-height: 1;
   padding: 5px 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size:18px;
 }
 
 .shorten-box .output {
