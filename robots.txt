@@ -2,4 +2,4 @@
 
 User-agent: *
 
-Sitemap: http://kompiajaib.github.io/sitemap.xml
+Sitemap: http://adhysuryadi.xyz/sitemap.xml
