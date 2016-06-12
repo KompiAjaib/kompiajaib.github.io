@@ -52,4 +52,4 @@ imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
 window.onload = init;
 ```
 
-Untuk demonya silahkan lihat halaman berikut, [DEMO](http://kompiajaib.github.io/2016/05/31/perangkap-iklan/ "Demo").
+Untuk demonya silahkan lihat halaman berikut, [DEMO](http://adhysuryadi.xyz/perangkap-iklan/ "Demo").
