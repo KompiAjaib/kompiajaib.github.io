@@ -1,9 +1,10 @@
 # Site settings
 title: Adhy Suryadi Blog
+subtitle: "Coretan kisah sebuah kehidupan"
 header-img: img/home-bg.jpg
 image: img/home-bg.jpg
 copyright_name: Adhy Suryadi Blog
-description: "Coretan kisah sebuah kehidupan."
+description: "Coretan kisah sebuah kehidupan, berbagi dengan sesama tentang pengalaman hidup."
 url: "http://adhysuryadi.xyz"
 author: Adhy Suryadi
 twitter_username: KompiAjaib
