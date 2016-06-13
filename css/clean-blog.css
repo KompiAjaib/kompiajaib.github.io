@@ -12,12 +12,6 @@ body {
 .disqus-thread {
   font-family: 'Lora', 'Times New Roman', serif;
 }
-blockquote ol:first-child, blockquote p:first-child, blockquote ul:first-child {
-  margin-top:0;
-}
-blockquote {
-  font-size:24px;
-}
 #cfs_top_div {
   display:none!important;
   visibility:hidden!important;
@@ -56,6 +50,11 @@ a img:focus {
 blockquote {
   color: #808080;
   font-style: italic;
+  font-size:24px;
+  padding: 0 20px;
+}
+blockquote ol:first-child, blockquote p:first-child, blockquote ul:first-child {
+  margin-top:0;
 }
 hr.small {
   max-width: 100px;
