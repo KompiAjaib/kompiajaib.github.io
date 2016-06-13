@@ -559,8 +559,10 @@ pre,
 
 /* Adsense */
 .adsense_top_post {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: left;
 }
 .adsense_bottom_post {
   margin-top: 20px;
+  text-align: left;
 }
