@@ -557,3 +557,10 @@ pre,
   outline: none
 }
 
+/* Adsense */
+.adsense_top_post {
+  margin-bottom: 15px;
+}
+.adsense_bottom_post {
+  margin-top: 15px;
+}
