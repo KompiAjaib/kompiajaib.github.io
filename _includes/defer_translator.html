@@ -1,5 +1,8 @@
 <script>
-  function googleTranslateElementInit() {
+var translator_loaded = false;
+    function load_translator() {
+
+      function googleTranslateElementInit() {
     new google.translate.TranslateElement({
       pageLanguage: 'id',
       layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
@@ -12,4 +15,14 @@
     e.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit", document.body.appendChild(e)
   }
   window.addEventListener ? window.addEventListener("load", downloadJSAtOnload, !1) : window.attachEvent ? window.attachEvent("onload", downloadJSAtOnload) : window.onload = downloadJSAtOnload;
+       
+    translator_loaded = true;
+    };
+    window.onscroll = function(e) {
+        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
+            //hit bottom of page
+            if (translator_loaded==false)
+                load_translator()
+        }
+    };
 </script>
