@@ -439,7 +439,7 @@ form .row:first-child .floating-label-form-group {
   border-radius: 0;
   border: none;
 }
-.pager li>span {
+.pager.post li>span {
   display: block;
 }
 @media only screen and (min-width: 768px) {
