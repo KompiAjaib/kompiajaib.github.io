@@ -368,6 +368,15 @@ form .row:first-child .floating-label-form-group {
 .pager {
   margin: 20px 0 0;
 }
+.pager.post li {
+  width: 50%;
+}
+.pager.post li.previous {
+  text-align: left;
+}
+.pager.post li.next {
+  text-align: right;
+}
 .pager li > a,
 .pager li > span {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -382,6 +391,7 @@ form .row:first-child .floating-label-form-group {
 .pager.post li > a,
 .pager.post li > span {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
