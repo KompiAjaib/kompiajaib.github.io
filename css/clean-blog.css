@@ -375,6 +375,12 @@ form .row:first-child .floating-label-form-group {
   display: inline;
   font-size: 18px;
 }
+.pager.post .previous h5 {
+  float: left;
+}
+.pager.post .next h5 {
+  float: right;
+}
 .pager.post li {
   width: 50%;
 }
