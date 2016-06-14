@@ -65,8 +65,18 @@ layout: default
                     	<h5>Previous Post</h5>
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="Previous Post">{{page.previous.title}}</a>
                     </li>
+                    {% else %}
+                    <li class="previous">
+                    	<h5>Previous Post</h5>
+                        <span>This Is The Oldest Page</span>
+                    </li>
                     {% endif %}
                     {% if page.next.url %}
+                    <li class="next">
+                    	<h5>Next Post</h5>
+                        <span>This Is The Newest Post</span>
+                    </li>
+                    {% else %}
                     <li class="next">
                     	<h5>Next Post</h5>
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="Next Post">{{page.next.title}}</a>
