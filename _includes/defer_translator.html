@@ -9,13 +9,13 @@ var translator_loaded = false;
       autoDisplay: false
     }, 'google_translate_element');
   };
+! function() {
+  var e = document.createElement("script");
+  e.type = "text/javascript", e.async = !0, e.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+  var t = document.getElementsByTagName("script")[0];
+  t.parentNode.insertBefore(e, t)
+}();
 
-  function downloadJSAtOnload() {
-    var e = document.createElement("script");
-    e.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit", document.body.appendChild(e)
-  }
-  window.addEventListener ? window.addEventListener("load", downloadJSAtOnload, !1) : window.attachEvent ? window.attachEvent("onload", downloadJSAtOnload) : window.onload = downloadJSAtOnload;
-       
     translator_loaded = true;
     };
     window.onscroll = function(e) {
