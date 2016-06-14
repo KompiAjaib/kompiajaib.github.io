@@ -441,7 +441,7 @@ form .row:first-child .floating-label-form-group {
 @media screen and (max-width:603px) {
   .pager.post li {
     width: 100%;
-    position: relative;
+    position: relative!important;
   }
   .pager.post li.previous {
     padding-bottom: 20px;
