@@ -403,6 +403,7 @@ form .row:first-child .floating-label-form-group {
   padding: 10px 5px;
   background-color: white;
   border-radius: 0;
+  border: none;
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
@@ -416,6 +417,12 @@ form .row:first-child .floating-label-form-group {
   color: white;
   background-color: #0085a1;
   border: 1px solid #0085a1;
+}
+.pager.post li > a:hover,
+.pager.post li > a:focus {
+  color: #0085a1;
+  background-color: #fff;
+  border: none;
 }
 .pager .disabled > a,
 .pager .disabled > a:hover,
