@@ -391,8 +391,8 @@ form .row:first-child .floating-label-form-group {
   font-family: FontAwesome;
   font-size: 20px;
   line-height: 1;
-  float: left;
-  left: -25px;
+  position: absolute;
+  left: 0;
   top: 50%;
   margin-top: -10px;
 }
@@ -401,8 +401,8 @@ form .row:first-child .floating-label-form-group {
   font-family: FontAwesome;
   font-size: 20px;
   line-height: 1;
-  float: right;
-  right: -25px;
+  position: absolute;
+  right: 0;
   top: 50%;
   margin-top: -10px;
 }
