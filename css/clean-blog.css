@@ -450,6 +450,12 @@ form .row:first-child .floating-label-form-group {
   .pager.post li.next {
     padding-top: 20px;
   }
+  .pager.post li.previous:before {
+    margin-top: -20px;
+  }
+  .pager.post li.next:before {
+    margin-top: 0;
+  }
 }
 .pager li > a:hover,
 .pager li > a:focus {
