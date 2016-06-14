@@ -8,6 +8,7 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
+  top:0!important
 }
 .disqus-thread {
   font-family: 'Lora', 'Times New Roman', serif;
