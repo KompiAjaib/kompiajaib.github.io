@@ -673,3 +673,43 @@ pre,
 .adsense_bottom_post {
   margin-top: 20px;
 }
+
+/* Translator */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-gadget-simple img,
+img.goog-te-gadget-icon {
+  display: none !important;
+}
+
+.goog-te-gadget-simple {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.8;
+  padding: 0 2px 0 6px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #f3f3f3!important;
+  background-image: none;
+  border-left: 1px solid #ddd!important;
+  border-top: 1px solid #ddd!important;
+  border-bottom: 1px solid #ddd!important;
+  border-right: 1px solid #ddd!important;
+  border-radius: 0;
+}
+
+.goog-te-menu-value span {
+  margin-right: 5px!important;
+  color: #666!important;
+}
+
+.goog-te-menu-value {
+  margin-right: 0!important;
+}
