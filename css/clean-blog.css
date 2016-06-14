@@ -374,14 +374,33 @@ form .row:first-child .floating-label-form-group {
 }
 .pager.post li {
   width: 50%;
+  position: relative;
 }
 .pager.post li.previous {
   float: left;
   text-align: left;
+  padding-left: 25px;
 }
 .pager.post li.next {
   float: right;
   text-align: right;
+  padding-right: 25px;
+}
+.pager.post li.previous:before {
+  content: "\f053";
+  font-family: FontAwesome;
+  font-size: 20px;
+  line-height: 1;
+  left: 0;
+  top: 50%;
+}
+.pager.post li.next:before {
+  content: "\f054";
+  font-family: FontAwesome;
+  font-size: 20px;
+  line-height: 1;
+  right: 0;
+  top: 50%;
 }
 .pager li > a,
 .pager li > span {
