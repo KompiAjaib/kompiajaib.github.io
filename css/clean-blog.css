@@ -372,7 +372,7 @@ form .row:first-child .floating-label-form-group {
   position: relative;
 }
 .pager.post h5 {
-  display: inline-block;
+  display: block;
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;
