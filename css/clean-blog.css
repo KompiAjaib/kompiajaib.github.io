@@ -374,6 +374,8 @@ form .row:first-child .floating-label-form-group {
 .pager.post h5 {
   display: inline;
   font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .pager.post .previous h5 {
   float: left;
@@ -436,6 +438,9 @@ form .row:first-child .floating-label-form-group {
   background-color: white;
   border-radius: 0;
   border: none;
+}
+.pager li>span {
+  display: block;
 }
 @media only screen and (min-width: 768px) {
   .pager li > a,
