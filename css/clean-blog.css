@@ -391,16 +391,20 @@ form .row:first-child .floating-label-form-group {
   font-family: FontAwesome;
   font-size: 20px;
   line-height: 1;
-  left: 0;
+  float: left;
+  left: -25px;
   top: 50%;
+  margin-top: -10px;
 }
 .pager.post li.next:before {
   content: "\f054";
   font-family: FontAwesome;
   font-size: 20px;
   line-height: 1;
-  right: 0;
+  float: right;
+  right: -25px;
   top: 50%;
+  margin-top: -10px;
 }
 .pager li > a,
 .pager li > span {
