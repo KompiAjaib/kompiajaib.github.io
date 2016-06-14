@@ -378,10 +378,10 @@ form .row:first-child .floating-label-form-group {
   margin-bottom: 0;
 }
 .pager.post .previous h5 {
-  float: left;
+  text-align: left;
 }
 .pager.post .next h5 {
-  float: right;
+  text-align: right;
 }
 .pager.post li {
   width: 50%;
