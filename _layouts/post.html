@@ -74,12 +74,12 @@ layout: default
                     {% if page.next.url %}
                     <li class="next">
                     	<h5>Next Post</h5>
-                        <span>This Is The Newest Post</span>
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="Next Post">{{page.next.title}}</a>
                     </li>
                     {% else %}
                     <li class="next">
                     	<h5>Next Post</h5>
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="Next Post">{{page.next.title}}</a>
+                    	<span>This Is The Newest Post</span>
                     </li>
                     {% endif %}
                 </ul>
