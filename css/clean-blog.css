@@ -398,9 +398,9 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: capitalize;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 1px;
-  padding: 10px 5px;
+  padding: 10px 0;
   background-color: white;
   border-radius: 0;
   border: none;
