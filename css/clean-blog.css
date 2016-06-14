@@ -378,6 +378,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager.post:before {
   content: "";
+  display:inline;
   width: 1px;
   height: 100%;
   background: #eee;
