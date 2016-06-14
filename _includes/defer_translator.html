@@ -1,30 +1,14 @@
 <script>
-var translator_loaded = false;
-    function load_translator() {
-
-! function() {
-  var e = document.createElement("script");
-  e.type = "text/javascript", e.async = !0, e.src = "//translate.google.com/translate_a/element.js";
-  var t = document.getElementsByTagName("script")[0];
-  t.parentNode.insertBefore(e, t)
-}();
-
-    translator_loaded = true;
-    };
-    window.onscroll = function(e) {
-        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
-            //hit bottom of page
-            if (translator_loaded==false)
-                load_translator()
-        }
-    };
-</script>
-<script>
   function googleTranslateElementInit() {
     new google.translate.TranslateElement({
       pageLanguage: 'id',
       layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
       autoDisplay: false
     }, 'google_translate_element');
-  };googleTranslateElementInit()
+  };
+  function downloadJSAtOnload() {
+  var e = document.createElement("script");
+  e.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit", document.body.appendChild(e)
+}
+window.addEventListener ? window.addEventListener("load", downloadJSAtOnload, !1) : window.attachEvent ? window.attachEvent("onload", downloadJSAtOnload) : window.onload = downloadJSAtOnload;
 </script>
