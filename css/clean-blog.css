@@ -486,6 +486,9 @@ form .row:first-child .floating-label-form-group {
   .pager.post li.next:before {
     margin-top: 0!important;
   }
+  .pager.post:before {
+    display: none;
+  }
 }
 .pager li > a:hover,
 .pager li > a:focus {
