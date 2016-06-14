@@ -368,13 +368,15 @@ form .row:first-child .floating-label-form-group {
 .pager {
   margin: 20px 0 0;
 }
+.pager.post {
+  position: relative;
+}
 .pager.post h5 {
   display: inline;
   font-size: 18px;
 }
 .pager.post li {
   width: 50%;
-  position: relative;
 }
 .pager.post li.previous {
   float: left;
