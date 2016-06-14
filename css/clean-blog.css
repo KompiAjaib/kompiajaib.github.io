@@ -375,9 +375,11 @@ form .row:first-child .floating-label-form-group {
   width: 50%;
 }
 .pager.post li.previous {
+  float: left;
   text-align: left;
 }
 .pager.post li.next {
+  float: right;
   text-align: right;
 }
 .pager li > a,
