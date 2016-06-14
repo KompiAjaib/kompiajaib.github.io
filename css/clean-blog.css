@@ -370,6 +370,22 @@ form .row:first-child .floating-label-form-group {
 }
 .pager.post {
   position: relative;
+  border: 1px solid #eee;
+  border-left: none;
+  border-right: none;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.pager.post:before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #eee;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:50%;
+  margin-left: .5px;
 }
 .pager.post h5 {
   display: block;
