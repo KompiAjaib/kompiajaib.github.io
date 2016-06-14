@@ -1,12 +1,15 @@
 <script>
-function downloadJSAtOnload() {
-var element = document.createElement("script");
-element.src = "{{ "/js/translator.js " | prepend: site.baseurl }}";
-document.body.appendChild(element);
-}
-if (window.addEventListener)
-window.addEventListener("load", downloadJSAtOnload, false);
-else if (window.attachEvent)
-window.attachEvent("onload", downloadJSAtOnload);
-else window.onload = downloadJSAtOnload;
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'id',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false
+    }, 'google_translate_element');
+  };
+
+  function downloadJSAtOnload() {
+    var e = document.createElement("script");
+    e.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit", document.body.appendChild(e)
+  }
+  window.addEventListener ? window.addEventListener("load", downloadJSAtOnload, !1) : window.attachEvent ? window.attachEvent("onload", downloadJSAtOnload) : window.onload = downloadJSAtOnload;
 </script>
