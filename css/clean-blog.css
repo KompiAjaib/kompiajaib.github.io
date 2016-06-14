@@ -451,10 +451,10 @@ form .row:first-child .floating-label-form-group {
     padding-top: 20px;
   }
   .pager.post li.previous:before {
-    margin-top: -20px;
+    margin-top: -20px!important;
   }
   .pager.post li.next:before {
-    margin-top: 0;
+    margin-top: 0!important;
   }
 }
 .pager li > a:hover,
