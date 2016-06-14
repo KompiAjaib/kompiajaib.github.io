@@ -370,6 +370,7 @@ form .row:first-child .floating-label-form-group {
 }
 .pager.post h5 {
   display: inline;
+  font-size: 18px;
 }
 .pager.post li {
   width: 50%;
