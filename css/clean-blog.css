@@ -441,9 +441,14 @@ form .row:first-child .floating-label-form-group {
 @media screen and (max-width:603px) {
   .pager.post li {
     width: 100%;
+    position: relative;
   }
   .pager.post li.previous {
+    padding-bottom: 20px;
     border-bottom: 1px solid #eee;
+  }
+  .pager.post li.next {
+    padding-top: 20px;
   }
 }
 .pager li > a:hover,
