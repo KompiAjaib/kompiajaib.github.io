@@ -438,6 +438,14 @@ form .row:first-child .floating-label-form-group {
     padding: 15px 25px;
   }
 }
+@media only screen and (min-width: 600px) {
+  .pager.post li {
+    width: 100%;
+  }
+  .pager.post li.previous {
+    border-bottom: 1px solid #eee;
+  }
+}
 .pager li > a:hover,
 .pager li > a:focus {
   color: white;
