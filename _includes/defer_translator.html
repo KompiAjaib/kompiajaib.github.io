@@ -2,13 +2,6 @@
 var translator_loaded = false;
     function load_translator() {
 
-      function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'id',
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-      autoDisplay: false
-    }, 'google_translate_element');
-  };
 ! function() {
   var e = document.createElement("script");
   e.type = "text/javascript", e.async = !0, e.src = "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
@@ -25,4 +18,13 @@ var translator_loaded = false;
                 load_translator()
         }
     };
+</script>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'id',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false
+    }, 'google_translate_element');
+  };
 </script>
