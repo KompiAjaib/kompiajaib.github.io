@@ -22,7 +22,7 @@ Kemudian silahkan tambahkan CSS highlight.js pada CSS blog Anda di folder **css*
 
 Sekarang yang terakhir silahkan buka **_includes** >> **footer.html** dan simpan kode di bawah ini di bagian paling bawah.
 
-```
+```html
 <script>
 function downloadJSAtOnload() {
 var element = document.createElement("script");
