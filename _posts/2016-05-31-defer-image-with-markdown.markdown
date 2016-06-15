@@ -20,7 +20,7 @@ Berbeda dengan penulisan markup html image (yang sebenarnya bisa juga digunakan 
 
 Jika ingin menambahkan title tag maka penulisannya seperti di bawah ini.
 
-```
+```markdown
 ![alt text](url image "title text")
 ```
 
