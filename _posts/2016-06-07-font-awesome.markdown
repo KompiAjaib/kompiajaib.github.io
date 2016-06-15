@@ -26,25 +26,25 @@ Silahkan dicoba dengan memasukan email Anda pada input email di halaman **Get St
 
 Untuk pemasangan kode JS Font Awesome bisa juga dengan asynchronous untuk menghindari *blocking render js* seperti di bawah ini.
 
-```
+```html
 <script async src="https://use.fontawesome.com/xxxxxxxxx.js"></script>
 ```
 
 Atau seperti ini
 
-```
+```html
 <script async="async" src="https://use.fontawesome.com/xxxxxxxxx.js"></script>
 ```
 
 Atau seperti ini
 
-```
+```html
 <script async="async" defer="defer" src="https://use.fontawesome.com/xxxxxxxxx.js"></script>
 ```
 
 Atau menggunakan javascript dinamis asyncronous seperti Google+ JS.
 
-```
+```javascript
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
     po.src = 'https://use.fontawesome.com/xxxxxxxxx.js';
