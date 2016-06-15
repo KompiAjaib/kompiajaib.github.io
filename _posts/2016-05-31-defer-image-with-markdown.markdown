@@ -14,7 +14,7 @@ Dimensi pada gambar postingan (width dan height tag) merupakan salah satu unsur 
 
 Berbeda dengan penulisan markup html image (yang sebenarnya bisa juga digunakan pada markdown) yang seperti biasa menggunakan tag `<img alt="alt text" src="url image">`, penulisan atau cara menampilkan image dengan markdown berbeda dengan markup html biasa seperti di bawah ini.
 
-{% highlight %}
+{% highlight html %}
 ![alt text](url image)
 {% endhighlight %}
 
