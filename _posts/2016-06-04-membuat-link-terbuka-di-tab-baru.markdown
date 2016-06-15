@@ -12,7 +12,7 @@ image: "img/post/target-blank.jpg"
 
 Bagi kita tentu sudah familiar dengan cara penulisan html untuk sebuah link tautan baik menggunakan atribut rel tag ataupun target tag seperti di bawah ini:
 
-```
+```html
 <a href="#URL" target="_blank" rel="nofollow" title="Title">Tautan</a>
 ```
 
@@ -20,13 +20,13 @@ Sebenarnya penulisan html untuk link tautan seperti di atas bisa dilakukan pada 
 
 Secara default, penulisan tautan pada markdown seperti di bawah ini.
 
-```
+```markdown
 [Tautan](#URL)
 ```
 
 Penulisan tautan dengan title tag pada markdown seperti di bawah ini.
 
-```
+```markdown
 [Tautan](#URL "Title")
 ```
 
@@ -34,7 +34,7 @@ Setidaknya itu yang tertulis di panduan penulisan pada markdown seperti **[di si
 
 Nah untuk penulisan tautan dengan title, target, dan rel tag, Anda bisa lakukan seperti di bawah ini.
 
-```
+```markdown
 [Tautan](#URL "Title"){: target="_blank" rel="nofollow"}
 ```
 
