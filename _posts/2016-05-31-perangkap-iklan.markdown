@@ -30,12 +30,12 @@ Nah, karena kemunculan iklan ini cukup menggangu loading halaman web ketika peng
 
 Caranya cukup mudah, silahkan ganti kode `</body>` dengan kode di bawah ini:
 
-```
+```html
 <!--</body>--></body>
 ```
 Dan untuk Blogger menggunakan kode seperti di bawah ini:
 
-```
+```html
 &lt;!--</body>--&gt;&lt;/body&gt;
 ```
 
