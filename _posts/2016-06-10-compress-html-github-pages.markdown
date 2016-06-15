@@ -24,7 +24,7 @@ Silahkan download `compress.html` versi terbaru dari **[sini](https://github.com
 
 Silahkan upload file `compress.html` di bagian **_layouts** dan masih di **_layouts** silahkan edit file `default.html` kemudian tambahkan kode YAML di bawah ini di paling atas
 
-```
+```markdown
 ---
 layout: compress
 ---
@@ -34,7 +34,7 @@ layout: compress
 
 Silahkan edit file **_config.yml** dan masukan kode di bawah ini
 
-```
+```markdown
 # html minify
 compress_html:
   clippings: all
@@ -45,14 +45,14 @@ compress_html:
 
 Jika Anda menggunakan kode **[perangkap iklan](http://kompiajaib.github.io/perangkap-iklan/ "perangkap iklan"){: target="_blank"}** silahkan tambahkan kode di bawah ini
 
-```
+```markdown
   ignore:
   comments: ["<!--</body>-->"]
 ```
 
 Sehingga menjadi seperti di bawwah ini
 
-```
+```markdown
 # html minify
 compress_html:
   clippings: all
