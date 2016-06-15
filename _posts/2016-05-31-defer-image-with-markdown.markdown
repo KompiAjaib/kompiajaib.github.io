@@ -30,19 +30,19 @@ Setidaknya itu yang ada di dalam panduan penulisan markdown untuk image.
 
 Untuk menambahkan `width`, `height` pada image dengan penulisan markdown maka silahkan tulis seperti di bawah ini.
 
-```
+```markdown
 ![alt text](url image "title text"){: width="" height=""}
 ```
 
 Silahkan isi tanda kutip pada `width` dan `height` dengan lebar dan tinggi gambar. Nah, untuk menerapkan defer pada image silahkan tulis seperti di bawah ini.
 
-```
+```markdown
 ![alt text](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "title text"){: data-src="url image" width="" height=""}
 ```
 
 Kemudian silahkan simpan javascript di bawah ini di atas kode `</body>` ( **_includes** >> **footer.html** simpan paling bawah ) atau silahkan satukan dengan js theme blog Anda.
 
-```
+```javascript
 function init() {
 var imgDefer = document.getElementsByTagName('img');
 for (var i=0; i<imgDefer.length; i++) {
