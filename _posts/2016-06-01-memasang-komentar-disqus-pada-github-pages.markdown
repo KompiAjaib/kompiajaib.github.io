@@ -22,11 +22,11 @@ Silahkan buat dulu akun disqus untuk blog Anda di sini *https://disqus.com/admin
 
 Kemudian silahkan buka repository blog Anda dan buat file `disqus_comments.html` pada bagian **_includes** kemudian copy kode di bawah ini lalu paste di editor markdown.
 
-```
+```html
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-this.page.url = "PAGE_URL"; // Replace PAGE_URL with your page's canonical URL variable
+this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"; // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = "PAGE_IDENTIFIER"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 </script>
@@ -38,7 +38,7 @@ Ganti `PAGE_IDENTIFIER` dengan `page.url | prepend: site.baseurl` dengan penutup
 
 Kemudian bukan **_includes** >> **footer.html** lalu simpan kode di bawah ini di bagian paling bawah atau bisa disatukan dengan js theme blog Anda.
 
-```
+```javascript
 !function(){var e=document,t=e.createElement("script");t.src="//username.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}();
 ```
 
