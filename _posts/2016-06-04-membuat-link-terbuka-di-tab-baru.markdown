@@ -13,7 +13,7 @@ image: "img/post/target-blank.jpg"
 Bagi kita tentu sudah familiar dengan cara penulisan html untuk sebuah link tautan baik menggunakan atribut rel tag ataupun target tag seperti di bawah ini:
 
 ```html
-<a href="#URL" target="_blank" rel="nofollow" title="Title">Tautan</a>
+<a href="#URL" target="_blank" rel="nofollow" title="Title"> Tautan </a>
 ```
 
 Sebenarnya penulisan html untuk link tautan seperti di atas bisa dilakukan pada editor markdown, namun kita juga perlu mengetahui cara penulisan tautan pada editor markdown.
