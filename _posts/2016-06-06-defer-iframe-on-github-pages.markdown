@@ -18,7 +18,7 @@ Nah untuk menunda pemuatan iframe (*defer iframe*) video Youtube di blog Github 
 
 Silahkan simpan kode javascript di bawah ini di atas kode `</body`, silahkan buka **_includes** >> **footer.html** dan simpan di paling bawah.
 
-```
+```html
 <script>
 function init() {
     var vidDefer = document.getElementsByTagName('iframe');
@@ -36,13 +36,13 @@ Kemudian untuk menampilkan video di dalam postingan, silahkan tambahkan `data` p
 
 **Kode embed awal**
 
-```
+```html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zBASI-CQxw4" frameborder="0" allowfullscreen></iframe>
 ```
 
 Menjadi seperti di bawah ini **Kode embed untuk defer iframe**
 
-```
+```html
 <iframe width="560" height="315" data-src="https://www.youtube.com/embed/zBASI-CQxw4" frameborder="0" allowfullscreen></iframe>
 ```
 
