@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Menggunakan Syntax Highlighter Rouge Di Github Pages"
-subtitle: "Highlighter Rouge Mendukung 100 Bahasa Pemograman"
+subtitle: "Highlighter Rouge Mendukung 60 Bahasa Pemograman"
 description: "Mencoba menggunakan syntax highlighter Rouge sebagai highlighter bawaan Jekyll."
 date: 2016-06-16
 author: "Adhy Suryadi"
