@@ -38,6 +38,9 @@ Atau untuk javascript seperti di bawah ini
  ```
 ```
 
-Mudah bukan?
+Mudah bukan? Untuk tanda seperti titik tiga (```) itu menggunakan tombol di pojok kiri atas keyboard di bawah tombol Esc seperti pada gambar di bawah ini
+
+![Keyboard](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Keyboard"){: data-src="{{ site.baseurl }}/img/post/kbkoreanblack.jpg" width="614" height="388"}
+
 
 Jika Anda ingin mengganti theme untuk hgihlighter, Anda bisa memilih dan menggunakan css theme Pygments **[DI SINI](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html "Pygments Themes"){: target="_blank"}**.
