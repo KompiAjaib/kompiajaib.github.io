@@ -6,8 +6,8 @@ description: "Mencoba menggunakan syntax highlighter Rouge sebagai highlighter b
 date: 2016-06-16
 author: "Adhy Suryadi"
 tags: [ GithubPages, Markdown ]
-header-img: "img/post/highlighter.jpg"
-image: "img/post/highlighter.jpg"
+header-img: "img/post/highlight.jpg"
+image: "img/post/highlight.jpg"
 ---
 
 Sebelumnya saya memposting cara mudah menggunakan syntax highlighter dengan **[Highlight.js](http://adhysuryadi.xyz/memasang-highlight-di-github-pages/ "Highlight.js"){: target="_blank"}**. Namun kini kita akan mencoba menggunakan highlighter bawaan Jekyll yaitu Rouge.
@@ -18,7 +18,7 @@ Namun berbeda dengan Highlight.js yang dapat secara otomatis mengenali bahasa ko
 
 Pada markdown, untuk menampilkan highlighter Rouge ini bisa ditulis seperti ini
 
-```html
+```liquid
 ```css
 body {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -31,7 +31,7 @@ body {
 
 Atau bisa dengan seperti ini
 
-```html
+```liquid
 {% highlight css %}
 body {
   font-family: 'Lora', 'Times New Roman', serif;
