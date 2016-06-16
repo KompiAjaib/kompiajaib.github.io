@@ -44,6 +44,9 @@ a:focus {
   color: #015a6d;
   text-decoration: none;
 }
+article img {
+  width: 100%;
+}
 a img:hover,
 a img:focus {
   cursor: zoom-in;
