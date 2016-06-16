@@ -31,7 +31,7 @@ Pada markdown, untuk menampilkan highlighter Rouge ini bisa ditulis seperti ini
 
 Atau untuk javascript seperti di bawah ini
 
-```javascript
+```html
  ```javascript
  var s = "JavaScript syntax highlighting";
  alert(s);
