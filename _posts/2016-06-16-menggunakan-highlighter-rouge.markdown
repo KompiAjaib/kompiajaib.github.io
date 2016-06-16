@@ -32,14 +32,14 @@ Pada markdown, untuk menampilkan highlighter Rouge ini bisa ditulis seperti ini
 Atau bisa dengan seperti ini
 
 ```html
- {% highlight css %}
- body {
+  {% highlight css %}
+  body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
   top:0!important
- }
- {% endhighlight %}
+  }
+  {% endhighlight %}
 ```
 
 Mudah bukan?
