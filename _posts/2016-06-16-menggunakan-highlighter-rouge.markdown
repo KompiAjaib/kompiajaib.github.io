@@ -10,9 +10,9 @@ header-img: "img/post/higlighter.jpg"
 image: "img/post/higlighter.jpg"
 ---
 
-Sebelumnya saya memposting cara mudah menggunakan syntax highlighter dengan **[Highlight.js](http://adhysuryadi.xyz/memasang-highlight-di-github-pages/ "Highlight.js"){: target="_blank"}**. Namun kini kita akan mencoba menggunakan highlighter bawaan Jekyll yaitu Rouge.
+Sebelumnya saya memposting cara mudah menggunakan syntax highlighter dengan **[Highlight.js](http://adhysuryadi.xyz/memasang-highlight-di-github-pages/ "Highlight.js"){: target="_blank"}**. Namun kini kita akan mencoba menggunakan highlighter bawaan Jekyll yaitu **Rouge**.
 
-Secara default, Jekyll sudah dilengkapi dengan syntax highlighter untuk mempercantik tampilan kode di blog dengan Rouge yang mendukung sekitar 60 bahasa pemograman. Jadi untuk memeriksa apakah theme Jekyll yang Anda gunakan telah dilengkapi highlighter Rouge silahkan cek di **_config.tml**, pastikan di situ terdapat `highlighter: rouge`.
+Secara default, Jekyll sudah dilengkapi dengan syntax highlighter untuk mempercantik tampilan kode di blog dengan **Rouge** yang mendukung sekitar 60 bahasa pemograman. Jadi untuk memeriksa apakah theme Jekyll yang Anda gunakan telah dilengkapi *highlighter Rouge* silahkan cek di **_config.tml**, pastikan di situ terdapat `highlighter: rouge`
 
 Namun berbeda dengan Highlight.js yang dapat secara otomatis mengenali bahasa kode, dengan Rouge kita harus menuliskan bahasa kode setiap kali kita menuliskan kode di postingan seperti `css`, `html`, `javascript`, dan lainnya sesuai dengan kode yang kita tulis.
 
@@ -61,4 +61,4 @@ Mudah bukan? Untuk tanda seperti titik tiga (```) itu menggunakan tombol di pojo
 ![Keyboard](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Keyboard"){: data-src="{{ site.baseurl }}/img/post/kbkoreanblack.jpg" width="614" height="388"}
 
 
-Jika Anda ingin mengganti theme untuk hgihlighter, Anda bisa memilih dan menggunakan css theme Pygments **[DI SINI](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html "Pygments Themes"){: target="_blank"}**.
+Jika Anda ingin mengganti theme untuk highlighter, Anda bisa memilih dan menggunakan css theme Pygments **[DI SINI](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html "Pygments Themes"){: target="_blank"}** seperti pada blog ini.
