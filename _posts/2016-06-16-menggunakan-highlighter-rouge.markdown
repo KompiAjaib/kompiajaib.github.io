@@ -29,17 +29,13 @@ Pada markdown, untuk menampilkan highlighter Rouge ini bisa ditulis seperti ini
  ```
 ```
 
-Atau bisa dengan seperti ini
+Atau untuk javascript seperti di bawah ini
 
-```markdown
- {% highlight css %}
- body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
-  color: #404040;
-  top:0!important
- }
- {% endhighlight %}
+```javascript
+ ```javascript
+ var s = "JavaScript syntax highlighting";
+ alert(s);
+ ```
 ```
 
 Mudah bukan?
