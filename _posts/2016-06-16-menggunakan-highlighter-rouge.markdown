@@ -29,6 +29,15 @@ Pada markdown, untuk menampilkan highlighter Rouge ini bisa ditulis seperti ini
  ```
 ```
 
+```css
+ body {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 20px;
+  color: #404040;
+  top:0!important
+ }
+ ```
+
 Atau untuk javascript seperti di bawah ini
 
 ```html
@@ -37,6 +46,11 @@ Atau untuk javascript seperti di bawah ini
  alert(s);
  ```
 ```
+
+```javascript
+ var s = "JavaScript syntax highlighting";
+ alert(s);
+ ```
 
 Mudah bukan? Untuk tanda seperti titik tiga (```) itu menggunakan tombol di pojok kiri atas keyboard di bawah tombol <kbd>Esc</kbd> seperti pada gambar di bawah ini
 
