@@ -18,7 +18,7 @@ Namun berbeda dengan Highlight.js yang dapat secara otomatis mengenali bahasa ko
 
 Pada markdown, untuk menampilkan highlighter Rouge ini bisa ditulis seperti ini
 
-```liquid
+```html
  ```css
  body {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -31,7 +31,7 @@ Pada markdown, untuk menampilkan highlighter Rouge ini bisa ditulis seperti ini
 
 Atau bisa dengan seperti ini
 
-```liquid
+```html
  {% highlight css %}
  body {
   font-family: 'Lora', 'Times New Roman', serif;
