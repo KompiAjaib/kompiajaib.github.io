@@ -38,7 +38,7 @@ Atau untuk javascript seperti di bawah ini
  ```
 ```
 
-Mudah bukan? Untuk tanda seperti titik tiga (```) itu menggunakan tombol di pojok kiri atas keyboard di bawah tombol Esc seperti pada gambar di bawah ini
+Mudah bukan? Untuk tanda seperti titik tiga (```) itu menggunakan tombol di pojok kiri atas keyboard di bawah tombol <kbd>Esc</kbd> seperti pada gambar di bawah ini
 
 ![Keyboard](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Keyboard"){: data-src="{{ site.baseurl }}/img/post/kbkoreanblack.jpg" width="614" height="388"}
 
