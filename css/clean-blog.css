@@ -687,11 +687,13 @@ img.goog-te-gadget-icon {
 #mc_embed_signup .our {
   font-family: Georgia;
   font-weight: 400;
+  font-size: 22px;
 }
 #mc_embed_signup .to {
   font-family: Georgia;
   font-style: italic;
   font-weight: 400;
+  font-size: 22px;
 }
 #mc_embed_signup .button {
   font-size: 0.9em;
