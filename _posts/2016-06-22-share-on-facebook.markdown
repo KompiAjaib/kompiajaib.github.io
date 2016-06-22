@@ -20,7 +20,7 @@ Alhasil, setiap kali mencoba sharing post di Facebook harus melalui security che
 
 Bahkan sebelumnya ketika pertama kali menggunakan domain xyz ini dan mencoba sharing post terjadi error 404 di Facebook. Nah jika Anda juga mengalami hal yang sama seperti saya yaitu mendapati masalah ketika sharing post di Facebook, silahkan lakukan **debug** dengan tool Facebook seperti gambar animasi di bawah ini.
 
-Silahkan debug URL di sini: `https://developers.facebook.com/tools/debug/`
+Silahkan debug URL di sini: *https://developers.facebook.com/tools/debug/*
 
 ![debug](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Debug URL"){: data-src="https://lh5.googleusercontent.com/-dzO61ze3ofk/V2n_kVkPRAI/AAAAAAAAm_Q/iYYBChVPtc0NbFyJ1Wo1unVez6KaVHCpQCL0B/w750-h522-no/Animation.gif" width="750" height="522"}
 
