@@ -19,3 +19,18 @@ Pernah pada suatu waktu telah menulis postingan panjang lebar, dan kesalahan pen
 Itulah pengalaman menggelikan menulis postingan di Github Pages karena keterbatasan pengetahuan hehehe... namun akhirnya jadi pengalaman berharga yang kini bisa saya bagikan pengalaman ini kepada Anda.
 
 Sebenarnya Github Pages mendukung penulisan postingan draft, artinya kita bisa menyimpan tulisan terlebih dahulu dan kemudian melanjutkan atau mempublikasikan tulisannya di hari yang lain.
+
+Pada Jekyll, draft postingan adalah postingan yang ditulis tanpa format tanggal pada URL postingan.
+
+Seperti kita ketahui, untuk menerbitkan postingan kita harus membuat postingan dengan URL seperti berikut:
+
+```markdown
+YYYY-MM-DD-title.markdown
+```
+
+Jika kita membuat URL postingan tanpa `YYYY-MM-DD` maka postingan tidak bisa dipublikasikan.
+
+Nah untuk membuat draft postingan, silahkan menuju repository blog Anda dan buat file baru dengan nama file **_draft/draft-postingan.markdown** kemudian **Commit** file tersebut.
+
+Dengan itu kita berhasil membuat sebuah folder **_draft** dengan isinya file **draft-postingan.markdown**. Untuk mulai menulis draft postingan silahkan edit file **draft-postingan.markdown** tersebut. Kemudian jika mau berhenti menulis, Anda tinggal **Commit** tulisan. Dan jika ingin melanjutkan tulisan tinggal edit saja filenya.
+
