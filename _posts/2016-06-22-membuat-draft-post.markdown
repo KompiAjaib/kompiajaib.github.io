@@ -32,7 +32,9 @@ Jika kita membuat URL postingan tanpa `YYYY-MM-DD` maka postingan tidak bisa dip
 
 Nah untuk membuat draft postingan, silahkan menuju repository blog Anda dan buat file baru dengan nama file **_drafts/draft-postingan.markdown** kemudian **Commit** file tersebut.
 
-Dengan itu kita berhasil membuat sebuah folder **_drafts** dengan isinya file **draft-postingan.markdown**. Untuk mulai menulis draft postingan silahkan buat file baru di dalam folder **_drafts** tersebut dengan URL postingan tanpa format tanggal seperti file yang pertama dibuat tadi. Kemudian jika mau berhenti menulis, Anda tinggal **Commit** tulisan. Dan jika ingin melanjutkan tulisan tinggal edit saja filenya.
+Dengan itu kita berhasil membuat sebuah folder **_drafts** dengan isinya file **draft-postingan.markdown**.
+
+Untuk mulai menulis draft postingan silahkan buat file baru di dalam folder **_drafts** tersebut dengan URL postingan tanpa format tanggal seperti file yang pertama dibuat tadi. Kemudian jika mau berhenti menulis, Anda tinggal **Commit** tulisan. Dan jika ingin melanjutkan tulisan tinggal edit saja filenya.
 
 Jika ingin mempublikasikan tulisan maka tinggal edit URL postingannya dengan menambahkan format `YYYY-MM-DD` pada URL postingan. Kemudian ganti juga **_drafts** menjadi **_posts** agar tulisan yang dipublikasikan masuk ke folder **_posts** dengan <kbd>Backspace</kbd> di depan URL postingan. Atau kalau bingung, hapus semua URL draft postingan dan tulis kembali seperti ini **_posts/2016-06-22-inilah-postingan-dari-drafts.markdown**
 
