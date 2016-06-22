@@ -10,7 +10,7 @@ header-img: "img/post/draft.jpg"
 image: "img/post/draft.jpg"
 ---
 
-Ketika pertama mengenal blog dengan Github Pages, saya sempat kebingungan cara menulis postingan blog karena editor ang berbeda dengan Blogger maupun Wordpress yang sudah saya kenal terlebih dahulu.
+Ketika pertama mengenal blog dengan Github Pages, saya sempat kebingungan cara menulis postingan blog karena editor yang berbeda dengan Blogger maupun Wordpress yang sudah saya kenal terlebih dahulu.
 
 Ditambah lagi pada editor markdown Github Pages ini tidak ada tombol untuk menyimpan hasil tulisan sebagai draft postingan terlebih dahulu, alhasil selama ini saya menulis satu postingan langsung selesai dan langsung dipublikasikan.
 
