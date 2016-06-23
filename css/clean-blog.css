@@ -47,6 +47,9 @@ a:focus {
 article img {
   width: 100%;
 }
+article {
+  word-wrap:break-word;
+}
 a img:hover,
 a img:focus {
   cursor: zoom-in;
