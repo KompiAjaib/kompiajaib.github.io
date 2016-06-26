@@ -324,7 +324,7 @@ footer .copyright {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background-color: #0400bf;
+  background-color: #0085a1;
   content: "";
   transition: width 0.4s ease-in-out;
 }
@@ -335,7 +335,7 @@ footer .copyright {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background-color: #0400bf;
+  background-color: #0085a1;
   content: "";
   transition: width 0.4s ease-in-out;
 }
