@@ -310,6 +310,34 @@ footer .copyright {
   padding-bottom: 0.5em;
   border-bottom: 1px solid #eeeeee;
 }
+.floating-label-form-group.floating-label-form-group-with-focus {
+  position: relative;
+}
+#contactForm .floating-label-form-group:before {
+  display: block;
+  position: absolute;
+  right: 50%;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background-color: #0400bf;
+  content: "";
+  transition: width 0.4s ease-in-out;
+}
+#contactForm .floating-label-form-group:after {
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background-color: #0400bf;
+  content: "";
+  transition: width 0.4s ease-in-out;
+}
+#contactForm .floating-label-form-group.floating-label-form-group-with-focus:before,#contactForm .floating-label-form-group.floating-label-form-group-with-focus:after {
+  width: 50%;
+}
 .floating-label-form-group input,
 .floating-label-form-group textarea {
   z-index: 1;
