@@ -11,25 +11,23 @@ header-img: "img/contact-bg.jpg"
 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
 <form name="sentMessage" id="contactForm" action="https://formspree.io/kompiajaib@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="http://adhysuryadi.xyz/thanks/" />
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Name</label>
             <input type="text" class="form-control" placeholder="Name" id="name" name="name" required="required">
-            <p></p>
         </div>
     </div>
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Email Address</label>
-            <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required="required">
-            <p></p>
+            <input type="email" class="form-control" placeholder="Email Address" id="email" name="email" required="required">
         </div>
     </div>
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Subject</label>
             <input type="text" class="form-control" placeholder="Subject" id="subject" name="_subject" required="required">
-            <p></p>
         </div>
     </div>
     <div class="row control-group">
@@ -38,8 +36,11 @@ header-img: "img/contact-bg.jpg"
             <textarea rows="5" class="form-control" placeholder="Message" id="message" required="required"></textarea>
         </div>
     </div>
-    <br>
-    <div id="success"></div>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            <input type="text" name="_gotcha" style="display:none" />
+        </div>
+    </div>
     <div class="row">
         <div class="form-group col-xs-12">
             <button type="submit" class="btn btn-default">Send</button>
