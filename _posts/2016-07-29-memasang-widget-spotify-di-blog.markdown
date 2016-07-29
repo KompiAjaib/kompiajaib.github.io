@@ -6,8 +6,8 @@ description: "Menampilkan lagu-lagu favorite dari Spotify di blog untuk dinikmat
 date: 2016-07-29
 author: "Adhy Suryadi"
 tags: [ Blogging ]
-header-img: "img/post/spotify.jpg"
-image: "img/post/spotify.jpg"
+header-img: "img/post/spitify.jpg"
+image: "img/post/spitify.jpg"
 ---
 
 Seperti kita ketahui bahwa Spotify merupakan sebuah aplikasi yang menyediakan jutaan lagi-lagu pilihan dari seluruh dunia. Jadi tidak akan rugi jika kita menginstall aplikasi Spotify ini di komputer, laptop, atau bahkan di smartphone kita.
