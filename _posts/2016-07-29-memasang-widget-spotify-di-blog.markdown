@@ -36,6 +36,6 @@ Silahkan ganti URL iframe-nya. Dan hasilnya akan tampak seperti di bawah ini.
 
 <div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe data-src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>
 
-Dan untuk para pengunjung blog yang ingin menikmati lagu-lagu dari Spotify yang kita tampilkan di blog, mereka juga harus meng-install aplikasi Spotify pada perangkat mereka.
+Dan untuk para pengunjung blog yang ingin menikmati lagu-lagu dari Spotify yang kita tampilkan di blog, mereka juga harus meng-install aplikasi Spotify pada perangkat mereka. Begitu mereka mengklik salah satu lagu pada widget, maka browser akan meminta kita untuk menjalankan aplikasi spotify di perangkat kita.
 
 Untuk men-download aplikasi Spotify, silahkan klik **[di sini](https://www.spotify.com/ "download aplikasi Spotify"){: target="_blank" rel="nofollow"}** dan silahkan pilih gratis atau premium.
