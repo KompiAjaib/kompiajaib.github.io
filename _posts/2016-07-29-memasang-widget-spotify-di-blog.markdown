@@ -28,7 +28,7 @@ Setelah meng-copy kode embed-nya, silahkan paste kode tersebut pada editor HTML,
 
 Dan hasilnya akan tampak seperti di bawah ini.
 
-<div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" data-src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" frameborder="0" allowfullscreen="" class="embed-responsive-item"</iframe></div>
+<iframe width="560" height="315" data-src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" frameborder="0" allowfullscreen></iframe>
 
 Dan untuk para pengunjung blog yang ingin menikmati lagu-lagu dari Spotify yang kita tampilkan di blog, mereka juga harus meng-install aplikasi Spotify pada perangkat mereka.
 
