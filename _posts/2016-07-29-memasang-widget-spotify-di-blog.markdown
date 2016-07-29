@@ -22,28 +22,20 @@ Bisa berupa single song maupun play list yang ditampilkan di blog. Untuk menampi
 
 Setelah meng-copy kode embed-nya, silahkan paste kode tersebut pada editor HTML, biasanya kode embed-nya berupa iframe seperti di bawah ini.
 
-```
+```html
 <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 ```
 
 Jika ingin responsive, silahkan coba dengan kode di bawah ini.
 
-```
-<script>
-//<![CDATA[
-document.write('<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>');
-//]]>
-</script>
+```html
+<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>
 ```
 
 Dan hasilnya akan tampak seperti di bawah ini.
 
-<script>
-//<![CDATA[
-document.write('<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe data-src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>');
-//]]>
-</script>
+<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe data-src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>
 
 Dan untuk para pengunjung blog yang ingin menikmati lagu-lagu dari Spotify yang kita tampilkan di blog, mereka juga harus meng-install aplikasi Spotify pada perangkat mereka.
 
-Untuk men-download aplikasi Spotify, silahkan klik [di sini](https://www.spotify.com/ "download aplikasi Spotify"){: target="_blank" rel="nofollow"} dan silahkan pilih gratis atau premium.
+Untuk men-download aplikasi Spotify, silahkan klik **[di sini](https://www.spotify.com/ "download aplikasi Spotify"){: target="_blank" rel="nofollow"}** dan silahkan pilih gratis atau premium.
