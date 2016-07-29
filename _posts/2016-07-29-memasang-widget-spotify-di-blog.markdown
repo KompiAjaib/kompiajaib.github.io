@@ -26,9 +26,23 @@ Setelah meng-copy kode embed-nya, silahkan paste kode tersebut pada editor HTML,
 <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 ```
 
+Jika ingin responsive, silahkan coba dengan kode di bawah ini.
+
+```
+<script>
+//<![CDATA[
+document.write('<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>');
+//]]>
+</script>
+```
+
 Dan hasilnya akan tampak seperti di bawah ini.
 
-<iframe width="560" height="315" data-src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" frameborder="0" allowfullscreen></iframe>
+<script>
+//<![CDATA[
+document.write('<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe data-src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>');
+//]]>
+</script>
 
 Dan untuk para pengunjung blog yang ingin menikmati lagu-lagu dari Spotify yang kita tampilkan di blog, mereka juga harus meng-install aplikasi Spotify pada perangkat mereka.
 
