@@ -32,7 +32,7 @@ Jika ingin responsive, silahkan coba dengan kode di bawah ini.
 <div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>
 ```
 
-Dan hasilnya akan tampak seperti di bawah ini.
+Silahkan ganti URL iframe-nya. Dan hasilnya akan tampak seperti di bawah ini.
 
 <div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe data-src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotifyindonesia%3Aplaylist%3A0uyWN9oNJcc81mymCfNKP4" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>
 
