@@ -583,6 +583,7 @@ code {
 .don-share .don-share-total{margin-left:-80px!important}
 .don-share.don-active .don-share-total:after{bottom:15px!important}
 .don-share .don-share-expand:before{line-height:20px!important}
+.don-btn{border-radius:0!important;background-image:none!important;box-shadow:none!important;}
 
 /* Shortener */
 .shorten-box {
