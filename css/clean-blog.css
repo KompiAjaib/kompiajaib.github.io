@@ -586,6 +586,7 @@ code {
 .don-btn{border-radius:0!important;background-image:none!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
 .don-btn:hover{color:#fff;background-position:bottom;-webkit-box-shadow:none!important;box-shadow:none!important;opacity:.8;}
 .don-share .don-btn.don-share-expand:hover{color:#666!important;}
+.don-share img {width:auto!important;}
 
 /* Shortener */
 .shorten-box {
