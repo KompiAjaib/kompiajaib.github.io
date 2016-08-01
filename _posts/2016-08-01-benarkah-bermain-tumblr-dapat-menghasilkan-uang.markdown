@@ -10,7 +10,7 @@ header-img: "img/post/tumblr.jpg"
 image: "img/post/tumblr.jpg"
 ---
 
-**Tumblr** merupakan sebuah microblogging dan social networking website yang memungkinkan pengguna untuk mengunggap multimedia, quote, gambar, photo, maupun konten lainnya dengan mudah.
+**Tumblr** merupakan sebuah microblogging dan social networking website yang memungkinkan pengguna untuk mengunggah multimedia, quote, gambar, photo, maupun konten lainnya dengan mudah.
 
 Setiap pengguna Tumblr bisa mengikuti "**follow**" blog Tumble pengguna lainnya dan untuk memudahkan semua aktifitas semua pengguna memiliki dashboard untuk mengelola blognya baik untuk mengikuti blog lain, menyukai maupun memposting ulang postingan blog lain, ataupun untuk memilih dan memodifikasi tema blog Tumblr.
 
