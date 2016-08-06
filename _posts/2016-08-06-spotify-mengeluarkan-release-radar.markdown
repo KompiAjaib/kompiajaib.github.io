@@ -20,8 +20,6 @@ Dengan Release Radar, Anda tidak akan ketinggalan rilis lagu terbaru dari penyan
 
 Di bawah ini widget Spotify untuk Release Radar.
 
-<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe src="https://embed.spotify.com/user/spotify/playlist/37i9dQZEVXbcrUfXWtsKxA" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>
+<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A37i9dQZEVXbcrUfXWtsKxA" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>
 
-**[Open Playlist On The Web](https://open.spotify.com/user/spotify/playlist/37i9dQZEVXbcrUfXWtsKxA "Open Playlist On The Web"){: target="_blank" rel="nofollow"}**
-
-*[Source](https://news.spotify.com/us/2016/08/05/release-radar-your-personalized-playlist-of-the-newest-releases/ "Source"){: target="_blank" rel="nofollow"}*
+**[Open Playlist On The Web](https://open.spotify.com/user/spotify/playlist/37i9dQZEVXbcrUfXWtsKxA "Open Playlist On The Web"){: target="_blank" rel="nofollow"}** - *[Source](https://news.spotify.com/us/2016/08/05/release-radar-your-personalized-playlist-of-the-newest-releases/ "Source"){: target="_blank" rel="nofollow"}*
