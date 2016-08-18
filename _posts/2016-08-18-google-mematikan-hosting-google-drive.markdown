@@ -10,7 +10,7 @@ header-img: "img/post/hosting-gdrive.jpg"
 image: "img/post/hosting-gdrive.jpg"
 ---
 
-Setelah pada Januari 2016 lalu Google resmi menghentikan layanan hosting file Google Code, kini Google kembali **[berencana menghentikan](http://googleappsupdates.blogspot.co.id/2015/08/deprecating-web-hosting-support-in.html "berencana menghentikan"){: target="_blank" rel="nofollow"} layanan hosting file atau web hosting gratis Google Drive.
+Setelah pada Januari 2016 lalu Google resmi menghentikan layanan hosting file Google Code, kini Google kembali **[berencana menghentikan](http://googleappsupdates.blogspot.co.id/2015/08/deprecating-web-hosting-support-in.html "berencana menghentikan"){: target="_blank" rel="nofollow"}** layanan hosting file atau web hosting gratis Google Drive.
 
 Jika Anda menggunakan fitur ini untuk mempublikasikan halaman web atau aset web lainnya seperti file js, css, maupun html, maka pada 31 Agustus 2016 yang akan datang fitur ini akan dihentikan. Biasanya layanan hosting ini menggunakan url `googledrive.com/host/[id]` dan ke depannya url halaman tersebut tidak akan dapat diakses lagi.
 
