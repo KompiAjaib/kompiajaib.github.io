@@ -3,9 +3,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link as="style" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}" onload="this.rel='stylesheet'" rel="preload">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
+    <link as="style" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}" onload="this.rel='stylesheet'" rel="preload">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
