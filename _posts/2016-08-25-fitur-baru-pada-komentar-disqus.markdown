@@ -24,13 +24,13 @@ document.write('<iframe data-src="https://embed.disqus.com/p/1b8lq6n" width="420
 
 Kode embed di atas dihasilkan dari kode di bawah ini.
 
-```
+```html
 <iframe src="https://embed.disqus.com/p/1b8lq6n" width="420" height="300" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
 ```
 
 Atau bisa seperti di bawah ini.
 
-```
+```html
 <script>
 //<![CDATA[
 document.write('<iframe src="https://embed.disqus.com/p/1b8lq6n" width="420" height="300" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>');
@@ -44,7 +44,7 @@ Setelah meng-copy link komentar, silahkan masuk **[di sini](https://embed.disqus
 
 Jika embed iframenya ingin menjadi responsive, bisa menggunakan kode di bawah ini.
 
-```
+```html
 <script>
 //<![CDATA[
 document.write('<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe src="LINK EMBED IFRAME DISQUS DI SINI" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>');
