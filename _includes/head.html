@@ -6,12 +6,6 @@
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
-    <link as="style" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" onload="this.rel='stylesheet'" rel="preload">
-    <link as="style" href="{{ "/fonts/font-awesome-4.6.3/css/font-awesome.min.css" | prepend: site.baseurl }}" onload="this.rel='stylesheet'" rel="preload">
-    <link as="style" href="{{ "/css/syntax.css" | prepend: site.baseurl }}" onload="this.rel='stylesheet'" rel="preload">
-    <noscript><link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet"/></noscript>
-    <noscript><link href="{{ "/fonts/font-awesome-4.6.3/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet"/></noscript>
-    <noscript><link href="{{ "/css/syntax.css" | prepend: site.baseurl }}" rel="stylesheet"/></noscript>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -25,9 +19,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     {% feed_meta %}
+    <noscript><link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet"/></noscript>
+    <noscript><link href="{{ "/fonts/font-awesome-4.6.3/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet"/></noscript>
+    <noscript><link href="{{ "/css/syntax.css" | prepend: site.baseurl }}" rel="stylesheet"/></noscript>
 <script>
 //<![CDATA[
-!function(e){"use strict";var t=function(t,n,r){function o(e){return i.body?e():void setTimeout(function(){o(e)})}function l(){d.addEventListener&&d.removeEventListener("load",l),d.media=r||"all"}var a,i=e.document,d=i.createElement("link");if(n)a=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;a=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){a.parentNode.insertBefore(d,n?a:a.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",l),d.onloadcssdefined=f,f(l),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(t){}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){e.clearInterval(n)})}}}(this);
+function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+loadCSS("https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800");loadCSS("{{ "/fonts/font-awesome-4.6.3/css/font-awesome.min.css" | prepend: site.baseurl }}");loadCSS("{{ "/css/syntax.css" | prepend: site.baseurl }}");
 //]]>
 </script>
 {% include page_level_ad.html %}
