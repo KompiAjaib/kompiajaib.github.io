@@ -49,7 +49,7 @@ document.write('<div style="text-align:center;margin:0 auto;width:100%;"><div st
 Dan akan tampil seperti di bawah ini.
 
 <script>
-document.write('<iframe data-src="https://embed.disqus.com/p/1b8lq6n" style="border:0;width:100%;height:300px;" allowfullscreen></iframe></div></div>');
+document.write('<iframe data-src="https://embed.disqus.com/p/1b8lq6n" style="border:0;width:100%;height:300px;" seamless="seamless" scrolling="no" allowtransparency="true"></iframe></div></div>');
 </script>
 
 Namun sayang, untuk fitur Reveal atau monitize pada Disqus sampai saat ini masih belum bisa untuk blog berbahasa Indonesia. Mudah-mudahan ke depannya reveal Disqus bisa untuk blog Indonesia.
