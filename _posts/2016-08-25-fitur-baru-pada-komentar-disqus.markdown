@@ -18,7 +18,7 @@ Dan fitur baru yang telah ditambahkan yaitu memungkinkan pengguna untuk mengguna
 
 <script>
 //<![CDATA[
-document.write('<iframe data-src="https://embed.disqus.com/p/1b8lq6n" width="420" height="300" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>');
+document.write('<iframe src="https://embed.disqus.com/p/1b8lq6n" width="420" height="300" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>');
 //]]>
 </script>
 
@@ -56,7 +56,7 @@ Dan akan tampil seperti di bawah ini.
 
 <script>
 //<![CDATA[
-document.write('<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe data-src="https://embed.disqus.com/p/1b8lq6n" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>');
+document.write('<div style="text-align:center;margin:0 auto;width:100%;"><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:0;"><iframe src="https://embed.disqus.com/p/1b8lq6n" style="border:0;position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen></iframe></div></div>');
 //]]>
 </script>
 
