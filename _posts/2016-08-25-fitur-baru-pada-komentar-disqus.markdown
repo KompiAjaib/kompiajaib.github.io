@@ -38,7 +38,7 @@ document.write('&lt;iframe src="https://embed.disqus.com/p/1b8lq6n" width="420" 
 &lt;/script&gt;
 ```
 
-Untuk mendapatkan kode embed iframe ini, silahkan hover tombol **Share** pada bagian bawah komentar yang ingin dibuat embed lalu copy link yang muncul.
+Untuk mendapatkan kode embed iframe ini, silahkan hover tombol **Share** pada bagian bawah komentar yang ingin dibuat embed lalu copy **link** yang muncul.
 
 Setelah meng-copy link komentar, silahkan masuk **[di sini](https://embed.disqus.com/ "Embed Disqus Comments"){: target="_blank" rel="nofollow"}** lalu paste-kan link-nya pada kotak yang disediakan dan copy kode embed iframe yang dihasilkan.
 
