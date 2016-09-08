@@ -1,0 +1,16 @@
+
+<script>
+//<![CDATA[
+  var appended = false,
+  bookmark = document.createElement("div");
+  bookmark.id = "fbOnscroll";
+  bookmark.innerHTML = '<div class="fbbox-wrapper zoomInUp">\
+  <iframe name="f13bea94f064144" width="1000px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="https://www.facebook.com/v2.7/plugins/page.php?adapt_container_width=true&amp;app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FuN4_cXtJDGb.js%3Fversion%3D42%23cb%3Df19b772d4d20444%26domain%3Ddevelopers.facebook.com%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ff1ba7fe51c4d354%26relation%3Dparent.parent&amp;container_width=613&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fkompiajaib&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false" style="border: none; visibility: visible; width: 340px; height: 214px;" class=""></iframe>\
+<div class="close-fbcookie" onclick="hidesubscribebox()"><span>&#215;</span> Don\'t Show Again</div>\
+<div class="close-fbbox" onclick="hidesubscribe()">&#215;</div>\
+              </div>\
+              <div class="layer fadeIn"></div>\
+';
+function hidesubscribe(){document.getElementById("fbOnscroll").style.display="none"}function hidesubscribebox(){document.getElementById("fbOnscroll").style.display="none",createCookie("hideDialog","hide",7000)}function createCookie(e,o,n){if(n){var t=new Date;t.setTime(t.getTime()+24*n*60*60*1e3);var i="; expires="+t.toGMTString()}else var i="";document.cookie=e+"="+o+i+"; path=/"}function readCookie(e){for(var o=e+"=",n=document.cookie.split(";"),t=0;t<n.length;t++){for(var i=n[t];" "==i.charAt(0);)i=i.substring(1,i.length);if(0==i.indexOf(o))return i.substring(o.length,i.length)}return null}function eraseCookie(e){createCookie(e,"",-1)}onscroll=function(){var e=document.documentElement.scrollTop||document.body.scrollTop;e>800&&(appended||(document.body.appendChild(bookmark),appended=!0),readCookie("hideDialog")&&(document.getElementById("fbOnscroll").style.display="none"))};
+//]]>
+</script>
