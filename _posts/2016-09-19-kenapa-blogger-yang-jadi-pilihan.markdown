@@ -19,6 +19,7 @@ Dan pekerjaan di internet yang kini banyak dipilih adalah salah satunya sebagai 
 ### Kenapa blogger yang menjadi pilihan?
 
 Ada beberapa alasan yang menjadikan blogger sebagai sebuah pilihan pekerjaan di internet, di antaranya:
+
 1. Memiliki waktu luang, pekerjaan sebagai blogger bisa dilakukan di waktu-waktu luang tanpa mengganggu pekerjaan utama, bahkan bisa dilakukan setengah jam sebelum tidur malam. Daripada mengisi waktu luang dengan hal-hal yang tidak jelas, mending diisi dengan sesuatu yang bisa menghasilkan pendapatan tambahan.
 2. Simple, bekerja sebagai blogger tidak perlu ijasah atau sertifikat keilmuan, yang diperlukan adalah sebuah kemauan. Tidak perlu kantor karena bekerja sebagai blogger bisa dilakukan di mana saja, bahkan di atas tempat tidur.
 3. Punya komputer, laptop, atau smartphone dengan akses internet. Mungkin ini sebagai modal untuk bisa bekerja sebagai blogger, selain memiliki komputer, laptop, atau smartphone tentu saja kita juga harus mengeluarkan biaya untuk koneksi internetnya.
