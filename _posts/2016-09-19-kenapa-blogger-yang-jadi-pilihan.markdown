@@ -10,7 +10,7 @@ header-img: "img/post/blogger.jpg"
 image: "img/post/blogger.jpg"
 ---
 
-Dengan kemajuan teknologi internet seperti sekarang ini, bekerja secara online di internet sudah bukan merupakan hal yang baru. Berbagai pekerjaan yang bisa dilakukan di internet seperti web designer, web developer, desainer grafis, penerjemah dokumen, editor online, copywriter, turvei online, tutor online, kontributor untuk media online, penulis untuk majalah, blogger, dan banyak lagi.
+Dengan kemajuan teknologi internet seperti sekarang ini, bekerja secara online di internet sudah bukan merupakan hal yang baru (namun belum umum dilakukan). Berbagai pekerjaan yang bisa dilakukan di internet seperti web designer, web developer, desainer grafis, penerjemah dokumen, editor online, copywriter, turvei online, tutor online, kontributor untuk media online, penulis untuk majalah, blogger, dan banyak lagi.
 
 Dengan hanya bermodalkan komputer atau smartphone saja, seseorang bisa bekerja di internet sesuai dengan pekerjaan yang diinginkan sesuai dengan kemampuannya. Sebagai seseorang yang bisa melihat peluang, maka kita harus melihatnya sebagai sebuah kesempatan untuk mendapatkan penghasilan tambahan. Namun hal ini tidak menutup kemungkinan akan menjadi pekerjaan pokok jika hasil yang didapat bisa melebihi penghasilan offline yang sebelumnya dilakukan. Semakin banyak orang memiliki akses ke internet, semakin besar pula peluang untuk mendapatkan penghasilan melalui internet.
 
@@ -19,10 +19,10 @@ Dan pekerjaan di internet yang kini banyak dipilih adalah salah satunya sebagai 
 ### Kenapa blogger yang menjadi pilihan?
 
 Ada beberapa alasan yang menjadikan blogger sebagai sebuah pilihan pekerjaan di internet, di antaranya:
-* Memiliki waktu luang, pekerjaan sebagai blogger bisa dilakukan di waktu-waktu luang tanpa mengganggu pekerjaan utama, bahkan bisa dilakukan setengah jam sebelum tidur malam. Daripada mengisi waktu luang dengan hal-hal yang tidak jelas, mending diisi dengan sesuatu yang bisa menghasilkan pendapatan tambahan.
-* Simple, bekerja sebagai blogger tidak perlu ijasah atau sertifikat keilmuan, yang diperlukan adalah sebuah kemauan. Tidak perlu kantor karena bekerja sebagai blogger bisa dilakukan di mana saja, bahkan di atas tempat tidur.
-* Punya komputer, laptop, atau smartphone dengan akses internet. Mungkin ini sebagai modal untuk bisa bekerja sebagai blogger, selain memiliki komputer, laptop, atau smartphone tentu saja kita juga harus mengeluarkan biaya untuk koneksi internetnya.
-* Blog disediakan gratis di internet.
+1. Memiliki waktu luang, pekerjaan sebagai blogger bisa dilakukan di waktu-waktu luang tanpa mengganggu pekerjaan utama, bahkan bisa dilakukan setengah jam sebelum tidur malam. Daripada mengisi waktu luang dengan hal-hal yang tidak jelas, mending diisi dengan sesuatu yang bisa menghasilkan pendapatan tambahan.
+2. Simple, bekerja sebagai blogger tidak perlu ijasah atau sertifikat keilmuan, yang diperlukan adalah sebuah kemauan. Tidak perlu kantor karena bekerja sebagai blogger bisa dilakukan di mana saja, bahkan di atas tempat tidur.
+3. Punya komputer, laptop, atau smartphone dengan akses internet. Mungkin ini sebagai modal untuk bisa bekerja sebagai blogger, selain memiliki komputer, laptop, atau smartphone tentu saja kita juga harus mengeluarkan biaya untuk koneksi internetnya.
+4. Blog disediakan gratis di internet.
 
 ### Lalu apa saja yang bisa dilakukan blogger untuk menghasilkan uang di internet?
 
