@@ -18,11 +18,19 @@ Sudah beberapa bulan belakangan ini saya menggunakan jaringan Indiehome dari Tel
 
 Iklan tersebut akan muncul di atas atau di bawah halaman web dengan mendorong halaman web ke atas atau ke bawah seperti gambar di bawah ini.
 
-![Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Iklan Telkom"){: data-src="{{ site.baseurl }}/img/post/iklan-telkom.jpg" width="750" height="439"}
+<amp-img src="{{ site.baseurl }}/img/post/iklan-telkom.jpg"
+      width="750"
+      height="439"
+      layout="responsive"
+      alt="Iklan Telkom"></amp-img>
 
 Dan ini source code iklan tersebut (jika Anda menggunakan provider Indihome atau mungkin layanan Telkom lainnya) yang akan muncul di atas kode `</body` dari web yang kita kunjungi.
 
-![Script Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Script Iklan Telkom"){: data-src="{{ site.baseurl }}/img/post/iklan-telkom-2.jpg" width="750" height="326"}
+<amp-img src="{{ site.baseurl }}/img/post/iklan-telkom-2.jpg"
+      width="750"
+      height="326"
+      layout="responsive"
+      alt="Script Iklan Telkom"></amp-img>
 
 ## Membuat Perangkap Iklan Pihak Ketiga
 
@@ -41,7 +49,11 @@ Dan untuk Blogger menggunakan kode seperti di bawah ini:
 
 Dengan begitu maka script iklan pihak ketiga akan terperangkap dalam komentar `<!-- -->` yang otomatis tidak akan berfungsi seperti gambar di bawah ini.
 
-![Script Iklan Telkom](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Script Iklan Telkom"){: data-src="{{ site.baseurl }}/img/post/iklan-telkom-3.jpg" width="750" height="137"}
+<amp-img src="{{ site.baseurl }}/img/post/iklan-telkom-3.jpg"
+      width="750"
+      height="137"
+      layout="responsive"
+      alt="Script Iklan Telkom"></amp-img>
 
 Silahkan cek kode HTML blog Anda, jika sudah menggunakan kode di atas berarti loading blog Anda tidak akan terganggu loading iklan Telkom ini jika pengunjung blog menggunakan jaringan layanan Telkom.
 
