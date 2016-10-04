@@ -56,9 +56,12 @@ Akan tampak seperti di bawah ini
  alert(s);
 ```
 
-Mudah bukan? Untuk tanda seperti titik tiga (```) itu menggunakan tombol di pojok kiri atas keyboard di bawah tombol <kbd>Esc</kbd> seperti pada gambar di bawah ini
+Mudah bukan? Untuk tanda seperti titik tiga (```) itu menggunakan tombol di pojok kiri atas keyboard di bawah tombol <kbd>Esc</kbd> seperti pada gambar di bawah ini.
 
-![Keyboard](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Keyboard"){: data-src="{{ site.baseurl }}/img/post/kbkoreanblack.jpg" width="614" height="388"}
-
+<amp-img src="{{ site.baseurl }}/img/post/kbkoreanblack.jpg"
+      width="614"
+      height="388"
+      layout="responsive"
+      alt="Keyboard"></amp-img>
 
 Jika Anda ingin mengganti theme untuk highlighter, Anda bisa memilih dan menggunakan css theme Pygments **[DI SINI](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html "Pygments Themes"){: target="_blank"}** seperti pada blog ini menggunakan theme *Monokai*.
