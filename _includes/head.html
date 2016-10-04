@@ -192,7 +192,29 @@ code{font-size:16px}
 @media screen and (max-width:414px){#fbOnscroll{display:none}
 }
 .form-text-hide{position: absolute; left: -5000px;}
+#contactForm input:focus~label,#contactForm input:valid~label,#contactForm textarea:focus~label,#contactForm textarea:valid~label{font-size:.75em;color:#8e44ad;top:-2.25rem;-webkit-transition:all 125ms ease;transition:all 125ms ease}
+#contactForm .styled-input{float:left;width:33.3333%;margin:2rem 0 0;padding:0 10px 0 0;position:relative;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#contactForm .styled-input-in{position:relative}
+#contactForm{margin-right:-10px}
+#contactForm .styled-input label{color:#999;padding:1rem;position:absolute;top:0;left:0;-webkit-transition:all .25s ease;transition:all .25s ease;pointer-events:none;line-height:1}
+#contactForm .styled-input.wide{width:100%}
+#contactForm input,#contactForm textarea{padding:1rem;border:1px solid #ddd;width:100%;font-size:1rem;background:#fafafa;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#contactForm input~.span1,#contactForm textarea~.span1{display:block;width:0;height:3px;background:#8e44ad;position:absolute;left:50%;-webkit-transition:width .4s ease-in-out;transition:width .4s ease-in-out}
+#contactForm input~.span2,#contactForm textarea~.span2{display:block;width:0;height:3px;background:#8e44ad;position:absolute;right:50%;-webkit-transition:width .4s ease-in-out;transition:width .4s ease-in-out}
+#contactForm input~span{bottom:0}
+#contactForm textarea~span{bottom:5px}
+#contactForm input:focus,#contactForm textarea:focus{outline:0}
+#contactForm input:focus~.span1,#contactForm input:focus~.span2,#contactForm textarea:focus~.span1,#contactForm textarea:focus~.span2{width:50%}
+#contactForm textarea{width:100%;min-height:15em}
+#contactForm .btn{font-family:Helvetica,Arial,sans-serif;text-transform:uppercase;font-size:14px;font-weight:800;letter-spacing:1px;border-radius:0;padding:0 25px;height:51px;line-height:51px;color:#333;background-color:#fafafa;border:1px solid #ddd;cursor:pointer;margin:20px 0 0;background-image:none}
+#contactForm .btn-default:focus,#contactForm .btn-default:hover{background-color:#8e44ad;border:1px solid #0400bf;color:#fff}
+#contactForm .gotcha{border:none;background:0 0;display:none}
 
+.thanks_layout{text-align: center; position: fixed; top:0; left:0; bottom:0; right:0; background:rgba(0,0,0,.8);z-index:99999}
+.thanks_message{width:50%;background:#fff;border-radius:5px;padding:20px;border:1px solid transparent;text-align: center; color:#333; position: absolute; top: 10%; left: 50%;margin-left:-25%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+@media screen and (max-width:768px){.thanks_message{width:90%;margin-left:-45%;}
+}
+        
 /*Bootstrap*/
 .label,sub,sup{vertical-align:baseline}
 hr,img{border:0}
