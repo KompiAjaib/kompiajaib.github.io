@@ -169,10 +169,14 @@ hr.small {
   overflow:hidden;
 }
 .intro-header img {
-  position:absolute;
-  top:0;
-  left:0;
-  min-height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
