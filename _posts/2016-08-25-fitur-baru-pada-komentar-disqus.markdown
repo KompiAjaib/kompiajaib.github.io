@@ -16,7 +16,7 @@ Beberapa fitur Disqus yang telah ada sebelumnya diantaranya pada komentar Disqus
 
 Dan fitur baru yang telah ditambahkan yaitu memungkinkan pengguna untuk menggunakan tag `<spoiler></spoiler>` untuk show hide konten komentar pada hover. Fitur lainnya yaitu meningkatkan deteksi spam komentar menjadi lebih baik, dan juga kini kita bisa embed komentar pada postingan blog seperti di bawah ini.
 
-<amp-iframe width=420 height=300
+<amp-iframe width="420" height="300"
     sandbox="allow-scripts allow-same-origin"
     frameborder="0"
     src="https://embed.disqus.com/p/1b8lq6n">
@@ -50,7 +50,7 @@ document.write('<iframe src="LINK EMBED DISQUS HERE" style="border:0;width:100%;
 
 Dan akan tampil seperti di bawah ini.
 
-<amp-iframe width=420 height=300
+<amp-iframe width="420" height="300"
     sandbox="allow-scripts allow-same-origin"
     layout="responsive"
     frameborder="0"
