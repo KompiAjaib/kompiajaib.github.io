@@ -28,7 +28,11 @@ Silahkan buat file baru di repository dengan nama **CNAME** kemudian masukan dom
 
 Untk melihat apakah blog kita sudah online dengan domain kita yang baru, silahkan klik menu setting di repository dan lihat pada kotak Github Pages akan tampak seperti di bawah ini.
 
-![Custom Domain](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Custom Domain Github Pages"){: data-src="{{ site.baseurl }}/img/post/custom-github.jpg" width="750" height="406"}
+<amp-img src="{{ site.baseurl }}/img/post/custom-github.jpg"
+      width="750"
+      height="406"
+      layout="responsive"
+      alt="Custom Domain"></amp-img>
 
 Bagaimana, mudah bukan? Segera buat blog di Github Pages dan gunakan custom domain. Untuk blog Github Pages ini saya menggunakan domain dari **[NameCheap](https://www.namecheap.com/?aff=101617 "NameCheap"){: target="_blank" rel="nofollow"}**.
 
