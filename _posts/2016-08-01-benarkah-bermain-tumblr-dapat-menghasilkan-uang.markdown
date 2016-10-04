@@ -20,7 +20,11 @@ Menurut saya hal tersebut sangat sayang dilakukan karena masih banyak hal baik l
 
 Apalagi kini pengembang Tumblr telah memberi isyarat bahwa pengguna Tumblr akan mendapatkan penghasilan dari blog Tumblr yang dikelolanya. Hal ini telah ditampakan pada **Setting** di dashboard untuk toggle ON OFF **On-blog Advertising**.
 
-![On-blog Advertising](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Tumblr On-blog Advertising"){: data-src="https://lh4.googleusercontent.com/-eZT_jNr84dc/V58k_vx7VJI/AAAAAAAAnbE/pQSDkpDbtLwQN75Qq_9KtM-aUAEAFn21ACL0B/w750-h408-no/monetize-tumblr.jpg" width="750" height="408"}
+<amp-img src="https://lh4.googleusercontent.com/-eZT_jNr84dc/V58k_vx7VJI/AAAAAAAAnbE/pQSDkpDbtLwQN75Qq_9KtM-aUAEAFn21ACL0B/w750-h408-no/monetize-tumblr.jpg"
+      width="750"
+      height="408"
+      layout="responsive"
+      alt="On-blog Advertising"></amp-img>
 
 Pengembang Tumblr akan bekerja sama kemitraan dengan pihak lain untuk menayangkan iklan di Tumblr dan iklan akan tampil di blog-blog Tumblr dan pihak Tumblr akan berbagi hasil iklan dengan para pengguna Tumblr.
 
