@@ -50,4 +50,8 @@ Menjadi seperti di bawah ini **Kode embed untuk defer iframe**
 
 Video di bawah ini sudah menggunakan *defer iframe* dengan kode embed di atas.
 
-<iframe width="560" height="315" data-src="https://www.youtube.com/embed/zBASI-CQxw4" frameborder="0" allowfullscreen></iframe>
+<amp-youtube width="560"
+      height="315"
+      layout=responsive
+      data-videoid="zBASI-CQxw4">
+  </amp-youtube>
