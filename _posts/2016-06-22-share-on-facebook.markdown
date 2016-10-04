@@ -16,13 +16,21 @@ Namun ada pengalaman yang cukup menarik dengan domain xyz ini ketika mencoba sha
 
 Alhasil, setiap kali mencoba sharing post di Facebook harus melalui security check dari Facebook seperti tampak pada gambar di bawah ini.
 
-![Share on FB](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Share on Facebook"){: data-src="https://lh6.googleusercontent.com/-V-9ENI6_lRA/V2n_fV_VTtI/AAAAAAAAm_I/VTUU7A5b6VYbwFvtC6lPKx7dLVSa6hrHACL0B/w750-h534-no/share.jpg" width="750" height="534"}
+<amp-img src="https://lh6.googleusercontent.com/-V-9ENI6_lRA/V2n_fV_VTtI/AAAAAAAAm_I/VTUU7A5b6VYbwFvtC6lPKx7dLVSa6hrHACL0B/w750-h534-no/share.jpg"
+      width="750"
+      height="534"
+      layout="responsive"
+      alt="Share on FB"></amp-img>
 
 Bahkan sebelumnya ketika pertama kali menggunakan domain xyz ini dan mencoba sharing post terjadi error 404 di Facebook. Nah jika Anda juga mengalami hal yang sama seperti saya yaitu mendapati masalah ketika sharing post di Facebook, silahkan lakukan **debug** dengan tool Facebook seperti gambar animasi di bawah ini.
 
 Silahkan debug URL di sini: *https://developers.facebook.com/tools/debug/*
 
-![debug](data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= "Debug URL"){: data-src="https://lh5.googleusercontent.com/-dzO61ze3ofk/V2n_kVkPRAI/AAAAAAAAm_Q/iYYBChVPtc0NbFyJ1Wo1unVez6KaVHCpQCL0B/w750-h522-no/Animation.gif" width="750" height="522"}
+<amp-img src="https://lh5.googleusercontent.com/-dzO61ze3ofk/V2n_kVkPRAI/AAAAAAAAm_Q/iYYBChVPtc0NbFyJ1Wo1unVez6KaVHCpQCL0B/w750-h522-no/Animation.gif"
+      width="750"
+      height="522"
+      layout="responsive"
+      alt="debug"></amp-img>
 
 Debug URL ini tidak hanya berlaku untuk domain xyz saja, namun untuk semua yang memiliki masalah ketika mencoba share postingan di Facebook. Hal ini cukup dilakukan satu kali saja, untuk share postingan selanjutnya biasanya akan baik seperti biasa tapi kadang perlu di-refresh beberapa kali halaman sharing post-nya agar postingan tampil baik di Facebook.
 
