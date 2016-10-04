@@ -2,6 +2,17 @@
 <html amp lang="en">
 {% include head.html %}
 <body>
+    <button class='btn-sidebaramp' on='tap:sidebar.toggle'></button>
+<amp-sidebar id='sidebar' layout='nodisplay' side='right'>
+    <amp-img alt='close sidebar' class='amp-close-image' height='20' on='tap:sidebar.close' role='button' src='https://ampbyexample.com/img/ic_close_black_18dp_2x.png' tabindex='0' width='20'/>
+<nav>
+    <ul>
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+      {% for page in site.pages %}{% if page.title %}{% if page.url contains  "/tags/" or page.url contains  "/search" or page.url contains  "/thanks" or page.url contains  "/404" %}{% else %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}{% endif %}{% endfor %}
+      <li><a href="{{ root_url }}/search/" class="nav-search-link" title="Search"><i class='material-icons md-18'>&#59574;</i></a></li>
+    </ul>
+  </nav>
+  </amp-sidebar>
     {% include nav.html %}
 
     {{ content }}
