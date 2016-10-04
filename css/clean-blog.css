@@ -165,6 +165,14 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  position:relative;
+}
+.intro-header img {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
