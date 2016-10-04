@@ -28,6 +28,6 @@ Silahkan nikmati video musik dari NOAH di bawah ini.
 
 <amp-youtube width="560"
       height="315"
-      layout=responsive
+      layout="responsive"
       data-videoid="hlxF0LefCtE">
   </amp-youtube>
