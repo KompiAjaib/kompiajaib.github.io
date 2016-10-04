@@ -7,43 +7,29 @@ header-img: "img/contact-bg.jpg"
 ---
 
 <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
-<!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
-<!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
-<!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-<form name="sentMessage" id="contactForm" action="https://formspree.io/kompiajaib@gmail.com" method="POST">
-    <input type="hidden" name="_next" value="http://adhysuryadi.xyz/thanks/" />
-    <div class="row control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-            <label>Name</label>
-            <input type="text" class="form-control" placeholder="Name" id="name" name="name" required="required">
-        </div>
-    </div>
-    <div class="row control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-            <label>Email Address</label>
-            <input type="email" class="form-control" placeholder="Email Address" id="email" name="email" required="required">
-        </div>
-    </div>
-    <div class="row control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-            <label>Subject</label>
-            <input type="text" class="form-control" placeholder="Subject" id="subject" name="subject" required="required">
-        </div>
-    </div>
-    <div class="row control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-            <label>Message</label>
-            <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required="required"></textarea>
-        </div>
-    </div>
-    <div class="row control-group">
-        <div class="form-group col-xs-12 controls">
-            <input type="text" name="_gotcha" style="display:none" />
-        </div>
-    </div>
-    <div class="row margin-top-30">
-        <div class="form-group col-xs-12">
-            <input class="btn btn-default" type="submit" value="Send">
-        </div>
-    </div>
-</form>
+<br/>
+ <form action="https://formspree.io/kompiajaib@gmail.com" method="POST" target="_blank" name="sentMessage" id="contactForm">
+<input type="hidden" name="_next" value="http://adhysuryadi.xyz/thanks/" />
+    <div class="styled-input">
+      <div class="styled-input-in">
+      <input type="text" name="name" required="required" />
+      <label>Name</label>
+      <span class="span1"></span><span class="span2"></span> </div></div>
+    <div class="styled-input">
+      <div class="styled-input-in">
+      <input type="email" name="_replyto" required="required" />
+      <label>Email</label>
+      <span class="span1"></span><span class="span2"></span> </div></div>
+    <div class="styled-input">
+      <div class="styled-input-in">
+      <input type="text" name="_subject" required="required" />
+      <label>Subject</label>
+      <span class="span1"></span><span class="span2"></span> </div></div>
+    <div class="styled-input wide">
+      <div class="styled-input-in">
+      <textarea required="required"></textarea>
+      <label>Message</label>
+      <span class="span1"></span><span class="span2"></span> </div></div>
+    <button type="submit" class="btn btn-default">Send</button>
+    <input type="text" name="_gotcha" class="gotcha" />
+  </form>
