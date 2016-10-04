@@ -50,7 +50,7 @@ document.write('<iframe src="LINK EMBED DISQUS HERE" style="border:0;width:100%;
 
 Dan akan tampil seperti di bawah ini.
 
-<amp-iframe width="420" height="300"
+<amp-iframe width="750" height="300"
     sandbox="allow-scripts allow-same-origin"
     layout="responsive"
     frameborder="0"
