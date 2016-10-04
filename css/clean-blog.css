@@ -174,7 +174,7 @@ hr.small {
   left: 0; 
   right: 0; 
   bottom: 0; 
-  margin: auto; 
+  margin: 0; 
   min-width: 50%;
   min-height: 50%;
 }
