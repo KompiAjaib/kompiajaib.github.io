@@ -16,7 +16,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ site.baseurl }}/">Home</a></li>
                 {% for page in site.pages %}{% if page.title %}{% if page.url contains  "/tags/" or page.url contains  "/search" or page.url contains  "/thanks" or page.url contains  "/404" %}{% else %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}{% endif %}{% endfor %}
-                <li><a href="{{ root_url }}/search/" class="nav-search-link" title="Search"><i class='material-icons'>&#59574;</i></a></li>
+                <li><a href="{{ root_url }}/search/" class="nav-search-link" title="Search"><i class='material-icons md-18'>&#59574;</i></a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
