@@ -2,10 +2,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content='width=device-width,minimum-scale=1,initial-scale=1' name='viewport'>
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -22,184 +18,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet"/>
     <link href="{{ "/fonts/font-awesome-4.6.3/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet"/>
     <style amp-custom='amp-custom'>
-/*<![CDATA[*/
-.material-icons {vertical-align:-15%;font-size:inherit;text-rendering: optimizeLegibility;-moz-osx-font-smoothing: grayscale;}
-.material-icons.md-16{font-size:16px;}
-.material-icons.md-18{font-size:18px;}
-.material-icons.md-24{font-size:24px;vertical-align:-25%;}
-#judulblog,#title,.content-wrapper,.page-menu ul li,a:link{transition:all .4s ease-in-out}
-.page-menu ul li,li a{list-style:none}
-#bread,#header,#header-wrapper,#main-wrapper,.breadcrumbs,.comment_avatar,.credit,iframe{overflow:hidden}
-#header h1,#header p a,.descriptionwrapper,.post h1,.post h2,.post-body,.sidebar,body,p.description span{font-family: Roboto, sans-serif}
-li a{display:list-item}
-#judul-post{border-bottom:1px solid #ddd}
-#main-wrapper,#sidebar-kanan,i.klik-url{word-wrap:break-word}
-#header,#judulblog,#search-box,#title,.content-wrapper,.komentar p,.search-field,table.gsc-search-box{position:relative}
-#navbar-iframe,.post-comment-link{visibility:hidden}
-#navbar-iframe{height:0;display:none}
-body{background:#fff;color: #212121;color: rgba(0,0,0,.87);font-size:100%;text-align:left;margin:0}
-a:link,a:visited{color:#141924;text-decoration:none}
-a:hover{color:#e8554e;text-decoration:none}
-a:active,a:focus,i:active,i:focus{outline:0}
-a:active{position:relative;top:1px;left:1px}
-a img{border-width:0}
-b{font-weight:500}
-#header-wrapper{float:left;display:inline;margin:0 20px 0 0;padding:0}
-#header{display:block;width:auto;margin:0;padding:0;z-index:1}
-#header-inner{background-position:center;margin:0;padding:0;display:block}
-#header h1,#header p.title{font-size:18px;font-weight:900;height:80px;line-height:80px;color:#efefef;padding:0;margin:0}
-.descriptionwrapper,p.description span{font-style:italic;font-weight:400;color:#141924;position:fixed;top:-1000px;left:-1000px}
-#header2{position:fixed;top:-1000px;left:-1000px}
-#header amp-img{border:0;background:0 0;width:auto;height:auto;margin:0 auto;vertical-align:middle}
-#judulblog{padding:0;margin:0;width:100%;box-shadow:2px 1px 1px rgba(0,0,0,.15);font-size:14px;font-weight:300;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#fff;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-#judulblog.fixed{-webkit-transform:translateY(0);transform:translateY(0);-webkit-transition:all .4s ease;transition:all .4s ease;left:0;position:fixed;top:0;width:100%;z-index:999}
-.clear{clear:both}
-.content-wrapper{width:100%;max-width:980px;margin-left: auto;margin-right: auto;}
-#outer-wrapper{width:auto;text-align:left;margin:0;padding:0;}
-#main-wrapper{width:100%;}
-#sidebar-kanan{display:none}
-#judul-post{background:#fff;margin:0;padding:10px 0;height:auto}
-::selection{background:#e8554e;color:#fff}
-
-.btn-sidebaramp{display:none}
-amp-sidebar{width:240px;padding-right:20px}
-.amp-sidebar-image{line-height:100px;vertical-align:middle}
-.amp-close-image{top:15px;left:225px;cursor:pointer}
-amp-sidebar ul{padding:0 0 0 20px;list-style:none}
-amp-sidebar li{margin-bottom:20px;list-style:none}
-amp-sidebar button{margin-left:20px}
-
-.post{margin:0 auto;padding:0;background:#fff}
-.post h2{position:fixed;top:-1000px;left:-1000px}
-.post h2,.judul_page{font-size:36px;font-weight:900;line-height:1.2em;margin:0;padding:0;text-align:center;text-transform:capitalize}
-.post h2 a,.post h2 a:visited,.post h2 strong{display:block;text-decoration:none;color:#141924}
-.post h2 a:hover,.post h2 strong{color:#e8554e}
-.judul_page{background:#D35400;padding:110px 0 30px;border-bottom:1px solid #ddd;color:#fff}
-.post-body{margin:1em 0 .65em;font-size:16px;font-weight:400;line-height:1.6em;padding:0;}
-.post ol li,i.klik-url{cursor:default}
-::selection{background:#e8554e;color:#fff}
-.post-footer{color: #212121;color: rgba(0,0,0,.87);text-transform:none;letter-spacing:.01em;font:12px Arial;line-height:1.4em;margin:0}
-.comment-link{margin-left:.1em}
-.tr-caption{background:#ddd;border:1px solid #333;font:italic 10px Georgia;line-height:1.6em;color: #212121;color: rgba(0,0,0,.87)}
-
-.search-wrapper{height:30px;float:right;display:inline;padding:25px 0;margin-top:-80px}
-#search-box{width:200px;height:27px;float:right;padding:0;margin:0;position:relative}
-#search-box form{border:1px solid #ccc;line-height:27px}
-.search-form{border:none;color:gray;width:100%;padding:0 30px 0 10px;height:27px;line-height:27px;font-size:14px;font-weight:400;margin:0;-moz-box-sizing:border-box;box-sizing:border-box}
-.search-button{background:0 0;width:30px;height:29px;line-height:29px;padding:0;text-align:center;margin:0;top:0;right:0;font-size:18px;color:#888;position:absolute;border:none;border-radius:0;text-shadow:none;box-shadow:none}
-.search-form:focus,.search-form:hover,.search-button:focus,.search-button:hover{border:none;outline:0;color:#000}
-
-.page-menu{float:left;width:auto;height:auto;padding:0;margin:0}
-.page-menu ul{margin:0 auto;padding:0;line-height:3em}
-.page-menu ul li{display:inline-block;margin:0 auto;}
-.page-menu ul li a:hover{color:#e8554e}
-.page-menu ul li a{color: #212121;color: rgba(0,0,0,.87);padding:19px 20px 19px 0;font-size:16px;font-weight:400}
-.page-menu ul li a,.page-menu ul li a span{font-family:Roboto,sans-serif}
-
-#footer-wrapper{background:#D35400;border-top:1px solid #ddd;border-bottom:1px solid #ddd;width:100%;margin-top:50px;padding:20px 0 30px;}
-#footer1{width:40%;padding:30px 30px 10px 0;display:inline;float:left;color:#f1f1f1;font-size:14px;font-weight:300;line-height:1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-#footer2,#footer3,#footer4{width:20%;padding:30px 0 10px 30px;display:inline;float:left;color:#f1f1f1;font-size:14px;font-weight:300;line-height:1.6em;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-#footer1 h2,#footer2 h2,#footer3 h2,#footer4 h2{font-size:16px;font-weight:700;color:#f1f1f1;margin:0}
-#footer1 a,#footer2 a,#footer3 a,#footer4 a{color:#f1f1f1;}
-#footer1 ul,#footer2 ul,#footer3 ul,#footer4 ul{list-style:none;padding:0;margin:5px 0}
-#footer-wrapper p{margin:0}
-#footer1 .logo-footer{clear:both;text-align:left;display:block}
-#footer1 .logo-footer img{margin-left:-6px}
-
-.creditpic{margin-top:10px;padding:20px 0 30px;position:relative}
-.credit{line-height:2.3em;font-size:12px;font-weight:400;color:#666;clear:both;margin:0 auto;padding:0;text-align:left}
-.credit-right{float:right}
-.credit a:link,.credit a:visited{color:#666;text-decoration:none}
-.credit a:hover{color:#e8554e;text-decoration:none}
-
-h3.date-header,.postmeta{font-size:16px;font-weight:400;padding:0;margin:20px 0 0 0;line-height:1;text-align:center;}
-.author a,.clock a,.postmeta a{font-size:16px;color:#141924;font-weight:400}
-.author a:hover,.clock a:hover,.postmeta a:hover{color:#e8554e}
-.updated{border-bottom:0}
-.post .jump-link{display:none}
-
-.post-author amp-img,.post-author img{padding:0;width:36px;height:36px;border-radius:100%;vertical-align:middle}
-
-.cookie-choices-info{border-bottom:1px solid #333;color:#555}
-.cookie-choices-info{z-index:1000000;background-color:#fff;border-top:1px solid #dedede;padding:3px 0;bottom:0;top:inherit}
-.cookie-choices-info .cookie-choices-text{font-size:17px;color:#666;font-family:"Helvetica Neue Light",HelveticaNeue-Light,"Helvetica Neue",Calibri,Helvetica,Arial}
-.cookie-choices-info .cookie-choices-button{background-color:#adbcc5;border-radius:5px;padding:5px 12px;text-transform:none;color:#000;transition:all .2s linear}
-.cookie-choices-info .cookie-choices-button:nth-child(2){background-color:#f1d600}
-.cookie-choices-info .cookie-choices-button:hover,.cookie-choices-info .cookie-choices-button:nth-child(2):hover{background-color:#e9eef0}
-
-.post-body .separator a{margin:0}
-.post-body a:active{position:relative;top:1px;left:1px}
-.post-body a[href^="http://"],.post-body a[href^="https://"]{font-weight:500;color:#e8554e}
-.post-body a[href^="http://"]:after,.post-body a[href^="https://"]:after{content:'\f08e';font-family:FontAwesome;color:#e8554e;margin-left:5px}
-.post-body .separator a:after,.post-body a[href^="http://www.kompiajaib.com/"]:after,.post-body a[href^="https://twitter.com/intent/tweet"]:after{content:'';margin-left:0}
-.post-body .separator img{width:auto;max-width:100%;height:auto}
-.post-body h2{font-size:23px;font-size:1.4375rem;margin:15px 0}
-.post-body h3{font-size:19px;font-size:1.1875rem;font-weight: 900;color:#333;margin:15px 0;}
-.post-body h4,.post-body h5,.post-body h6{font-size:16px;font-size:1rem;font-weight: 900;color:#333;margin:15px 0}
-
-.disqus-comments{display:none}
-
-#contactForm input:focus~label,#contactForm input:valid~label,#contactForm textarea:focus~label,#contactForm textarea:valid~label{font-size:.75em;color:#8e44ad;top:-2.25rem;-webkit-transition:all 125ms ease;transition:all 125ms ease}
-#contactForm .styled-input{float:left;width:33.3333%;margin:2rem 0 0;padding:0 10px 0 0;position:relative;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-#contactForm .styled-input-in{position:relative}
-#contactForm{margin-right:-10px}
-#contactForm .styled-input label{color:#999;padding:1rem;position:absolute;top:0;left:0;-webkit-transition:all .25s ease;transition:all .25s ease;pointer-events:none;line-height:1}
-#contactForm .styled-input.wide{width:100%}
-#contactForm input,#contactForm textarea{padding:1rem;border:1px solid #ddd;width:100%;font-size:1rem;background:#fafafa;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-#contactForm input~.span1,#contactForm textarea~.span1{display:block;width:0;height:3px;background:#8e44ad;position:absolute;left:50%;-webkit-transition:width .4s ease-in-out;transition:width .4s ease-in-out}
-#contactForm input~.span2,#contactForm textarea~.span2{display:block;width:0;height:3px;background:#8e44ad;position:absolute;right:50%;-webkit-transition:width .4s ease-in-out;transition:width .4s ease-in-out}
-#contactForm input~span{bottom:0}
-#contactForm textarea~span{bottom:5px}
-#contactForm input:focus,#contactForm textarea:focus{outline:0}
-#contactForm input:focus~.span1,#contactForm input:focus~.span2,#contactForm textarea:focus~.span1,#contactForm textarea:focus~.span2{width:50%}
-#contactForm textarea{width:100%;min-height:15em}
-#contactForm .btn{font-family:Helvetica,Arial,sans-serif;text-transform:uppercase;font-size:14px;font-weight:800;letter-spacing:1px;border-radius:0;padding:0 25px;height:51px;line-height:51px;color:#333;background-color:#fafafa;border:1px solid #ddd;cursor:pointer;margin:20px 0 0;background-image:none}
-#contactForm .btn-default:focus,#contactForm .btn-default:hover{background-color:#8e44ad;border:1px solid #0400bf;color:#fff}
-#contactForm .gotcha{border:none;background:0 0;display:none}
-
-.thanks_layout{text-align: center; position: fixed; top:0; left:0; bottom:0; right:0; background:rgba(0,0,0,.8);z-index:99999}
-.thanks_message{width:50%;background:#fff;border-radius:5px;padding:20px;border:1px solid transparent;text-align: center; color:#333; position: absolute; top: 10%; left: 50%;margin-left:-25%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
-@media screen and (max-width:768px){.thanks_message{width:90%;margin-left:-45%;}
-}
-
-@media screen and (max-width:880px){.content-wrapper{padding:0 10px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
-#outer-wrapper{padding-top:10px}
-#main-wrapper{width:100%;margin:0;border-radius:0;border-left:none;border-right:none}
-.page-menu{width:100%;margin:0;text-align:center}
-.page-menu ul li a{padding:0 20px 0 0;}
-#search-box,.search-wrapper{float:none;display:block}
-.search-wrapper{margin-top:0;text-align:center;padding:0 0 10px}
-#search-box{width:auto;margin:0}
-#judulblog.fixed{position:relative;box-shadow:none}
-#header-wrapper{padding-top:10px;margin: 0;text-align:center;float:none;display:block}
-#header{max-width:100%;text-align:center;float:none;display:block}
-#header h1,#header p.title{font-size:22px;font-weight:900;height:40px;line-height:40px}
-#sidebar-kanan,.judul_page{display:none}
-#main{margin:0}
-#blog-pager, .blog-pager{padding-right:0}
-.post{padding-right:0}
-.post h2{position:relative;top:0;left:0}
-.breadcrumbs{padding:5px 0 10px;margin:0;}
-.halaman{margin:20px 0 20px;}
-#footer-wrapper{display:none}
-#contactForm .styled-input {width:100%;}
-.credit-right{float:none;margin-top:10px}
-}
-@media screen and (max-width:414px){._post-thumbnail-area{width:100%;margin: 7px 0 10px 0;display:block;float:none;height:auto;}
-._post-thumbnail{height:auto;}
-.page-menu ul li a{padding:0 10px;}
-}
-
-@media print{#blog-pager,#comments,#css-menu,#shareOnscroll,#sidebar-kanan,.blog-pager,.breadcrumbs,.kompiajaib_info2,.onpost,.postmeta,.underpost,h3.date-header{display:none}
-#main-wrapper{width:100%}
-.post-body{padding:0}
-#judul-post,.breadcrumbs,.postmeta{margin:0}
-}
-/*]]>*/
-</style>
-</b:if>
-<b:if cond='data:blog.pageType == &quot;static_page&quot; and data:blog.isMobileRequest == &quot;true&quot;'>
-<style amp-custom='amp-custom'>
 /*!
  * Clean Blog v1.0.0 (http://startbootstrap.com)
  * Copyright 2015 Start Bootstrap
@@ -1052,16 +870,16 @@ img.goog-te-gadget-icon {
 </style>
 {% include page_level_ad.html %}
     <style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-    <script async='async' src='https://cdn.ampproject.org/v0.js'></script>
-    <script async='async' custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'></script>
-    <script async='async' custom-element='amp-form' src='https://cdn.ampproject.org/v0/amp-form-0.1.js'></script>
-    <script async='async' custom-element='amp-social-share' src='https://cdn.ampproject.org/v0/amp-social-share-0.1.js'></script>
-    <script async='async' custom-element='amp-iframe' src='https://cdn.ampproject.org/v0/amp-iframe-0.1.js'></script>
-    <script async='async' custom-element='amp-youtube' src='https://cdn.ampproject.org/v0/amp-youtube-0.1.js'></script>
-    <script async='async' custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
-    <script async='async' custom-element='amp-list' src='https://cdn.ampproject.org/v0/amp-list-0.1.js'></script>
-    <script async='async' custom-template='amp-mustache' src='https://cdn.ampproject.org/v0/amp-mustache-0.1.js'></script>
-    <script async='async' custom-element='amp-analytics' src='https://cdn.ampproject.org/v0/amp-analytics-0.1.js'></script>
-    <script async='async' custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-    <script async='async' custom-element='amp-ad' src='https://cdn.ampproject.org/v0/amp-ad-0.1.js'></script>
+    <script async src='https://cdn.ampproject.org/v0.js'></script>
+    <script async custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'></script>
+    <script async custom-element='amp-form' src='https://cdn.ampproject.org/v0/amp-form-0.1.js'></script>
+    <script async custom-element='amp-social-share' src='https://cdn.ampproject.org/v0/amp-social-share-0.1.js'></script>
+    <script async custom-element='amp-iframe' src='https://cdn.ampproject.org/v0/amp-iframe-0.1.js'></script>
+    <script async custom-element='amp-youtube' src='https://cdn.ampproject.org/v0/amp-youtube-0.1.js'></script>
+    <script async custom-element='amp-image-lightbox' src='https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js'></script>
+    <script async custom-element='amp-list' src='https://cdn.ampproject.org/v0/amp-list-0.1.js'></script>
+    <script async custom-template='amp-mustache' src='https://cdn.ampproject.org/v0/amp-mustache-0.1.js'></script>
+    <script async custom-element='amp-analytics' src='https://cdn.ampproject.org/v0/amp-analytics-0.1.js'></script>
+    <script async custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
+    <script async custom-element='amp-ad' src='https://cdn.ampproject.org/v0/amp-ad-0.1.js'></script>
 </head>
