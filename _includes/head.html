@@ -99,14 +99,14 @@ footer .copyright{font-size:14px;margin-bottom:0}
 .pager.post{position:relative;border:1px solid #eee;border-left:none;border-right:none;padding:20px 0;margin:20px 0}
 .pager.post:before{content:"";display:inline;width:1px;height:100%;background:#eee;position:absolute;top:0;bottom:0;left:50%;margin-left:.5px}
 .pager.post h5{display:block;font-size:18px;margin-top:0;margin-bottom:0}
-.pager.post li.next:before,.pager.post li.previous:before{font-family:FontAwesome;font-size:20px;line-height:1;position:absolute;top:50%;margin-top:-10px}
+.pager.post li.next:before,.pager.post li.previous:before{line-height:1;position:absolute;top:50%;margin-top:-10px;}
 .pager.post .previous h5{text-align:left}
 .pager.post .next h5{text-align:right}
 .pager.post li{width:50%}
 .pager.post li.previous{float:left;text-align:left;padding-left:25px;padding-right:10px}
 .pager.post li.next{float:right;text-align:right;padding-right:25px;padding-left:10px}
-.pager.post li.previous:before{content:"\f053";left:0}
-.pager.post li.next:before{content:"\f054";right:0}
+.pager.post li.previous:before{content:'';background:url(/img/ic_keyboard_arrow_left_black_24dp_2x.png)no-repeat;background-size: 18px 18px;width:18px;height:18px;display:inline-block;vertical-align:middle;left:0}
+.pager.post li.next:before{content:'';background:url(/img/ic_keyboard_arrow_right_black_24dp_2x.png)no-repeat;background-size: 18px 18px;width:18px;height:18px;display:inline-block;vertical-align:middle;right:0}
 .pager li>a,.pager li>span{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;padding:10px 5px;background-color:#fff;border:1px solid #ddd;border-radius:0}
 .pager.post li>a,.pager.post li>span{font-family:Lora,'Times New Roman',serif;text-transform:capitalize;font-size:20px;font-weight:400;letter-spacing:1px;padding:10px 0;background-color:#fff;border-radius:0;border:none}
 .pager.post li>span{display:block}
