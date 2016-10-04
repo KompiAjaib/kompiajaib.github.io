@@ -172,7 +172,7 @@ hr.small {
   position:absolute;
   top:0;
   left:0;
-  height:100%;
+  bottom:0;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
