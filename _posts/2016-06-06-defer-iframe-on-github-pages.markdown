@@ -52,6 +52,6 @@ Video di bawah ini sudah menggunakan *defer iframe* dengan kode embed di atas.
 
 <amp-youtube width="560"
       height="315"
-      layout=responsive
+      layout="responsive"
       data-videoid="zBASI-CQxw4">
   </amp-youtube>
