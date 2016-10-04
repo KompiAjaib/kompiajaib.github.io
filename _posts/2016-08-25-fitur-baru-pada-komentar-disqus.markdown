@@ -16,9 +16,11 @@ Beberapa fitur Disqus yang telah ada sebelumnya diantaranya pada komentar Disqus
 
 Dan fitur baru yang telah ditambahkan yaitu memungkinkan pengguna untuk menggunakan tag `<spoiler></spoiler>` untuk show hide konten komentar pada hover. Fitur lainnya yaitu meningkatkan deteksi spam komentar menjadi lebih baik, dan juga kini kita bisa embed komentar pada postingan blog seperti di bawah ini.
 
-<script>
-document.write('<iframe style="display: block; margin-left: auto; margin-right: auto;" data-src="https://embed.disqus.com/p/1b8lq6n" width="420" height="300" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>');
-</script>
+<amp-iframe width=420 height=300
+    sandbox="allow-scripts allow-same-origin"
+    frameborder="0"
+    src="https://embed.disqus.com/p/1b8lq6n">
+</amp-iframe>
 
 Kode embed di atas dihasilkan dari kode di bawah ini.
 
@@ -48,8 +50,11 @@ document.write('<iframe src="LINK EMBED DISQUS HERE" style="border:0;width:100%;
 
 Dan akan tampil seperti di bawah ini.
 
-<script>
-document.write('<iframe data-src="https://embed.disqus.com/p/1b8lq6n" style="border:0;width:100%;height:300px;" seamless="seamless" scrolling="no" allowtransparency="true"></iframe>');
-</script>
+<amp-iframe width=420 height=300
+    sandbox="allow-scripts allow-same-origin"
+    layout="responsive"
+    frameborder="0"
+    src="https://embed.disqus.com/p/1b8lq6n">
+</amp-iframe>
 
 Namun sayang, untuk fitur Reveal atau monitize pada Disqus sampai saat ini masih belum bisa untuk blog berbahasa Indonesia. Mudah-mudahan ke depannya reveal Disqus bisa untuk blog Indonesia.
