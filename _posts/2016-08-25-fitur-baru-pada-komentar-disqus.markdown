@@ -54,7 +54,9 @@ Dan akan tampil seperti di bawah ini.
     sandbox="allow-scripts allow-same-origin"
     layout="responsive"
     frameborder="0"
+    resizable
     src="https://embed.disqus.com/p/1b8lq6n">
+    <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
 </amp-iframe>
 
 Namun sayang, untuk fitur Reveal atau monitize pada Disqus sampai saat ini masih belum bisa untuk blog berbahasa Indonesia. Mudah-mudahan ke depannya reveal Disqus bisa untuk blog Indonesia.
