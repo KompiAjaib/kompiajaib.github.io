@@ -2,6 +2,7 @@
 <html amp lang="en">
 {% include head.html %}
 <body>
+    {% include google_analytics.html %}
     <button class='btn-sidebaramp' on='tap:sidebar.toggle'></button>
 <amp-sidebar id='sidebar' layout='nodisplay' side='right'>
     <amp-img alt='close sidebar' class='amp-close-image' height='20' on='tap:sidebar.close' role='button' src='https://ampbyexample.com/img/ic_close_black_18dp_2x.png' tabindex='0' width='20'></amp-img>
