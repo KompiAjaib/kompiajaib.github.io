@@ -525,6 +525,18 @@ a.list-group-item:focus,a.list-group-item:hover,button.list-group-item:focus,but
 amp-user-notification{background: #fff;color: #999;padding: 10px;font-size: 17px;font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;border-top: 1px solid #ccc}
 amp-user-notification p{display:inline;float:left;margin:0}
 amp-user-notification button{text-align: center;line-height:1;padding: 8px 10px;color:#000;background-color:#f1d600;border:none;border-radius: 5px;-webkit-border-radius: 5px;width: 33%;display: block;margin-left: 10px;float: right;max-width: 120px}
+.overlay{position:absolute;top:0;bottom:0;left:0;right:0;background:rgba(0,0,0,.5);transition:opacity .2s;visibility:hidden;opacity:0}
+.overlay .cancel{position:absolute;width:100%;height:100%;cursor:default}
+.overlay:target{visibility:visible;opacity:1}
+.modal{margin:100px auto;padding:20px;background:#fff;border:1px solid #666;width:300px;border-radius:6px;box-shadow:0 0 50px rgba(0,0,0,.5);position:relative;text-align:center}
+.modal .close{position:absolute;width:20px;height:20px;top:20px;right:20px;opacity:.8;transition:all .2s;font-size:24px;font-weight:700;text-decoration:none;color:#777}
+#search-box,.search-form{width:100%;height:27px;margin:0}
+.modal .close:hover{opacity:1}
+#search-box{float:right;padding:0;position:relative}
+#search-box form{border:1px solid #ccc;line-height:27px}
+.search-form{border:none;color:gray;padding:0 30px 0 10px;line-height:27px;font-size:14px;font-weight:400;-moz-box-sizing:border-box;box-sizing:border-box}
+.search-button{background:0 0;width:30px;height:29px;line-height:29px;padding:0;text-align:center;margin:0;top:0;right:0;font-size:18px;color:#888;position:absolute;border:none;border-radius:0;text-shadow:none;box-shadow:none}
+.search-button:focus,.search-button:hover,.search-form:focus,.search-form:hover{border:none;outline:0;color:#000}
 </style>
 
     <style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
