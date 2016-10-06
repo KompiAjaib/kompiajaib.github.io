@@ -10,7 +10,7 @@
     <ul>
       <li><a href="{{ site.baseurl }}/">Home</a></li>
       {% for page in site.pages %}{% if page.title %}{% if page.url contains  "/tags/" or page.url contains  "/search" or page.url contains  "/thanks" or page.url contains  "/404" %}{% else %}<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>{% endif %}{% endif %}{% endfor %}
-      <li><a href="{{ root_url }}/search/" class="nav-search-link" title="Search"><i class='material-icons md-18'>&#59574;</i> Search</a></li>
+      <li><a href="#modal1" class="nav-search-link" title="Search"><i class='material-icons md-18'>&#59574;</i> Search</a></li>
     </ul>
   </nav>
   </amp-sidebar>
@@ -19,6 +19,7 @@
     {{ content }}
 
     {% include footer.html %}
+    {% include modal_search_box.html %}
     {% include cookies-notification.html %}
 <!--</body>--></body>
 </html>
