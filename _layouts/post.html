@@ -23,7 +23,7 @@ layout: default
 </header>
 <div class="clear"></div>
 <!-- Post Content -->
-<article>
+<article class="entry post-content" itemprop="articleBody">
 <div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
   <meta content='{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}' itemprop='url'/>
   <meta content='700' itemprop='width'>
@@ -42,9 +42,7 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             			{% include adsense_top_post.html %}
             			<hr>
-		    <div class="entry" itemprop="articleBody">
 				{{ content }}
-		    </div>
 				{% include adsense_bottom_post.html %}
                 <hr>
                 		{% include share_count.html %}
