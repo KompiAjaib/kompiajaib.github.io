@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<div itemscope="itemscope" itemtype="http://schema.org/Blog">
+<div class="post" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
 <!-- Page Header -->
 <header class="intro-header">
 <amp-img alt="Page Image" height="448" width="1423" src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"></amp-img>
@@ -9,9 +11,10 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <h1 itemprop='headline'><a href='{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}' title='{{ page.title }}' itemprop='url mainEntityOfPage'>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</a></h1>
                     <hr class="small">
-                    <span class="subheading">{{ page.subtitle }}</span>
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+	            <h3 class="meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time class="published" itemprop="datePublished dateModified" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time> in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"><i class="material-icons">&#xE54E;</i> {{ tag }}</a> {% endfor %}</h3>
                 </div>
             </div>
         </div>
@@ -22,9 +25,25 @@ layout: default
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<div class="entry post-content" itemprop="articleBody">
+				<div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+  <meta content='{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}' itemprop='url'/>
+  <meta content='700' itemprop='width'>
+  <meta content='700' itemprop='height'>
+  </div>
+  <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
+    <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+      <meta content='{{site.url}}{{ site.baseurl }}/img/favicon/android-icon-192x192.png' itemprop='url'/>
+      <meta content='600' itemprop='width'>
+      <meta content='600' itemprop='height'>
+    </div>
+    <meta content='{{ site.title }}' itemprop='name'>
+  </div>
 			{{ content }}
+			</div>
 		</div>
 	</div>
 </div>
-
+</div>
+</div>
 <hr>
