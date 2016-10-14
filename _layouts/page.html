@@ -37,7 +37,6 @@ layout: default
   </div>
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<h3 class="meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time class="published" itemprop="datePublished dateModified" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time> in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"><i class="material-icons">&#xE54E;</i> {{ tag }}</a> {% endfor %}</h3>
 			{{ content }}
 		</div>
 	</div>
