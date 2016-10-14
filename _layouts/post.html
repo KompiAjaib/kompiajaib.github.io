@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div itemscope="itemscope" itemtype="http://schema.org/Blog">
+<div  itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting"
 <!-- Post Header -->
 <header class="intro-header" itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WPHeader'>
 	<amp-img alt="Post Image" height="448" width="1423" src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"></amp-img>
@@ -14,7 +15,7 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <h3 class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }} in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"><i class="material-icons">&#xE54E;</i> {{ tag }}</a> {% endfor %}</h3>
+                    <h3 class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on <time class="published" itemprop="datePublished dateModified" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time> in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"><i class="material-icons">&#xE54E;</i> {{ tag }}</a> {% endfor %}</h3>
                 </div>
             </div>
         </div>
@@ -22,7 +23,7 @@ layout: default
 </header>
 <div class="clear"></div>
 <!-- Post Content -->
-<article itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<article>
 <div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
   <meta content='{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}' itemprop='url'/>
   <meta content='700' itemprop='width'>
@@ -44,10 +45,6 @@ layout: default
 		    <div class="entry" itemprop="articleBody">
 				{{ content }}
 		    </div>
-		    <time class="published" itemprop="datePublished dateModified"
-        datetime="{{ page.date | date: '%Y-%m-%d' }}">
-    {{ page.date | date: "%B %e, %Y" }}
-  </time>
 				{% include adsense_bottom_post.html %}
                 <hr>
                 		{% include share_count.html %}
@@ -115,5 +112,6 @@ layout: default
             </div>
         </div>
     </div>
+</div>
 </div>
 <hr>
