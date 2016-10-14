@@ -14,7 +14,7 @@ layout: default
                     <h1 class='post-title entry-title' itemprop='headline'><a href='{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}' title='{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}' itemprop='url mainEntityOfPage'>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</a></h1>
                     <hr class="small">
                     <span class="subheading">{{ page.subtitle }}</span>
-			{% for page in site.pages %}<p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>{% endfor %}
+			{% for page in site.pages %}{% if page.title %}<p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>{% endif %}{% endfor %}
                 </div>
             </div>
         </div>
