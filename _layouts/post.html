@@ -2,14 +2,15 @@
 layout: default
 ---
 
+<div itemscope="itemscope" itemtype="http://schema.org/Blog">
 <!-- Post Header -->
-<header class="intro-header">
+<header class="intro-header" itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WPHeader'>
 	<amp-img alt="Post Image" height="448" width="1423" src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"></amp-img>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
+                    <h1 itemprop='headline'>{{ page.title }}</h1>
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
@@ -21,18 +22,37 @@ layout: default
 </header>
 <div class="clear"></div>
 <!-- Post Content -->
-<article>
+<article itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+  <meta content='{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}' itemprop='url'/>
+  <meta content='700' itemprop='width'>
+  <meta content='700' itemprop='height'>
+  </div>
+  <div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
+    <div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
+      <meta content='{{site.url}}{{ site.baseurl }}/img/favicon/android-icon-192x192.png' itemprop='url'/>
+      <meta content='600' itemprop='width'>
+      <meta content='600' itemprop='height'>
+    </div>
+    <meta content='{{ site.title }}' itemprop='name'>
+  </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             			{% include adsense_top_post.html %}
             			<hr>
+		    <div class="entry" itemprop="articleBody">
 				{{ content }}
+		    </div>
+		    <time class="published" itemprop="datePublished dateModified"
+        datetime="{{ page.date | date: '%Y-%m-%d' }}">
+    {{ page.date | date: "%B %e, %Y" }}
+  </time>
 				{% include adsense_bottom_post.html %}
                 <hr>
                 		{% include share_count.html %}
                 <hr>
-                                {% assign hasSimilar = '' %}
+{% assign hasSimilar = '' %}
 {% for post in site.related_posts %}
     {% assign postHasSimilar = false %}
     {% for tag in post.tags %}
@@ -95,4 +115,5 @@ layout: default
             </div>
         </div>
     </div>
+</div>
 <hr>
