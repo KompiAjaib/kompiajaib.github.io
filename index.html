@@ -6,22 +6,21 @@ description: "Coretan kisah sebuah kehidupan, berbagi dengan sesama tentang peng
 
 {% include adsense_index.html %}
 <hr>
+<div itemscope="itemscope" itemtype="http://schema.org/Blog">
 {% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
+<div class="post-preview" itemprop="blogPost" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+        <h2 class="post-title" itemprop='headline'><a href="{{ post.url | prepend: site.baseurl }}" itemprop='url mainEntityOfPage'>{{ post.title }}</a>
         </h2>
         {% if post.subtitle %}
-        <h3 class="post-subtitle">
+        <h3 class="post-subtitle" itemprop="description">
             {{ post.subtitle }}
         </h3>
         {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time class="published" itemprop="datePublished dateModified" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
 </div>
 <hr>
 {% endfor %}
-
+</div>
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
