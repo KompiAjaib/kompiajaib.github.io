@@ -11,7 +11,7 @@ header-img: "img/contact-bg.jpg"
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
            <h3>{{ currentDate }}</h3>
-           <ul>
+           <ul class="archives">
            {% assign myDate = currentDate %}
        {% endif %}
        <li>{{ post.date | date: "%B %-d, %Y" }}
