@@ -5,7 +5,7 @@ subtitle: "Mencoba membuat blog baru di Github Pages"
 description: "Setelah Blogger dan Wordpress, kini giliran Github Page yang saya coba dan pelajari untuk membuat blog."
 date: 2016-05-25
 author: "Adhy Suryadi"
-tags: [ GithubPages ]
+tags: [ Githubpages ]
 header-img: "img/post/github-blog-25-05-2016.jpg"
 image: "img/post/github-blog-25-05-2016.jpg"
 ---
