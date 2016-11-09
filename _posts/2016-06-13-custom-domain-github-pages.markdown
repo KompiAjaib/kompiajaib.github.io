@@ -5,7 +5,7 @@ subtitle: "Blog di Github Pages dapat dengan mudah menggunakan custom domain."
 description: "Seperti platform blogging lainnya, Github Pages juga mendukung pengunaan custom domain dengan domain utama ataupun sub domain."
 date: 2016-06-13
 author: "Adhy Suryadi"
-tags: [ GithubPages, Blogging ]
+tags: [ Githubpages, Blogging ]
 header-img: "img/post/custom-domain.jpg"
 image: "img/post/custom-domain.jpg"
 ---
