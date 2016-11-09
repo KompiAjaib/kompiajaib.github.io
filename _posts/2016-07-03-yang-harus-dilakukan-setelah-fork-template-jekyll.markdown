@@ -5,7 +5,7 @@ subtitle: "Ada beberapa hal yang harus dilakukan setelah fork repo template blog
 description: "Untuk menghindari hal yang tidak diinginkan, ada hal yang harus dilakukan setelah fork repo template blog Jekyll."
 date: 2016-07-03
 author: "Adhy Suryadi"
-tags: [ GithubPages ]
+tags: [ Githubpages ]
 header-img: "img/post/fork.jpg"
 image: "img/post/fork.jpg"
 ---
