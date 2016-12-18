@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 
 <div itemscope="itemscope" itemtype="http://schema.org/Blog">
@@ -106,7 +107,9 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             	{% include adsense_top_comment.html %}
             	<hr>
+		{% if page.comments %}
             	{% include disqus_comments.html %}
+		{% endif %}
             </div>
         </div>
     </div>
