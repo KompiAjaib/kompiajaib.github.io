@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/hosting-gdrive.jpg"
 image: "img/post/hosting-gdrive.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Setelah pada Januari 2016 lalu Google resmi menghentikan layanan hosting file Google Code, kini Google kembali **[berencana menghentikan](http://googleappsupdates.blogspot.co.id/2015/08/deprecating-web-hosting-support-in.html "berencana menghentikan"){: target="_blank" rel="nofollow"}** layanan hosting file atau web hosting gratis Google Drive.
