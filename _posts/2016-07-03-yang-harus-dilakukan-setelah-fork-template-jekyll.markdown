@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Githubpages ]
 header-img: "img/post/fork.jpg"
 image: "img/post/fork.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Seperti kita ketahui bahwa untuk membuat blog di Github sangatlah mudah, yang diperlukan hanyalah sebuah akun Github. Setelah menemukan template blog dengan Jekyll yang cocok dengan selera kita, langkah selanjutnya tinggal fork repository dari template blog tersebut.
