@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Markdown ]
 header-img: "img/post/target-blank.jpg"
 image: "img/post/target-blank.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Bagi kita tentu sudah familiar dengan cara penulisan html untuk sebuah link tautan baik menggunakan atribut rel tag ataupun target tag seperti di bawah ini:
