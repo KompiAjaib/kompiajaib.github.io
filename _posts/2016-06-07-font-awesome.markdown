@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/font-awesome.jpg"
 image: "img/post/font-awesome.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Baru hari ini saya menyadari bahwa kini cara embed Font Awesome telah berubah. Yang sangat mencolok dari perubahan ini adalah cara mendapatkan kode embed-nya, kini tidak ada lagi link CDN Font Awesome pada halaman **Get Started** Font Awesome. Namun yang ada adalah kolom input email untuk mendapatkan kode embed Font Awesome.
