@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/design-web.jpg"
 image: "img/post/design-web.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Seiring pesatnya perkembangan perangkat mobile atau smartphone, ternyata hal ini tidak diimbangi dengan kecepatan akses data atau kecepatan mengakses internet. Tentunya ini menyebabkan biaya akses internet menjadi mahal, khususnya di beberapa negara berkembang seperti Indonesia.
