@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Githubpages, Blogging ]
 header-img: "img/post/custom-domain.jpg"
 image: "img/post/custom-domain.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Seperti yang telah saya terangkan secara singkat pada **[postingan sebelumnya](http://adhysuryadi.xyz/blogger-wordpress-github/ "postingan sebelumnya"){: target="_blank"}**, Github Pages adalah platform blogging dengan website statis HTML yang tidak memerlukan update software maupun plugin seperti halnya Wordpress, namun konsepnya sama dengan Wordpress yaitu kode web terpisah-pisah tidak seperti blogger di dalam satu editor HTML, selain itu Github Pages tidak memerlukan database. Selain cepat, Github Pages sangat simple namun ini memerlukan pengetahuan yang lebih tentang HTML.
