@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Markdown ]
 header-img: "img/post/image-on-markdown.jpg"
 image: "img/post/image-on-markdown.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Dimensi pada gambar postingan (width dan height tag) merupakan salah satu unsur untuk optimasi gambar postingan selain alt tag. Begitu pun untuk gambar postingan blog di Github Pages yang menggunakan markdown dalam menulis postingannya. Sementara defer image berfungsi untuk optimasi loading blog.
