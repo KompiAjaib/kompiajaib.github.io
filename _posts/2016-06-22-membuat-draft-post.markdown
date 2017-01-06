@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Githubpages ]
 header-img: "img/post/draft.jpg"
 image: "img/post/draft.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Ketika pertama mengenal blog dengan Github Pages, saya sempat kebingungan cara menulis postingan blog karena editor yang berbeda dengan Blogger maupun Wordpress yang sudah saya kenal terlebih dahulu.
