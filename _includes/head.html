@@ -603,4 +603,9 @@ section[expanded] .show-more,section:not([expanded]) .show-less{display:none;}
     <script async custom-element='amp-analytics' src='https://cdn.ampproject.org/v0/amp-analytics-0.1.js'></script>
     <script async custom-element='amp-ad' src='https://cdn.ampproject.org/v0/amp-ad-0.1.js'></script>
     <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+    
+    {% if page.social-js %}<script async custom-element='amp-social-share' src='{{ page.social-js }}'></script>{% endif %}
+    {% if page.iframe-js %}<script async custom-element='amp-iframe' src='{{ page.iframe-js }}'></script>{% endif %}
+    {% if page.accordion-js %}<script async='async' custom-element='amp-accordion' src='{{ page.accordion-js }}'></script>{% endif %}
+    {% if page.youtube-js %}<script async custom-element='amp-youtube' src='{{ page.youtube-js }}'></script>{% endif %}
 </head>
