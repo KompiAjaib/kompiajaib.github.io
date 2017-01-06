@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/blogger.jpg"
 image: "img/post/blogger.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Dengan kemajuan teknologi internet seperti sekarang ini, bekerja secara online di internet sudah bukan merupakan hal yang baru (namun belum umum dilakukan). Berbagai pekerjaan yang bisa dilakukan di internet seperti web designer, web developer, desainer grafis, penerjemah dokumen, editor online, copywriter, turvei online, tutor online, kontributor untuk media online, penulis untuk majalah, blogger, dan banyak lagi.
