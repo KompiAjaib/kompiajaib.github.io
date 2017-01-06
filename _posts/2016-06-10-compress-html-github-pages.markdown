@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Githubpages ]
 header-img: "img/post/compress.jpg"
 image: "img/post/compress.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Salah satu cara untuk mempercepat dan mengotimalkan loading blog adalah dengan compress HTML. Meng-compress HTML itu diantaranya menghapus spasi yang tidak perlu, menghapus tag akhir atau start tag yang tidak perlu atau menghapus komentar yang tidak perlu dari kode HTML.
