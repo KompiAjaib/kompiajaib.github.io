@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/disqus-new-fitur.jpg"
 image: "img/post/disqus-new-fitur.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Baru-baru ini Disqus telah menambahkan beberapa fitur baru pada sistem komentarnya untuk semakin memudahkan penggunanya untuk lebih akraktif dalam menulis komentarnya.
