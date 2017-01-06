@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/spitify.jpg"
 image: "img/post/spitify.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Seperti kita ketahui bahwa Spotify merupakan sebuah aplikasi yang menyediakan jutaan lagi-lagu pilihan dari seluruh dunia. Jadi tidak akan rugi jika kita menginstall aplikasi Spotify ini di komputer, laptop, atau bahkan di smartphone kita.
