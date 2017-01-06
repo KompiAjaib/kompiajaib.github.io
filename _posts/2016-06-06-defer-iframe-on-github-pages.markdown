@@ -8,6 +8,10 @@ author: "Adhy Suryadi"
 tags: [ Githubpages, Markdown ]
 header-img: "img/post/defer-iframe.jpg"
 image: "img/post/defer-iframe.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 Kadang untuk melengkapi sebuah artikel di blog, kita perlu juga memasang sebuah video. Video yang sudah familiar dipasang di blog biasanya dari video Youtube.
