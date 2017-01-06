@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Githubpages, Markdown ]
 header-img: "img/post/higlighter.jpg"
 image: "img/post/higlighter.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Sebelumnya saya memposting cara mudah menggunakan syntax highlighter dengan **[Highlight.js](http://adhysuryadi.xyz/memasang-highlight-di-github-pages/ "Highlight.js"){: target="_blank"}**. Namun kini kita akan mencoba menggunakan highlighter bawaan Jekyll yaitu **Rouge**.
