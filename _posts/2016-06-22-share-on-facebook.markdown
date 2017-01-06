@@ -8,6 +8,9 @@ date: 2016-06-22
 tags: [ Blogging ]
 header-img: "img/post/sharing.jpg"
 image: "img/post/sharing.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Untuk blog ini saya mencoba menggunakan domain xyz yang notabene merupakan sebuah ekstensi domain baru. Selain berupa ekstensi sebuah domain yang menurut saya cukup unik dengan XYZ, harga sewanya pun terbilang cukup murah.
