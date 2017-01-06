@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/ads-on-internet.jpg"
 image: "img/post/ads-on-internet.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 > Selama ini saya tidak menyadari bahwa iklan yang sering saya lihat dan cukup mengganggu ternyata iklan dari provider yang saya gunakan.
