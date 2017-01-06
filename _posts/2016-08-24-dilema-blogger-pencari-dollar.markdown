@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/dollars-online.jpg"
 image: "img/post/dollars-online.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Baru-baru ini Google telah mengumumkan bahwa mereka akan meningkatkan hasil penelusuran mobile yang benar-benar memberikan pengguna mobile mendapatkan pengalaman pencarian Google di perangkat mereka menjadi lebih baik.
