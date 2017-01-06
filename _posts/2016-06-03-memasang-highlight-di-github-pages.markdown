@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Githubpages ]
 header-img: "img/post/highlight.jpg"
 image: "img/post/highlight.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Jika blog Anda membahas tentang tutorial kode, maka dipastikan Anda akan menampilkan kode-kode di postingan. Biasanya untuk menampilkan kode di postingan akan mengunakan tag pre.
