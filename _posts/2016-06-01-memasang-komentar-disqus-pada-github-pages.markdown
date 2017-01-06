@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Githubpages ]
 header-img: "img/post/disqus.jpg"
 image: "img/post/disqus.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Sebagai web statis, blog berbasis Jekyll di Github Pages tidak memiliki sistem komentar sendiri. Untuk itu dibutuhkan sistem komentar pihak ketiga seperti Disqus, Facebook, dan lainnya.
