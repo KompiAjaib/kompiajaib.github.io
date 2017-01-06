@@ -8,6 +8,10 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/adhy-suryadi.jpg"
 image: "img/post/adhy-suryadi.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
+youtube-js: "https://cdn.ampproject.org/v0/amp-youtube-0.1.js"
 ---
 
 Halo sahabat Kompi... selamat sore, semoga kita selalu dilimpahkan berkah dan rahmat dari Yang Maha Kuasa, Allah SWT, aamiin....
