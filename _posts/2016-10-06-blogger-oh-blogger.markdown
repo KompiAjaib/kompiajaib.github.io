@@ -8,6 +8,9 @@ author: "Adhy Suryadi"
 tags: [ Blogging ]
 header-img: "img/post/cup-mug-desk-office.jpg"
 image: "img/post/cup-mug-desk-office.jpg"
+social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
+iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
+accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
 Seiring dengan perkembangan internet khususnya di Indonesia yang semakin pesat, maka dunia maya kini semakin ramai. Mulai dari sosmed, chatting, online shop, sampai mencari uang di internet. Mulai dari anak sekolah, mahasiswa, pedagang, wirausaha, pegawai negeri, pria, wanita, bahkan pengangguran pun kini menggunakan internet untuk berbagai tujuan dan keperluan.
