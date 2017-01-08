@@ -7,7 +7,7 @@ header-img: "img/archive-bg.jpg"
 accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
-           <amp-accordion>
+           <amp-accordion class="archives">
  {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
