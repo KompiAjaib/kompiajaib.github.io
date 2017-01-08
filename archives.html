@@ -7,14 +7,13 @@ header-img: "img/archive-bg.jpg"
 accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 ---
 
-<div class="archives">
-           <amp-accordion>
+<amp-accordion>
  {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
              <section>
-           <h3>{{ currentDate }}</h3>
+           <h3 class="archive">{{ currentDate }}</h3>
            <ul class="archives">
            {% assign myDate = currentDate %}
        {% endif %}
@@ -27,4 +26,3 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
    {% endfor %}            
                         </section>
   </amp-accordion>
-</div>
