@@ -11,7 +11,7 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
  {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
-           {% unless forloop.first %}</ul>{% endunless %}
+           {% unless forloop.first %}</ul></section>{% endunless %}
              <section>
            <h3 class="archive">{{ currentDate }}</h3>
            <ul class="archives">
@@ -24,5 +24,4 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
             </li>
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}            
-                        </section>
   </amp-accordion>
