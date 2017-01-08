@@ -21,7 +21,6 @@ header-img: "img/archive-bg.jpg"
              <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         </ul>
             </li>
-       {% if forloop.last %}</ul>{% endif %}
-   {% endfor %}
-              </section>
+       {% if forloop.last %}</ul></section>{% endif %}
+   {% endfor %}              
   </amp-accordion>
