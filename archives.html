@@ -6,12 +6,12 @@ description: "This page show the all of posts of Adhy Suryadi Blog."
 header-img: "img/archive-bg.jpg"
 ---
 
+           <amp-accordion>
+             <section>
  {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-           <amp-accordion>
-             <section>
            <h3>{{ currentDate }}</h3>
            <ul class="archives">
            {% assign myDate = currentDate %}
@@ -22,6 +22,6 @@ header-img: "img/archive-bg.jpg"
         </ul>
             </li>
        {% if forloop.last %}</ul>{% endif %}
+   {% endfor %}
               </section>
   </amp-accordion>
-   {% endfor %}
