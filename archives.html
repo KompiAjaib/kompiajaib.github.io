@@ -10,6 +10,8 @@ header-img: "img/archive-bg.jpg"
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
+           <amp-accordion>
+             <section>
            <h3>{{ currentDate }}</h3>
            <ul class="archives">
            {% assign myDate = currentDate %}
@@ -20,4 +22,6 @@ header-img: "img/archive-bg.jpg"
         </ul>
             </li>
        {% if forloop.last %}</ul>{% endif %}
+              </section>
+  </amp-accordion>
    {% endfor %}
