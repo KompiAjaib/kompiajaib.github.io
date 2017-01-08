@@ -10,7 +10,7 @@ header-img: "img/archive-bg.jpg"
  {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
-           {% unless forloop.first %}</ul>{% endunless %}
+           {% unless forloop.first %}</ul></section>{% endunless %}
              <section>
            <h3>{{ currentDate }}</h3>
            <ul class="archives">
@@ -21,6 +21,6 @@ header-img: "img/archive-bg.jpg"
              <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
         </ul>
             </li>
-       {% if forloop.last %}</ul></section>{% endif %}
+       {% if forloop.last %}</ul>{% endif %}
    {% endfor %}              
   </amp-accordion>
