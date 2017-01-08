@@ -19,7 +19,7 @@ Salah satu contohnya ketika belajar koding untuk memodifikasi tampilan blog atau
 
 Jika ingin blognya dikunjungi banyak orang, maka buatlah lebih banyak postingan yang berguna. Jika blognya ingin menghasilkan uang, maka bangunlah sebuah blog yang berkualitas. Jika blognya ingin diterima menjadi publisher Adsense, maka buatlah blog dengan mengikuti aturan Adsense.
 
-**Logika**
+## Logika
 
 Secara definisi, logika adalah suatu pertimbangan akal atau hasil pemikiran yang diutarakan dengan kata atau perbuatan. Namun menurut saya, secara sederhana logika bisa diartikan sebagai sesuatu yang masuk akal dan berdekatan dengan sebab akibat.
 
