@@ -11,11 +11,11 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1 class='post-title entry-title' itemprop='headline'><a href='{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}' title='{{ page.title }}' itemprop='url mainEntityOfPage'>{{ page.title }}</a></h1>
+                    <h1 class='post-title entry-title' itemprop='headline'><a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title='{{ page.title }}' itemprop='url mainEntityOfPage'>{{ page.title }}</a></h1>
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <h3 class="meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time class="published" itemprop="datePublished dateModified" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time> in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"><i class="material-icons">&#xE54E;</i> {{ tag }}</a> {% endfor %}</h3>
+                    <h3 class="meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</span></span> in {% for tag in page.tags %}<a class="label label-primary" href="/tags/{{ tag }}"><i class="material-icons">&#xE54E;</i> {{ tag }}</a> {% endfor %}</h3>
                 </div>
             </div>
         </div>
@@ -37,6 +37,8 @@ layout: default
     </div>
     <meta content='{{ site.title }}' itemprop='name'>
   </div>
+<meta content="{{ page.date | date: '%Y-%m-%d' }}" itemprop='datePublished'/>
+<meta content="{{ page.date | date: '%Y-%m-%d' }}" itemprop='dateModified'/>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
