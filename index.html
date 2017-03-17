@@ -19,7 +19,7 @@ description: "Coretan kisah sebuah kehidupan, berbagi dengan sesama tentang peng
     </a>
     <p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span></span></p>
     <meta content="{{ post.date | date_to_xmlschema }}" itemprop='datePublished'/>
-<meta content="{{ post.date | date_to_xmlschema }}" itemprop='dateModified'/>
+    <meta content="{{ post.date | date_to_xmlschema }}" itemprop='dateModified'/>
 </div>
 <hr>
 {% endfor %}
