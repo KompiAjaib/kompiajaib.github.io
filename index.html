@@ -17,7 +17,7 @@ description: "Coretan kisah sebuah kehidupan, berbagi dengan sesama tentang peng
         </h3>
         {% endif %}
     </a>
-   <p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span></span></p>
+   <p class="post-meta">Posted by <span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'><span itemprop='name'>{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span></span> on <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></p>
 </div>
 <hr>
 {% endfor %}
