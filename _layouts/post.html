@@ -37,8 +37,8 @@ layout: default
     </div>
     <meta content='{{ site.title }}' itemprop='name'>
   </div>
-<meta content="{{ page.date | date: '%Y-%m-%d' }}" itemprop='datePublished'/>
-<meta content="{{ page.date | date: '%Y-%m-%d' }}" itemprop='dateModified'/>
+<meta content="{{ page.date | date_to_xmlschema }}" itemprop='datePublished'>
+<meta content="{{ page.date | date_to_xmlschema }}" itemprop='dateModified'>
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
