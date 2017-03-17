@@ -11,7 +11,7 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1 class='post-title entry-title' itemprop='headline'><a href='{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}' title='{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}' itemprop='url mainEntityOfPage'>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</a></h1>
+                    <h1 class='post-title entry-title' itemprop='headline'><a href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title='{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}' itemprop='url mainEntityOfPage'>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</a></h1>
                     <hr class="small">
                     <span class="subheading">{{ page.subtitle }}</span>
 		</div>
@@ -34,6 +34,8 @@ layout: default
       <meta content='600' itemprop='height'>
     </div>
     <meta content='{{ site.title }}' itemprop='name'>
+    <meta content="{{ post.date | date_to_xmlschema }}" itemprop='datePublished'/>
+    <meta content="{{ post.date | date_to_xmlschema }}" itemprop='dateModified'/>
   </div>
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
