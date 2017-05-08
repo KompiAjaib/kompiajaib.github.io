@@ -599,9 +599,8 @@ ul.archives li ul li{margin-bottom:0}
     <script async custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'></script>
     <script async custom-element='amp-form' src='https://cdn.ampproject.org/v0/amp-form-0.1.js'></script>
     <script async custom-element='amp-analytics' src='https://cdn.ampproject.org/v0/amp-analytics-0.1.js'></script>
-    <script async custom-element='amp-ad' src='https://cdn.ampproject.org/v0/amp-ad-0.1.js'></script>
     <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
-    
+    {% if page.amp-ad-js %}<script async custom-element='amp-ad' src='{{ page.amp-ad-js }}'></script>{% endif %}
     {% if page.social-js %}<script async custom-element='amp-social-share' src='{{ page.social-js }}'></script>{% endif %}
     {% if page.iframe-js %}<script async custom-element='amp-iframe' src='{{ page.iframe-js }}'></script>{% endif %}
     {% if page.accordion-js %}<script async='async' custom-element='amp-accordion' src='{{ page.accordion-js }}'></script>{% endif %}
