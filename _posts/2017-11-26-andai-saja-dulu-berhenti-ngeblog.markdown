@@ -17,7 +17,7 @@ Blogger adalah sebuah pekerjaan yang memerlukan dedikasi dan keuletan walau seba
 
 Seperti halnya sebuah pekerjaan offline di dunia nyata, bekerja sebagai blogger tentu saja memerlukan pengorbanan dan perjuangan sebelum kita bisa mendapatkan hasil sebagai imbalan dari sebuah pekerjaan.
 
-Ini adalah cerita dari pengalaman saya mendapatkan keuntungan menjadi blogger yang saya lakukan dari tahun 2012 yang salu sampai sekarang.
+Ini adalah cerita dari pengalaman saya mendapatkan keuntungan menjadi blogger yang saya lakukan dari tahun 2012 yang lalu sampai sekarang.
 
 Diawali dari rasa penasaran karena seringnya berselancar di internet, saya melihat banyak orang memiliki sebuah blog dan berbagi pengetahuan dan pengalamannya kepada orang lain di internet.
 
