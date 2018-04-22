@@ -2,4 +2,4 @@
 
 User-agent: *
 
-Sitemap: http://adhysuryadi.xyz/sitemap.xml
+Sitemap: http://adhysuryadi.com/sitemap.xml
