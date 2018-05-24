@@ -9,8 +9,9 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ site.baseurl }}/" itemprop='url' title="Home"><span itemprop='name'>Home</span></a></li>
+                <li><a href="/about/" title="About"><span itemprop='name'>About</span></a></li>
                 <li><a href="/contact/" title="Contact"><span itemprop='name'>Contact</span></a></li>
-                {% for page in site.pages %}{% if page.title %}{% if page.url contains  "/tags/" or page.url contains  "/search" or page.url contains  "/thanks" or page.url contains  "/404" or page.url contains  "/contact" %}{% else %}<li><a href="{{ page.url | prepend: site.baseurl }}" itemprop='url' title="{{ page.title }}"><span itemprop='name'>{{ page.title }}</span></a></li>{% endif %}{% endif %}{% endfor %}
+                {% for page in site.pages %}{% if page.title %}{% if page.url contains  "/tags/" or page.url contains  "/search" or page.url contains  "/thanks" or page.url contains  "/404" or page.url contains  "/contact" or page.url contains  "/about" %}{% else %}<li><a href="{{ page.url | prepend: site.baseurl }}" itemprop='url' title="{{ page.title }}"><span itemprop='name'>{{ page.title }}</span></a></li>{% endif %}{% endif %}{% endfor %}
                 <li><a href="#modal1" class="nav-search-link" title="Search"><i class='material-icons md-18'>&#59574;</i></a></li>
             </ul>
         </div>
