@@ -21,7 +21,7 @@ Apalagi ke depannya, khususnya browser Google Chrome akan memberikan peringatan 
 
 Jika Anda penggunakan Github Pages dan menggunakan custom domain pada blognya, silahkan segera aktifkan HTTPS untuk custom domain blog Anda. HTTPS ini diberian gratis untuk semua pengguna Github Pages.
 
-Cara mengaktifkannya juga cukup mudah, Anda tinggal mengganti IP address pada setting DNS domain Anda. Silahkan ganti IP address pada setting DNS domain Anda dengan IP address berikut.
+Cara mengaktifkannya juga cukup mudah, Anda tinggal mengganti **IP address** pada setting DNS domain Anda. Silahkan ganti IP address pada setting DNS domain Anda dengan IP address berikut.
 
 ```html
 185.199.108.153
