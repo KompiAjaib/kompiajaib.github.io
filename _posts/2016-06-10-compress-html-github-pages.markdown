@@ -5,7 +5,7 @@ subtitle: "Membuat blog Jekyll Anda menjadi lebih cepat dimuat."
 description: "Dengan compress HTML maka blog lebih cepat dan lebih optimal dalam pemuatan kode blog."
 date: 2016-06-10
 author: "Adhy Suryadi"
-tags: [ Githubpages ]
+tags: [ Github Pages ]
 header-img: "img/post/compress.jpg"
 image: "img/post/compress.jpg"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
