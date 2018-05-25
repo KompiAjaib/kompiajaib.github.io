@@ -5,7 +5,7 @@ subtitle: "Kini custom domain di GitHub Pages mendapatkan dukungan untuk HTTPS, 
 description: "Saat ini, custom domain di GitHub Pages mendapatkan dukungan untuk HTTPS, yang berarti lebih dari satu juta situs GitHub Pages akan dilayani melalui HTTPS. Dan berikut cara mengaktifkan HTTPS custom domain pada Github Pages."
 date: 2018-05-25
 author: "Adhy Suryadi"
-tags: [ Github Pages ]
+tags: [ GithubPages ]
 header-img: "img/post/https.png"
 image: "img/post/https.png"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
