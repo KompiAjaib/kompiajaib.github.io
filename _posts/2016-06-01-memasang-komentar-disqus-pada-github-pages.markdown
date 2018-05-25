@@ -53,4 +53,4 @@ Selesai..., silahkan coba buka salah satu postingan blog Anda untuk melihat pena
 
 Bila ada yang kurang dimengerti silahkan tanyakan di komentar.
 
-Selamat mencoba...
+Selamat mencoba... semoga bermanfaat.
