@@ -5,7 +5,7 @@ subtitle: "Highlighter Rouge Mendukung 60 Bahasa Pemograman"
 description: "Mencoba menggunakan syntax highlighter Rouge sebagai highlighter bawaan Jekyll."
 date: 2016-06-16
 author: "Adhy Suryadi"
-tags: [ Github Pages, Markdown ]
+tags: [ GithubPages, Markdown ]
 header-img: "img/post/higlighter.jpg"
 image: "img/post/higlighter.jpg"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
