@@ -6,8 +6,8 @@ description: "Saat ini, custom domain di GitHub Pages mendapatkan dukungan untuk
 date: 2018-05-25
 author: "Adhy Suryadi"
 tags: [ GithubPages ]
-header-img: "img/post/https.png"
-image: "img/post/https.png"
+header-img: "img/post/https-custom-domain.png"
+image: "img/post/https-custom-domain.png"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
 iframe-js: "https://cdn.ampproject.org/v0/amp-iframe-0.1.js"
 accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
