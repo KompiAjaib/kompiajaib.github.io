@@ -5,7 +5,7 @@ subtitle: "Cara memasang sistem komentar Disqus pada Jekyll blog di Github Pages
 description: "Sebagai web statis, blog di Github Pages memerlukan sistem komentar dari pihak ketiga seperti Disqus."
 date: 2016-06-01
 author: "Adhy Suryadi"
-tags: [ Github Pages ]
+tags: [ GithubPages ]
 header-img: "img/post/disqus.jpg"
 image: "img/post/disqus.jpg"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
