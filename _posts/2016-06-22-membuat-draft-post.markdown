@@ -5,7 +5,7 @@ subtitle: "Untuk mempermudah membuat postingan blog dengan terjadwal."
 description: "Dengan menggunakan draft postingan, kita dapat membuat postingan dengan menundanya hari ini dan melanjutkannya esok hari."
 date: 2016-06-22
 author: "Adhy Suryadi"
-tags: [ Github Pages ]
+tags: [ GithubPages ]
 header-img: "img/post/draft.jpg"
 image: "img/post/draft.jpg"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
