@@ -5,7 +5,7 @@ subtitle: "Mempercantik tampilan pre tags di postingan dengan syntax highlighter
 description: "Untuk mempercantik tampilan pre tags di postingan, bisa menggunakan syntax highlighter highlight.js yang dapat membaca semua bahasa kode."
 date: 2016-06-03
 author: "Adhy Suryadi"
-tags: [ Githubpages ]
+tags: [ Github Pages ]
 header-img: "img/post/highlight.jpg"
 image: "img/post/highlight.jpg"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
