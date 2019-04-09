@@ -1,5 +1,5 @@
 <!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top" itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement'>
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
@@ -8,10 +8,10 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/" itemprop='url' title="Home"><span itemprop='name'>Home</span></a></li>
-                <li><a href="/about/" title="About"><span itemprop='name'>About</span></a></li>
-                <li><a href="/contact/" title="Contact"><span itemprop='name'>Contact</span></a></li>
-                {% for page in site.pages %}{% if page.title %}{% if page.url contains  "/tags/" or page.url contains  "/search" or page.url contains  "/thanks" or page.url contains  "/404" or page.url contains  "/contact" or page.url contains  "/about" %}{% else %}<li><a href="{{ page.url | prepend: site.baseurl }}" itemprop='url' title="{{ page.title }}"><span itemprop='name'>{{ page.title }}</span></a></li>{% endif %}{% endif %}{% endfor %}
+                <li><a href="{{ site.baseurl }}/" title="Home">Home</a></li>
+                <li><a href="/about/" title="About">About</a></li>
+                <li><a href="/contact/" title="Contact">Contact</a></li>
+                {% for page in site.pages %}{% if page.title %}{% if page.url contains  "/tags/" or page.url contains  "/search" or page.url contains  "/thanks" or page.url contains  "/404" or page.url contains  "/contact" or page.url contains  "/about" %}{% else %}<li><a href="{{ page.url | prepend: site.baseurl }}" title="{{ page.title }}">{{ page.title }}</a></li>{% endif %}{% endif %}{% endfor %}
                 <li><a href="#modal1" class="nav-search-link" title="Search"><i class='material-icons md-18'>&#59574;</i></a></li>
             </ul>
         </div>
