@@ -20,7 +20,7 @@ Ternyata sampai saat ini Google belum menampilkan ikon "Petir" sebagai ciri sebu
 Sebagaimana kita ketahui bahwa jika Google mendeteksi sebuah koneksi yang lambat maka halaman yang diakses akan ditampilkan dengan googleweblight sehingga dapat ditampilkan secara instant.
 
 Namun googleweblight mematikan semua javasript dan css, alhasil halaman yang ditampilkan dengan googleweblight menjadi acak-acakan. Jadi semua halaman akan tampil tidak sempurna.
-
+{% include adsense_middle_post.html %}
 Berbeda dengan blog yang menggunakan AMP HTML, ketika sebuah link halaman diakses dari hasil pencarian Google dan terdeteksi halaman tersebut menggunakan AMP HTML maka halaman tidak akan ditampilkan dengan googleweblight melainkan langsung redirect menuju halaman dengan tampilan sebenarnya.
 
 Sehingga halaman dengan AMP HTML tidak tampil acak-acakan ketika link diakses dari hasil pencarian Google pada mobile device, semua tampilan dan iklan tampil sesuai dengan design.
