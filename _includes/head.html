@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport">
     <link as="script" href="https://cdn.ampproject.org/v0.js" rel="preload"/>
-    <link as="image" href="{{site.url}}{{ site.baseurl }}/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" rel="preload"/>
+    <link as="image" href="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" rel="preload"/>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
