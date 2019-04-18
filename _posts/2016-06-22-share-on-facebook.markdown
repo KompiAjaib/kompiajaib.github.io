@@ -24,7 +24,7 @@ Alhasil, setiap kali mencoba sharing post di Facebook harus melalui security che
       height="534"
       layout="responsive"
       alt="Share on FB"></amp-img>
-
+{% include adsense_middle_post.html %}
 Bahkan sebelumnya ketika pertama kali menggunakan domain xyz ini dan mencoba sharing post terjadi error 404 di Facebook. Nah jika Anda juga mengalami hal yang sama seperti saya yaitu mendapati masalah ketika sharing post di Facebook, silahkan lakukan **debug** dengan tool Facebook seperti gambar animasi di bawah ini.
 
 Silahkan debug URL di sini: *https://developers.facebook.com/tools/debug/*
