@@ -38,7 +38,7 @@ Dan ini source code iklan tersebut (jika Anda menggunakan provider Indihome atau
 ## Membuat Perangkap Iklan Pihak Ketiga
 
 Nah, karena kemunculan iklan ini cukup menggangu loading halaman web ketika pengunjung yang datang menggunakan jaringan Indihome Telkom, maka kita perlu membuat perangkap script yang di-inject oleh pihak ketiga sepert iklan Telkom tersebut agar tidak mengganggu pengunjung baik loading maupun iklannya.
-
+{% include adsense_middle_post.html %}
 Caranya cukup mudah, silahkan ganti kode `</body>` dengan kode di bawah ini:
 
 ```html
