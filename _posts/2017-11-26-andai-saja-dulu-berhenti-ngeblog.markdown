@@ -26,7 +26,7 @@ Dan di saat itu saya bekerja sebagai seorang pedagang pulsa dan souvenir di kawa
 Karena memerlukan banyak ide ketika membuat banner, maka saya banyak mencarinya melalui Google dengan koneksi menggunakan sebuah modem dengan kartu pra bayar.
 
 Makin lama dan makin sering berselancar di internet, maka saya semakin penasaran dengan dunia internet walau pengetahuan saya akan internet hanya sebatas berselancar saja, tidak memiliki pengetahuan akan website sama sekali.
-
+{% include adsense_middle_post.html %}
 Akhirnya untuk memuaskan rasa penasaran, saya mulai mengumpulkan informasi tentang website, blogger, dan lainnya yang berhubungan dengan internet dan mulai membuat blog, namun tidak terasa pengeluaran untuk data internet pun membengkak serta kadang saya lupa waktu sampai dini hari berada di depan komputer, dan yang lebih buruk lagi kondisi kesehatan saya menurun dan akhirnya sakit dan dokter pun memvonis saya dengan sakit saraf yang membuat ke dua kaki dan tangan saya menjadi lemas dan pegal sehingga tidak lagi dapat pergi ke mana-mana.
 
 Inilah saat-saat sulit saya ketika belajar blogging, pengeluaran biaya untuk internet semakin bertambah dan kondisi kesehatan yang terus menurun. Namun karena sakit yang menyebabkan saya tidak dapat pergi ke mana-mana, maka akhirnya dunia blogging lah yang dapat menemani saya di hari-hari berikutnya.
