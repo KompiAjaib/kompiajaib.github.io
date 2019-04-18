@@ -18,7 +18,7 @@ Dengan kemajuan teknologi internet seperti sekarang ini, bekerja secara online d
 Dengan hanya bermodalkan komputer atau smartphone saja, seseorang bisa bekerja di internet sesuai dengan pekerjaan yang diinginkan sesuai dengan kemampuannya. Sebagai seseorang yang bisa melihat peluang, maka kita harus melihatnya sebagai sebuah kesempatan untuk mendapatkan penghasilan tambahan. Namun hal ini tidak menutup kemungkinan akan menjadi pekerjaan pokok jika hasil yang didapat bisa melebihi penghasilan offline yang sebelumnya dilakukan. Semakin banyak orang memiliki akses ke internet, semakin besar pula peluang untuk mendapatkan penghasilan melalui internet.
 
 Dan pekerjaan di internet yang kini banyak dipilih adalah salah satunya sebagai blogger. Dan yang jadi pertanyaannya,
-
+{% include adsense_middle_post.html %}
 ### Kenapa blogger yang menjadi pilihan?
 
 Ada beberapa alasan yang menjadikan blogger sebagai sebuah pilihan pekerjaan di internet, di antaranya:
