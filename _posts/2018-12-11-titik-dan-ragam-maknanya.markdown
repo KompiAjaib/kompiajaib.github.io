@@ -27,6 +27,8 @@ Titik dua bermakna pembagian atau bisa juga mengartikan sesuatu. Hendaklah semua
 Sebuah titik jika digabung vertikal dengan koma maka memiliki nama lain menjadi Titik Koma.
 Ini mengartikan bagian-bagian tertentu dari sesuatu. Mengartikan bahwa kehidupan itu diciptakan beragam dan sudah ditentukan bagian-bagiannya. Meskipun beragam namun semua adalah sama yaitu makhluk ciptaan Tuhan YME. Jadi tidak ada yang istimewa di mata Tuhan kecuali ketaqwaannya.
 
+{% include adsense_middle_post.html %}
+
 ## [...] = Ellipsis
 Sebuah titik jika digabung horizontal dengan dua titik lainnya maka memiliki nama lain menjadi Ellipsis.
 Ini menandakan bahwa sesuatu tersebut memiliki kelanjutan cerita. Sebagaimana dalam kehidupan ini sudah Tuhan sediakan semua kebutuhan hidup kita. Namun kita tetap harus berusaha dan menggali lebih dalam untuk mendapatkan sesuatu yang berguna untuk hidup kita.
