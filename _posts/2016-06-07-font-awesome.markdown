@@ -22,7 +22,7 @@ Itulah alasan dari Font Awesome untuk mendapatkan kode embed dengan menggunakan 
 Ternyata kini kita mendapatkan dashboard Font Awesome CDN untuk memanage Font Awesome yang kita gunakan. Di dashboard ini juga kita bisa dengan mudah mengupdate Font Awesome jika terdapat update dari Font Awesome.
 
 Kita pun bisa memiliki kode embed Font Awesome yang berbeda untuk setiap blog yang kita miliki.
-
+{% include adsense_middle_post.html %}
 Silahkan dicoba dengan memasukan email Anda pada input email di halaman **Get Started** Font Awesome. Kemudian silahkan cek kotak masuk email Anda, maka di situ akan terdapat kode embed berupa file JS dan silahkan klik tombol **Register my Font Awesome CDN account** untuk mendapat dashboard Font Awesome CDN kita sendiri.
 
 ## Pemasangan Kode Font Awesome
