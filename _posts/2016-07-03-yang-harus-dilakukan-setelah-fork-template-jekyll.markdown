@@ -20,7 +20,7 @@ Namun ada beberapa hal yang harus dilakukan setelah kita melakukan fork reposito
 Setelah kita fork repository sebuah template blog Github Pages, hal yang pertama harus dilakukan adalah mengedit file **_config.yml** untuk merubah title blog, deskripsi, URL blog, akun sosial media, dan lainnya sesuai dengan akun kita sendiri.
 
 Langkah selanjutnya adalah menghapus postingan blog yang kita fork dan juga gambar postingan (jika ada). Hal ini harus dilakukan agar kita tidak melanggar lisensi blog karena otomatis postingan dari blog asal fork repo akan tampil di blog kita. Tentunya hal ini tidak baik untuk blog kita jika blog kita dianggap melanggar ketentuan dan dilaporkan sebagai penayang postingan tanpa izin.
-
+{% include adsense_middle_post.html %}
 Jika postingan dari blog asal dibiarkan tampil di blog kita, tentu saja akan merugikan blog asal itu sendiri. Jika hal ini dibiarkan, bisa saja pemilik blog asal akan melaporkan hal ini ke Google DMCA. Jika hal ini terjadi maka kerugiannya malah akan balik ke blog kita sendiri kan....
 
 Nah setelah mengedit file *_config.yml* dan menghapus postingan dan gambar postingan blog asal fork repo template blog Github Pages, maka langkah selanjutnya adalah menyesuaikan hal lainnya (jika ada) seperti akun Disqus, script iklan (jika ada), kode verifikasi webmaster, dan lainnya.
