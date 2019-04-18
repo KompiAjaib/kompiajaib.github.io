@@ -22,7 +22,7 @@ Di beberapa theme kadang pembuat theme sudah melengkapinya dengan komentar disqu
 Nah untuk theme yang belum dilengkapi dengan komentar Disqus, kini kita akan memasang sistem komentar Disqus pada Jekyll blog di Github Pages. Silahkan ikuti langkah-langkahnya di bawah ini:
 
 Silahkan buat dulu akun disqus untuk blog Anda di sini *https://disqus.com/admin/signup/*. Setelah selesai, silahkan catat username disqus blog Anda.
-
+{% include adsense_middle_post.html %}
 Kemudian silahkan buka repository blog Anda dan buat file `disqus_comments.html` pada bagian **_includes** kemudian copy kode di bawah ini lalu paste di editor markdown.
 
 ```html
