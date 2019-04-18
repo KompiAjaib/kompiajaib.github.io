@@ -24,7 +24,7 @@ Kemudian di tahun 2015, Google dengan "mobilegeddon" menggunakan *mobile-friendl
 ## Accelerated Mobile Page
 
 Belum juga semua situs menggunakan responsive web design, kini sudah muncul lagi konsep baru dengan tagline "**instant loading**" di mobile device dengan sebutan **Accelered Mobile Page** a.k.a **AMP** yang digagas oleh Google.
-
+{% include adsense_middle_post.html %}
 Kini hampir 2/3 dari pengguna internet adalah pengguna mobile dan angka ini diperkirakan akan semakin meningkat. Untuk itu perlu pengalaman yang lebih baik lagi bagi pengguna mobile. Karena dirasa bahwa responsive saja tidak cukup untuk memberikan pengalaman yang lebih baik pada pengguna mobile, maka AMP atau accelerated mobile page menjadi solusi yang cukup baik saat ini.
 
 Dengan responsive, masih banyak situs yang masih cukup berat diakses melalui ponsel karena masih terdapat banyak javascript dan widget yang sebenarnya tidak diperlukan oleh pengguna mobile. Namun dengan AMP, struktur blog lebih sederhana dan terkendali untuk lebih mudah diakses melalui ponsel. Dan Google juga memberikan tanda AMP (petir) di hasil pencarian untuk situs yang menggunakan AMP untuk memudahkan pengguna memilih situs dengan loading yang cepat (kilat).
