@@ -35,7 +35,7 @@ function init() {
 window.onload = init;
 </script>
 ```
-
+{% include adsense_middle_post.html %}
 Kemudian untuk menampilkan video di dalam postingan, silahkan tambahkan `data` pada `src` embed video Youtube menjadi `data-src` seperti di bawah ini:
 
 **Kode embed awal**
