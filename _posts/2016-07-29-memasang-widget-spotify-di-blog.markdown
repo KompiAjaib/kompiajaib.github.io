@@ -20,7 +20,7 @@ Jutaan lagu mulai dari lagu-lagu lawas, lagu-lagu daerah/tradisional, lagu pop, 
 Selain menginstall aplikasi di perangkat kita, kita juga bisa menampilkan lagu-lagu favorite kita di blog untuk dinikmati juga oleh orang lain.
 
 Bisa berupa single song maupun play list yang ditampilkan di blog. Untuk menampilkan widget Spotify di blog cukup mudah karena kode iframe sudah disediakan oleh Spotify. Kita tinggal pilih lagu atau play list yang ingin di tampilkan kemudian copy kode embed-nya seperti pada animasi di bawah ini.
-
+{% include adsense_middle_post.html %}
 <amp-img src="https://lh4.googleusercontent.com/-cvXF8u3FscI/V5stuIPs2dI/AAAAAAAAnWw/zsQWN8pPq9c_sePzBp7cJLmJHJttJRIjgCL0B/w750-h428-no/Animation.gif"
       width="750"
       height="428"
