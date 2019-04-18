@@ -22,7 +22,7 @@ Pernah pada suatu waktu telah menulis postingan panjang lebar, dan kesalahan pen
 Itulah pengalaman menggelikan menulis postingan di Github Pages karena keterbatasan pengetahuan hehehe... namun akhirnya jadi pengalaman berharga yang kini bisa saya bagikan pengalaman ini kepada Anda.
 
 Sebenarnya Github Pages mendukung penulisan postingan draft, artinya kita bisa menyimpan tulisan terlebih dahulu dan kemudian melanjutkan atau mempublikasikan tulisannya di hari yang lain.
-
+{% include adsense_middle_post.html %}
 Pada Jekyll, draft postingan adalah postingan yang ditulis tanpa format tanggal pada URL postingan.
 
 Seperti kita ketahui, untuk menerbitkan postingan kita harus membuat postingan dengan URL seperti berikut:
