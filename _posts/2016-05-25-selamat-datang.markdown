@@ -20,7 +20,7 @@ accordion-js: "https://cdn.ampproject.org/v0/amp-accordion-0.1.js"
 <p>Dengan pengalaman ngeblog di Blogger dan Wordpress, saya dengan cukup mudah membuat blog di Github Page mulai membuat akun blog, memasangkan theme, dan kustomisasi tampilannya. Namun untuk membuat postingan seperti ini, saya kesulitan karena mungkin sistemnya yang berbeda dari Blogger dan Wordpress.</p>
 
 <p>Seharian saya mencoba membuat postingan, dan entah sudah beberapa kali saya gagal untuk membuat postingan tampil di blog. Namun akhirnya saya berhasil membuat postingan ini tampil di blog. Ternyata di sini kita tidak bisa meng-copy format postingan yang sudah ada dari demonya kemudian di edit, namun kita harus mengetikan postingan dari awal namun kita tetap mencontoh postingan dari demonya.</p>
-
+{% include adsense_middle_post.html %}
 > Tidak ada salahnya kita belajar sesuatu yang baru, mumpung kita masih diberi kesempatan dan waktu. Jangan sia-siakan waktu di kehidupan kita ini.
 
 ## Blog Baru Suasana Baru
