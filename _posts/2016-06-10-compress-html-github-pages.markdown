@@ -22,7 +22,7 @@ Nah, untuk blog Jekyll di Github Pages kita bisa melakukan compress HTML dengan 
 ### Langkah Pertama
 
 Silahkan download `compress.html` versi terbaru dari **[sini](https://github.com/penibelst/jekyll-compress-html/releases/ "Download"){: target="_blank" rel="nofollow"}**. Kemudian unzip file `compress.html` yang Anda download tadi.
-
+{% include adsense_middle_post.html %}
 ### Langkah Kedua
 
 Silahkan upload file `compress.html` di bagian **_layouts** dan masih di **_layouts** silahkan edit file `default.html` kemudian tambahkan kode YAML di bawah ini di paling atas
