@@ -18,7 +18,7 @@ Setelah cukup lama menunggu support HTTPS untuk custom domain pada Github Pages,
 Hal ini tentunya merupakan kabar baik bagi pengguna Github Pages, bahwa kini situs memberikan lalu lintas yang aman. Seperti kita tahu bahwa HTTPS (dikenal dengan ikon kunci hijau di bilah alamat browser) mengenkripsi lalu lintas antara server GitHub dan browser. Ini memberikan keyakinan kepada pengunjung bahwa halaman situs yang mereka kunjungi benar-benar halaman yang ingin mereka kunjungi.
 
 Apalagi ke depannya, khususnya browser Google Chrome akan memberikan peringatan **tidak aman** pada situs yang masih menggunakan HTTP pada address bar browser.
-
+{% include adsense_middle_post.html %}
 Jika Anda penggunakan Github Pages dan menggunakan custom domain pada blognya, silahkan segera aktifkan HTTPS untuk custom domain blog Anda. HTTPS ini diberian gratis untuk semua pengguna Github Pages.
 
 Cara mengaktifkannya juga cukup mudah, Anda tinggal mengganti **IP address** pada setting DNS domain Anda. Silahkan ganti IP address pada setting DNS domain Anda dengan IP address berikut.
