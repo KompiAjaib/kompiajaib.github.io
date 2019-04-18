@@ -20,7 +20,7 @@ Dan banyak di antaranya (termasuk saya hehehe.... ) yang memilih menjadi **[Blog
 ## Berbanding Terbalik Dengan Kenyataan
 
 Ternyata untuk mendapatkan uang di internet tidak semudah seperti apa yang "mereka" tulis di internet atau seperti foto-foto yang "mereka" upload di sosial media. Ternyata kenyataannya, untuk menjadi Blogger yang mendapatkan penghasilan dari internet memerlukan perjuangan yang keras dan pantang menyerah. Diperlukan keuletan dalam membuat konten dan modal koneksi internet untuk menciptakan blog yang dapat menghasilkan uang.
-
+{% include adsense_middle_post.html %}
 Setidaknya untuk menjadi Blogger jangan tergiur dengan "mudahnya mendapatkan uang di internet", namun bagaimana cara menjadi Blogger dan membuat blog di internet. Kemudian bagaimana juga cara membuat konten blog yang baik dan benar agar blog yang dikelola menjadi ramai pengunjung. Adapun peluang untuk mendapatkan penghasilan dari blog akan mengikuti kita seiring dengan semakin berkembangnya blog yang kita kelola.
 
 Dan kenyataannya, menjadi Blogger dengan membuat blog tidak lantas menjadi sukses dan mendapatkan uang. Gagal dalam membuat blog menjadi biasa, bisa sampai berkali-kali. Namun setidaknya kegagalan ini menjadi pelajaran untuk terus mencoba membuat blog "yang dapat menghasilkan".
