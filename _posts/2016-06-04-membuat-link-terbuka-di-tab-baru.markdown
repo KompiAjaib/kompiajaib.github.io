@@ -26,7 +26,7 @@ Secara default, penulisan tautan pada markdown seperti di bawah ini.
 ```markdown
 [Tautan](#URL)
 ```
-
+{% include adsense_middle_post.html %}
 Penulisan tautan dengan title tag pada markdown seperti di bawah ini.
 
 ```markdown
