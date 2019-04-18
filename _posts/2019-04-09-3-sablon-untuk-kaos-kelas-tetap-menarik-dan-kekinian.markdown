@@ -20,7 +20,9 @@ Sablon kaos raglan mampu memberikan kesan modern yang dihadirkan pada hasil sabl
 
 Kelebihan lainnya dapat Anda temukan dari teknik perpaduan degradasi warna pada area lengan kaos dengan badan yang tidak serupa. Pola garis miring dari ketiak sampai area leher telah menjadi sekat tersendiri di antara keduanya. Selain itu motif saku juga biasanya akan dapat Anda temukan dengan lebih mudah pada area dada sebelah kiri atas.
 
-Desain kaos bersaku biasanya terdapat sentuhan sebuah motif lingkaran kecil yang berupa simbol atau lambang kelas. Selain itu nama teman dikelas juga biasanya menghias bagian belakang badan kaos. Tidak jarang pula mahasiswa jurusan Eksak dan Sain memesan kaos kelas berkonsep perpaduan alam yang bertemakan pepohonan, sementara itu mahasiswa jurusan sosial memberikan sentuhan ilustrasi gambar buku akuntasi untuk sebagai penghias kaos kelas
+{% include adsense_middle_post.html %}
+
+Desain kaos bersaku biasanya terdapat sentuhan sebuah motif lingkaran kecil yang berupa simbol atau lambang kelas. Selain itu nama teman dikelas juga biasanya menghias bagian belakang badan kaos. Tidak jarang pula mahasiswa jurusan Eksak dan Sain memesan kaos kelas berkonsep perpaduan alam yang bertemakan pepohonan, sementara itu mahasiswa jurusan sosial memberikan sentuhan ilustrasi gambar buku akuntasi untuk sebagai penghias kaos kelas.
 
 ## 2. Polo Shirt (Wangky)
 Referensi kedua hadir dari sablon polo shirt. Model kaos ini sangat menunjang penampilan Anda baik diluar maupun di dalam area kampus. Anda dapat menggunakannnya sebagai kaos olahraga yang akan menemani akhir pekan di alun-alun pusat kota, kaos model ini juga telah menjadi tren tersendiri untuk semua kalangan baik dari remaja sampai lansia.
