@@ -18,7 +18,7 @@ Seiring semakin populernya Spotify sebagai pemutar musik dari seluruh dunia, Spo
 **Release Radar** ini akan keluar setiap hari Jumat dan selalu diperbaharui dengan lagu-lagu rilis terbaru dari penyanyi-penyanyi favorite Anda atau mungkin dari penyanyi yang Anda sendiri belum mengenalnya.
 
 Release Radar memberikan kesempatan Anda sampai dua jam untuk menikmati lagu-lagu terbaru dari artis yang Anda ikuti dan dengarkan, ditambah dengan beberapa lagu-lagu baru berdasarkan kebiasaan mendengarkan musik Anda. Release Radar adalah pelengkap sempurna untuk New Music Jumat, yang menghubungkan Anda dengan artis baru yang mungkin saja Anda belum mengetahuinya. Release Radar hadir dalam aplikasi mobile dan desktop juga website.
-
+{% include adsense_middle_post.html %}
 Dengan Release Radar, Anda tidak akan ketinggalan rilis lagu terbaru dari penyanyi favorite Anda.
 
 Di bawah ini widget Spotify untuk Release Radar.
