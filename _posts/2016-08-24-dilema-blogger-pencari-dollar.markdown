@@ -22,7 +22,7 @@ Dengan begitu pengguna mobile langsung mengetahui bahwa website yang akan dibaca
 Namun Google juga telah menemukan banyak website yang menggunakan hal yang cukup mengganggu pengguna mobile. Banyak website menggunakan iklan pop-up yang tampil sebelum pengguna membaca konten rujukan hasil pencarian, bahkan iklan pop-up ini berkesan mengelabui pengunjung website.
 
 Untuk itu Google pada 10 Januari 2017 mendatang akan benar-benar menyingkirkan website dengan iklan pop-up seperti itu dari hasil pencarian, sehingga pengguna mobile tidak merasa dikelabui oleh mesin pencari karena menampilkan hasil pencarian dengan link yang seolah menipu.
-
+{% include adsense_middle_post.html %}
 Tentunya hal ini menjadi dilema bagi Blogger pencari dollar di internet. Di satu sisi ingin mendapatkan penghasilan dengan memasang iklan. namun di sisi lain iklan yang dipasang malah berbenturan dengan aturan mesin pencari Google.
 
 Seperti kita ketahui bahwa iklan pop-up merupakan sebuah unit iklan yang paling mudah mendapatkan dollar, untuk itu banyak Blogger yang memasang iklan pop-up ini.
