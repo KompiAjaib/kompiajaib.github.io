@@ -30,7 +30,7 @@ Kode embed di atas dihasilkan dari kode di bawah ini.
 ```html
 <iframe src="https://embed.disqus.com/p/1b8lq6n" width="420" height="300" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
 ```
-
+{% include adsense_middle_post.html %}
 Atau bisa seperti di bawah ini.
 
 ```html
