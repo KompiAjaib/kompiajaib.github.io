@@ -28,7 +28,7 @@ Jika ingin menambahkan title tag maka penulisannya seperti di bawah ini.
 ```
 
 Setidaknya itu yang ada di dalam panduan penulisan markdown untuk image.
-
+{% include adsense_middle_post.html %}
 ## Menambahkan Width, Height, Dan Defer Pada Image
 
 Untuk menambahkan `width`, `height` pada image dengan penulisan markdown maka silahkan tulis seperti di bawah ini.
