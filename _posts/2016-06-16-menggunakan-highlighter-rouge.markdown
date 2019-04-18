@@ -18,7 +18,7 @@ Sebelumnya saya memposting cara mudah menggunakan syntax highlighter dengan **[H
 Secara default, Jekyll sudah dilengkapi dengan syntax highlighter untuk mempercantik tampilan kode di blog dengan **Rouge** yang mendukung sekitar 60 bahasa pemograman. Jadi untuk memeriksa apakah theme Jekyll yang Anda gunakan telah dilengkapi *highlighter Rouge* silahkan cek di **_config.tml**, pastikan di situ terdapat `highlighter: rouge`
 
 Namun berbeda dengan Highlight.js yang dapat secara otomatis mengenali bahasa kode, dengan Rouge kita harus menuliskan bahasa kode setiap kali kita menuliskan kode di postingan seperti `css`, `html`, `javascript`, dan lainnya sesuai dengan kode yang kita tulis.
-
+{% include adsense_middle_post.html %}
 Pada markdown, untuk menampilkan highlighter Rouge ini bisa ditulis seperti ini
 
 ```html
