@@ -30,7 +30,7 @@ Dan ada satu lagi, tidak ada salahnya mencoba membuat online shop dengan menjual
 Banyak produk yang bisa kita jual dengan blog, mulai dari pakaian, elektronik, alat-alat rumah tangga, dan lain-lain.
 
 Dan yang perlu digarisbawahi, kita tidak perlu modal besar untuk membuat toko online ini. Yang kita perlukan adalah pengetahuan tentang blog, domain dan template blog, dan kepercayaan.
-
+{% include adsense_middle_post.html %}
 Lha, lalu produknya dari mana?
 
 Coba berpikirlah kreatif, manfaatkan kemampuan otak kita.
