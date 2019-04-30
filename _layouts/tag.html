@@ -15,8 +15,6 @@ layout: page
 
 {% for post in site.tags[page.tag] %}
 <div class="post-preview">
-  {% include adsense_tag.html %}
-  <amp-auto-ads data-ad-client='ca-pub-3597723085513015' type='adsense' hidden></amp-auto-ads>
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            
             {{ post.title }}
