@@ -5,7 +5,7 @@ subtitle: "Memiliki atribut kaos kelas sendiri yang sudah menjadi keinginan para
 description: "Memiliki atribut kaos kelas sendiri yang sudah menjadi keinginan para pelajar selain dari hadirnya pakaian sekolah dan olahraga. Kondisi ini juga terjadi pada ruang lingkup mahasiswa yang mendambakan atribut kelas yang memiliki sablon kaos menarik dan modern."
 date: 2019-04-09
 author: "Adhy Suryadi"
-tags: [ Blogging ]
+tags: [ Review ]
 header-img: "img/post/kaos.jpg"
 image: "img/post/kaos.jpg"
 social-js: "https://cdn.ampproject.org/v0/amp-social-share-0.1.js"
