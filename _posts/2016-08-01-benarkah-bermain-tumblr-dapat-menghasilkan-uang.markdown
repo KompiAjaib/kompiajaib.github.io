@@ -33,8 +33,8 @@ Pengembang Tumblr akan bekerja sama kemitraan dengan pihak lain untuk menayangka
 
 Sementara ini setelah saya coba, tampaknya Tumblr belum menampilkan iklan dan belum tampak tab monitize di dashboard Tumblr. Tampaknya pihak Tumblr masih terus mencari kemitraan dan masih terus mengolahnya agar bisa menguntungkan semua pihak.
 
-Dan untuk sementara, pihak Tumblr menyarankan untuk menggunakan tema default dari Tumblr (Optica) untuk memudahkan menampilkan iklan ketika Iklan dirilis di Tumblr, dan untuk lebih jelasnya bisa di baca **[DI SINI](https://www.tumblr.com/docs/en/partnerprogram "DI SINI"){: target="_blank" rel="nofollow"}**.
+Dan untuk sementara, pihak Tumblr menyarankan untuk menggunakan tema default dari Tumblr (Optica) untuk memudahkan menampilkan iklan ketika Iklan dirilis di Tumblr.
 
 Nah untuk itu, mari kita gunakan Tumblr sebaik mungkin sehingga bisa berguna untuk diri kita dan orang lain tanpa menjerumuskan orang lain ke hal-hal yang tidak baik agar jika nantinya Tumblr bisa menghasilkan uang maka uang yang kita dapat bisa barokah.
 
-Jadi mana Tumblr-mu? Ini **[Tumblr-ku](https://adhysuryadiposts.tumblr.com/ "Tumblr-ku"){: target="_blank" rel="nofollow"}**, kita saling follow yuk... Yang belum bikin, coba deh... enggak bakalan rugi hehehe....
+Jadi mana Tumblr-mu?
