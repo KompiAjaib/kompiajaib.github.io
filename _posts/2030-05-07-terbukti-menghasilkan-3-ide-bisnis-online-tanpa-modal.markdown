@@ -4,7 +4,7 @@ title: "Terbukti Menghasilkan! 3 Ide Bisnis Online Tanpa Modal"
 subtitle: "Kalau kita mendengar ada orang yang bisa membangun bisnisnya tanpa modal tentunya akan terlintas di pikiran kita. Ahh… bualan belaka."
 description: "Bisnis Online Tanpa Modal - Kalau kita mendengar ada orang yang bisa membangun bisnisnya tanpa modal tentunya akan terlintas di pikiran kita. Ahh… bualan belaka."
 date: 2030-05-07
-author: "Adhy Suryadi"
+author: "encepnurdin"
 tags: [ Review ]
 header-img: "img/post/bisnis-online-tanpa-modal.jpg"
 image: "img/post/bisnis-online-tanpa-modal.jpg"
