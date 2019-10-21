@@ -19,7 +19,7 @@ SehatQ atau [SehatQ.com](https://www.sehatq.com/ "SehatQ.com"){: target="_blank"
 
 Dengan tagline konsep sehat dalam genggaman, SehatQ memberikan kemudahan kepada masyarakat untuk mendapatkan layanan kesehatan secara mudah melalui sebuah aplikasi yang bisa diakses dengan gadget.
 
-Aplikasi SehatQ menyediakan semua kebutuhan masyarakat tentang kesehatan, mulai dari konsultasi dengan dokter yang dapat dilakukan melalui aplikasi chating, sampai dengan menyediakan layanan bookung dokter jika pasien ingin berobat dengan dokter di rumah sakit atau klinik kesehatan.
+Aplikasi SehatQ menyediakan semua kebutuhan masyarakat tentang kesehatan, mulai dari konsultasi dengan dokter yang dapat dilakukan melalui aplikasi chating, sampai dengan menyediakan layanan booking dokter jika pasien ingin berobat dengan dokter di rumah sakit atau klinik kesehatan.
 
 Sampai saat ini, SehatQ telah bekerja sama dengan lebih dari 9.000 dokter dan rumah sakit di hampir semua kota di seluruh Indonesia untuk pelayanan konsultasi dan booking dokter.
 
@@ -35,7 +35,7 @@ Dengan melalui aplikasi ini juga, masyarakat atau pasien dapat berkonsultasi lan
 
 Dengan fitur Chat Dokter, memungkinkan masyarakat atau pasien untuk dapat melakukan konsultasi dengan dokter yang sudah terdaftar di Ikatan Dokter Indonesia (IDI) dan sudah memiliki Surat Tanda Teregistrasi (STR) dan konsultasi ini tidak dipungut biaya.
 
-<amp-img alt="tanya dokter" width="670" height="553" src="img/post/tanya-dokter.jpg" title="Tanya Dokter" layout="responsive"></amp-img>
+<amp-img alt="tanya dokter" width="670" height="553" src="/img/post/tanya-dokter.jpg" title="Tanya Dokter" layout="responsive"></amp-img>
 
 {% include adsense_middle_post.html %}
 
