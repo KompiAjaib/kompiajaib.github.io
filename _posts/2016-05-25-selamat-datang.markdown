@@ -3,7 +3,7 @@ layout: post
 title: "Blog Baru Di Github Page Suasana Baru"
 subtitle: "pengalaman pertama ngeblog di github pages"
 description: "Setelah Berbagai Platfoms Saya Coba Sekarang Di Github Pages."
-date: 2016-05-25
+date: 2020-01-27
 author: "encepnurdin.id"
 tags: [ GithubPages ]
 header-img: "img/post/github-blog-25-05-2016.jpg"
