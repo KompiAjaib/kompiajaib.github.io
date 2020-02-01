@@ -31,7 +31,7 @@ Sekarang saya mau mencoba mengelola blog dengan platforms ini.</p>
 
 <p>Ternyata untuk membuat postingan seperti ini kita tidak bisa meng-copy sampel format postingan yang ada di Demonya kemudian di edit, namun kita harus mengetikan secar manual di bagian file post dan untuk menambahkan gambar juga harus di file image dan selanjutnya url di file image di ambil dan di masukan ke file posts.</p>
 
-<p>Tidak ada salahnya kan belajar dan sekarang saya mau mengembangkan blog saya ini tapi mungkin saya belum ada nice yang tepat untuk blog yang satu ini</p>
+<p>Tidak ada salahnya kan belajar dan sekarang saya mau mengembangkan blog saya ini tapi mungkin saya belum ada nice yang tepat untyuk blog yang satu ini</p>
 <p>Mungkin blog ini saya ini dengan coretan pengalaman saya,atau mungkin saya bikin blog dengan berbahasa inggris.</p>
 
 ## Tempat blog baru suasana baru
