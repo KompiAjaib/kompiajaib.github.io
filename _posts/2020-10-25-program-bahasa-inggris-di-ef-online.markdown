@@ -17,9 +17,9 @@ Ada banyak cara untuk meningkatkan kemampuan bahasa Inggris, di antaranya bisa d
 
 Jika kamu beralasan malas keluar rumah untuk melakukan hal-hal tersebut, saat ini dengan kecanggihan teknologi kamu dapat melakukannya secara online.
 
-Salah satunya adalah [EF Online School basic](https://www.zurich.co.id/id-id/ "EF Online School basic"){: target="_blank" rel="noopener"}, hal ini bukan tidak mungkin untuk dilakukan. Belajar bahasa Inggris online bisa dilakukan dengan otodidak ataupun dengan bantuan profesional seperti guru bahasa Inggris di tempat kursus.
+Salah satunya adalah [EF Online School basic](https://www.ef.co.id/englishfirst/adults/blog/akademik-english-dan-persiapan-tes-inggris/kursus-bahasa-inggris-di-ef-online-school-basic/ "EF Online School basic"){: target="_blank" rel="noopener"}, hal ini bukan tidak mungkin untuk dilakukan. Belajar bahasa Inggris online bisa dilakukan dengan otodidak ataupun dengan bantuan profesional seperti guru bahasa Inggris di tempat kursus.
 
-Mungkin kamu bisa menganalisisnya terlebih dahulu sesuai dengan kebutuhanmu, yang jelas saat ini [pendidikan bahasa Inggris](https://www.zurich.co.id/id-id/ "pendidikan bahasa Inggris"){: target="_blank" rel="noopener"} itu sangat penting.
+Mungkin kamu bisa menganalisisnya terlebih dahulu sesuai dengan kebutuhanmu, yang jelas saat ini [pendidikan bahasa Inggris](https://www.ef.co.id/englishfirst/adults/blog/akademik-english-dan-persiapan-tes-inggris/biaya-pendidikan-bahasa-inggris-untuk-dewasa/ "pendidikan bahasa Inggris"){: target="_blank" rel="noopener"} itu sangat penting.
 
 Jika dirasa kamu memiliki biaya yang cukup dan juga waktu yang cukup untuk belajar sesuai jadwal yang ditentukan oleh tempat kursusmu, kamu bisa memakai jasa tersebut untuk memperlancar kemampuanmu dalam berbahasa Inggris.
 
