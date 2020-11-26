@@ -18,6 +18,8 @@ Karena saat ini sudah ada banyak sekali obat tipes herbal yang dijual di toko ob
 Tetapi pada kenyataannya meskipun ada banyak sekali jenis obat untuk tipes, misalnya adalah obat herbal. Anda bisa dengan mudah mendapatkan berbagai macam merek obat herbal untuk tipes. 
 
 <amp-img alt="Cek Keaslian Obat Liver dan Obat Tipes Pientzehuang" width="1200" src="https://adhysuryadi.com/img/post/Cek-Keaslian-Obat-Liver-dan-Obat-Tipes-Pientzehuang-1.jpg" title="Cek Keaslian Obat Liver dan Obat Tipes Pientzehuang" height="536" layout="responsive"></amp-img>
+
+<br />
  
 {% include adsense_middle_post.html %}
  
@@ -34,11 +36,15 @@ Kedua adalah Anda juga harus bisa memastikan bahwa komposisi dan bahan yang digu
 
 {% include adsense_middle_post.html %}
 
+<br />
+
 <amp-img alt="Beli Obat Tipes dan Obat Liver Pientzehuang" width="1600" src="https://adhysuryadi.com/img/post/Beli-Obat-Tipes-dan-Obat-Liver-Pientzehuang.jpg" title="Beli Obat Tipes dan Obat Liver Pientzehuang" height="1575" layout="responsive"></amp-img>
 
 <br />
 
 <amp-img alt="Cek Keaslian Obat Pientzehuang Disini" width="1600" src="https://adhysuryadi.com/img/post/Cek-Keaslian-Obat-Pientzehuang-Disini.jpg" title="Cek Keaslian Obat Pientzehuang Disini" height="1032" layout="responsive"></amp-img>
+
+<br />
  
 Jadi di atas adalah tips-tips untuk mendapatkan obat herbal untuk tipes yang paling aman dan layak untuk di konsumsi.
 
