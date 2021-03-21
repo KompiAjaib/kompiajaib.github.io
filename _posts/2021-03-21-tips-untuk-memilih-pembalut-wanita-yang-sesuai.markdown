@@ -21,6 +21,8 @@ Dan tentunya untuk memilih pembalut yang baik dan pas digunakan tidaklah sulit. 
 
 Agar kegiatan sehari-hari tidak terganggu, maka sebaiknya gunakanlah jenis pembalut yang pas dan sesuai dengan kegiatan yang akan dilakukan agar Anda tetap merasa nyaman.
 
+{% include adsense_middle_post.html %}
+
 ## Jenis Pembalut Wanita
 
 Berbagai jenis pembalut wanita dapat ditemukan di pasaran, dan berikut di bawah ini tips dalam memilih pembalut wanita yang sesuai dengan aktivitas:
@@ -32,6 +34,8 @@ Buat Anda yang bekerja aktif bergerak, maka sebaiknya Anda menggunakan jenis [pe
 ### Pembalut Non-wing
 
 Buat Anda yang tidak terlalu banyak melakukan aktivitas, seperti bekerja di balik meja, sebaiknya Anda memilihlah untuk menggunakan pembalut biasa saja namun dengan daya serap yang tinggi.
+
+{% include adsense_middle_post.html %}
 
 ### Pembalut Day Use dan Night Use
 
