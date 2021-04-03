@@ -21,6 +21,8 @@ Dengan jantung yang sehat tentunya membuat Anda dapat beraktifitas menjadi lebih
 
 Menurunnya kemampuan tubuh dan juga kesehatan di usia senja tentu saja merupakan hal yang lumrah di alami oleh setiap orang. Akan tetapi, hal tersebut bukan berarti tidak bisa ditunda atau diperlambat. Tentu saja ada beberapa hal yang bisa kita lakukan bagi orang yang sudah berusia lanjut, salah satunya seperti melakukan senam jantung sehat.
 
+{% include adsense_middle_post.html %}
+
 Senam jantung sehat dilakukan untuk menjaga kesehatan organ jantung agar dapat menyalurkan oksigen yang maksimal ke seluruh jaringan di dalam tubuh. Jika Anda sudah mengetahui tentang gerakan senam jantung sehat ini, maka Anda dapat melakukannya sendiri di rumah. Setidaknya lakukan senam jantung sehat 3 kali dalam seminggu cukup dengan durasi 30 menit per sesi supaya dapat merasakan manfaatnya.
 
 ## Manfaat Senam Jantung Sehat
@@ -30,6 +32,8 @@ Beberapa manfaat dari melakukan senam jantung sehat ini di antaranya seperti ber
 ### Memperbaiki Denyut Nadi
 
 Manfaat melakukan senam jantung sehat bagi usia lanjut di antaranya dapat memperbaiki denyut nadi. Denyut nadi adalah salah satu komponen yang tentunya sangat penting untuk menunjukan kesehatan dari organ jantung. Dengan melakukan senam jantung secara rutin dan konsisten, hal ini tentunya bertujuan untuk dapat memperbaiki denyut nadi agar supaya kesehatan organ jantung tetap terjaga dengan baik.
+
+{% include adsense_middle_post.html %}
 
 ### Melancarkan Aliran Darah
 
