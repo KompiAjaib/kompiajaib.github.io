@@ -17,6 +17,8 @@ Mungkin Anda dan teman-teman sekelas ketika belajar di sekolah menengah atau per
 
 Meskipun sekarang ini sudah ada media sosial yang telah menghubungkan orang-orang di seluruh dunia, namun untuk menyelenggarakan class reunion ini tentunya merupakan upaya substansial yang membutuhkan perencanaan yang bagus agar acaranya dapat berjalan sukses.
 
+## Tips Mengadakan Class Reunion
+
 Agar Anda tidak merasa terbebani oleh rencana besar di depan Anda, berikut adalah beberapa tips tentang cara merencanakan [class reunion](https://www.royaldanisa.com/en/gifting-moments/activities-for-a-class-reunion/ "class reunion"){: target="_blank" rel="noopener"} dengan benar agar sukses sesuai dengan yang diharapkan semua orang.
 
 {% include adsense_middle_post.html %}
