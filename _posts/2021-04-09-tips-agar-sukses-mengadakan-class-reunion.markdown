@@ -3,7 +3,7 @@ layout: post
 title: "Tips Agar Sukses Mengadakan Class Reunion"
 subtitle: "Menyelenggarakan class reunion ini tentunya merupakan upaya substansial yang membutuhkan perencanaan yang bagus agar acaranya dapat berjalan sukses."
 description: "Menyelenggarakan class reunion ini tentunya merupakan upaya substansial yang membutuhkan perencanaan yang bagus agar acaranya dapat berjalan sukses."
-date: 2020-04-09
+date: 2021-04-09
 author: "Adhy Suryadi"
 tags: [ Review ]
 header-img: "img/post/reuni.jpg"
