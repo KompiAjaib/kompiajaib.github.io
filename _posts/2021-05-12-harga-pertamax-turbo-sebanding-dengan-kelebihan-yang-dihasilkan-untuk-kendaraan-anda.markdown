@@ -19,11 +19,15 @@ Perlu diketahui juga bahwa hadirnya Pertamax Turbo ini adalah merupakan kerjasam
 
 Dari segi nilai tingkatan oktan, Pertamax Turbo ini memiliki tingkat oktan yang lebih tinggi dibanding dengan jenis Pertamax biasa, yaitu nilai oktannya mencapai angka 98. Dengan begitu, Jenis Pertamax Turbo ini sangat tepat jika digunakan pada kendaraan yang memiliki rasio kompresi mesin 11:1 sampai 13:1.
 
+{% include adsense_middle_post.html %}
+
 Sehingga jelas kalau Pertamax Turbo memiliki kelebihan jika dibandingkan dengan jenis bensin lainnya. Dengan begitu, maka harga Pertamax Turbo ini tentunya sebanding dengan kelebihan yang dihasilkan untuk kendaraan Anda.
 
 Pertamax Turbo ini sudah dilengkapi dengan Ignition Boost Formula (IBF) yang fungsinya dapat meningkatkan driveability kendaraan atau dapat meningkatkan kelincahan kendaraan saat bermanuver.
 
 Selain itu, Pertamax Turbo juga berfungsi dalam meningkatkan performa mesin kendaraan Anda, hal ini tentunya berdampak pada meningkatnya torsi sehingga tenaga yang dihasilkan dari mesin pun menjadi lebih besar dan lebih maksimal.
+
+{% include adsense_middle_post.html %}
 
 Seperti diberitahukan di atas bahwa Pertamax Turbo ini dilengkapi dengan nilai oktan yang sangat tinggi mencapai angka 98, tentunya hal ini memberikan kelebihan lain dari Pertamax Turbo yaitu dapat menyempurnakan sistem pembakaran yang akan berdampak pada efisensi bahan bakar. Inilah alasannya kenapa motor atau mobil yang menggunakan bahan bakar Pertamax Turbo menjadi lebih irit.
 
