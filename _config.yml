@@ -1,16 +1,16 @@
 # Site settings
-title: Adhy Suryadi
+title: Encep Nurdin ID
 subtitle: "Coretan kisah sebuah kehidupan"
 header-img: img/home-bg.jpg
 image: img/home-bg.jpg
-copyright_name: Adhy Suryadi
+copyright_name: encepnurdin.id
 description: "Coretan kisah sebuah kehidupan, berbagi dengan sesama tentang pengalaman hidup."
-url: "https://adhysuryadi.com"
-author: Adhy Suryadi
-twitter_username: adhysuryadiii
-github_username:  KompiAjaib
-facebook_username:  adhysuryadiii
-email_username:  kompiajaib@gmail.com
+url: ""
+author: Encep Nurdin
+twitter_username: encepnurdin62
+github_username:  encepnurdin
+facebook_username:  encepnurdin.id
+email_username:  encepnurdin62@yahoo.com
 
 # Build settings
 markdown: kramdown
