@@ -4,8 +4,6 @@ subtitle: "Coretan kisah sebuah kehidupan."
 description: "Coretan kisah sebuah kehidupan, berbagi dengan sesama tentang pengalaman hidup."
 ---
 
-{% include adsense_index.html %}
-<hr>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
@@ -36,5 +34,3 @@ description: "Coretan kisah sebuah kehidupan, berbagi dengan sesama tentang peng
     {% endif %}
 </ul>
 {% endif %}
-<hr>
-{% include adsense_index_bottom.html %}
